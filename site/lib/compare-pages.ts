@@ -1,5 +1,5 @@
-// CHRM marketing — Comparison pages, written from search intent.
-// Rule: CHRM is not a CRM. AI-native CRMs are an audience to capture ("keep your CRM, get the AI"),
+// 2nd Closer marketing — Comparison pages, written from search intent.
+// Rule: 2nd Closer is not a CRM. AI-native CRMs are an audience to capture ("keep your CRM, get the AI"),
 // never a like-for-like opponent. Execution-layer peers get honest, capability-level comparisons.
 
 export type CmpKind = "yes" | "no" | "partial" | "shaky";
@@ -42,7 +42,7 @@ export const COMPARE_PAGES: ComparePageData[] = [
     short: "AI-native CRMs",
     title: "AI CRM without switching CRMs: what Attio promises, on HubSpot or Pipedrive",
     h: "Want what Attio promises, <em>without switching CRMs?</em>",
-    sub: "AI-native CRMs like Attio, Day.ai and Clarify sell a clean vision: the CRM that fills itself and works the deal for you. Then you read the migration guide. CHRM gives you the AI part on the HubSpot or Pipedrive you already run.",
+    sub: "AI-native CRMs like Attio, Day.ai and Clarify sell a clean vision: the CRM that fills itself and works the deal for you. Then you read the migration guide. 2nd Closer gives you the AI part on the HubSpot or Pipedrive you already run.",
     eyebrow: "For teams evaluating Attio, Day.ai or Clarify",
     themLabel: "AI-native CRMs",
     themSub: "Attio · Day.ai · Clarify · Lightfield",
@@ -52,8 +52,8 @@ export const COMPARE_PAGES: ComparePageData[] = [
       "You do not have an engineer to spend a quarter on workflow nodes, agent configs and re-wiring integrations.",
     ],
     framing: [
-      "CHRM is not a CRM. That is the whole point. Your CRM is a good record-keeping system, your team already knows it, and your integrations already point at it. Replacing it is a project measured in quarters.",
-      "What the AI-native CRMs are actually selling is the layer on top: capture every conversation, fill the record, draft the next move. In Attio, that layer is something you assemble from Workflows, AI agents and credit pools. In CHRM it is the product, and it runs on day one against the schema you already have.",
+      "2nd Closer is not a CRM. That is the whole point. Your CRM is a good record-keeping system, your team already knows it, and your integrations already point at it. Replacing it is a project measured in quarters.",
+      "What the AI-native CRMs are actually selling is the layer on top: capture every conversation, fill the record, draft the next move. In Attio, that layer is something you assemble from Workflows, AI agents and credit pools. In 2nd Closer it is the product, and it runs on day one against the schema you already have.",
       "Attio’s Pro tier is $79 a seat (after the July 2026 increase) plus metered credits for enrichment, automations and agent runs. Add the migration, the engineer, and the two months of nobody trusting the new pipeline, and “cheaper than HubSpot” stops being true.",
     ],
     rows: [
@@ -69,11 +69,11 @@ export const COMPARE_PAGES: ComparePageData[] = [
       { cap: "Time to value", them: P("Weeks to months"), chrm: Y("Under one business day") },
     ],
     verdict:
-      "If your data model is genuinely the hard part (usage-based products, multi-object relationships that don’t fit contact/deal), an AI-native CRM may be the right call. If what you actually want is the AI doing the after-call work, keep your CRM and add CHRM.",
+      "If your data model is genuinely the hard part (usage-based products, multi-object relationships that don’t fit contact/deal), an AI-native CRM may be the right call. If what you actually want is the AI doing the after-call work, keep your CRM and add 2nd Closer.",
     faqs: [
-      ["Is CHRM a CRM?", "No. CHRM works on top of HubSpot or Pipedrive. It reads your fields, stages and history, and writes back to them. Your CRM stays the system of record."],
-      ["Can I use CHRM and later move to Attio?", "Yes. Everything CHRM writes lives in your CRM as normal fields and activities, so it moves with your data. Nothing is locked inside CHRM."],
-      ["What if we are already on Attio?", "CHRM currently supports HubSpot and Pipedrive. Tell us on the intro call; we will be honest about timelines."],
+      ["Is 2nd Closer a CRM?", "No. 2nd Closer works on top of HubSpot or Pipedrive. It reads your fields, stages and history, and writes back to them. Your CRM stays the system of record."],
+      ["Can I use 2nd Closer and later move to Attio?", "Yes. Everything 2nd Closer writes lives in your CRM as normal fields and activities, so it moves with your data. Nothing is locked inside 2nd Closer."],
+      ["What if we are already on Attio?", "2nd Closer currently supports HubSpot and Pipedrive. Tell us on the intro call; we will be honest about timelines."],
     ],
     related: ["diy-gtm-stack", "hubspot-breeze", "momentum"],
     sources: [
@@ -86,9 +86,9 @@ export const COMPARE_PAGES: ComparePageData[] = [
   {
     slug: "diy-gtm-stack",
     short: "DIY GTM stack",
-    title: "GTM engineer or HubSpot implementation partner vs CHRM",
+    title: "GTM engineer or HubSpot implementation partner vs 2nd Closer",
     h: "The $100k, six-month way. <em>And the other way.</em>",
-    sub: "A GTM engineer with Clay, n8n and Zapier. Or a partner agency on a retainer. Both can get your CRM working. Both cost more than CHRM for the whole team, and both leave you owning the wiring.",
+    sub: "A GTM engineer with Clay, n8n and Zapier. Or a partner agency on a retainer. Both can get your CRM working. Both cost more than 2nd Closer for the whole team, and both leave you owning the wiring.",
     eyebrow: "For founders about to hire or sign a retainer",
     themLabel: "DIY GTM stack",
     themSub: "GTM engineer · Clay · n8n · Zapier · partner retainer",
@@ -100,7 +100,7 @@ export const COMPARE_PAGES: ComparePageData[] = [
     framing: [
       "The modern GTM stack is a dozen tools with APIs that change every quarter. Somebody has to keep them talking. That somebody is a GTM engineer at $132k–$241k base, or a partner agency at $3.5k–$15k a month for 4–16 weeks and then a retainer. Twenty years ago the same job was called an Oracle implementation and cost ten times the licence.",
       "The output is a system your team owns and has to maintain. When Gong deprecates a webhook or HubSpot changes a property type, the wiring breaks and the person who built it is the only one who can fix it.",
-      "CHRM is built so that job does not exist for our customers. You sign into four things. We read your schema. When an upstream API changes, we absorb it. You read about it in a changelog.",
+      "2nd Closer is built so that job does not exist for our customers. You sign into four things. We read your schema. When an upstream API changes, we absorb it. You read about it in a changelog.",
     ],
     rows: [
       { cap: "Time to first call processed", them: P("3–6 months for an engineer build; 4–16 weeks for a partner"), chrm: Y("Under one business day") },
@@ -114,10 +114,10 @@ export const COMPARE_PAGES: ComparePageData[] = [
       { cap: "Requires a workflow builder", them: N("That is the job"), chrm: Y("There is no canvas") },
     ],
     verdict:
-      "Hire the GTM engineer when your motion is genuinely bespoke and prospecting-heavy. For the after-call work on a HubSpot or Pipedrive team of 5–50 closers, CHRM does the job for a fraction of the salary.",
+      "Hire the GTM engineer when your motion is genuinely bespoke and prospecting-heavy. For the after-call work on a HubSpot or Pipedrive team of 5–50 closers, 2nd Closer does the job for a fraction of the salary.",
     faqs: [
-      ["We already have a partner. Can CHRM coexist?", "Yes. CHRM reads the schema your partner built and fills it. Most partners are relieved: the data-entry problem was never solvable with workflows."],
-      ["Does CHRM replace Clay or Apollo?", "No. Prospecting is not our lane. We integrate with Apollo for enrichment and leave top-of-funnel to the tools built for it."],
+      ["We already have a partner. Can 2nd Closer coexist?", "Yes. 2nd Closer reads the schema your partner built and fills it. Most partners are relieved: the data-entry problem was never solvable with workflows."],
+      ["Does 2nd Closer replace Clay or Apollo?", "No. Prospecting is not our lane. We integrate with Apollo for enrichment and leave top-of-funnel to the tools built for it."],
     ],
     related: ["ai-native-crms", "hubspot-breeze", "rox"],
     sources: [
@@ -144,7 +144,7 @@ export const COMPARE_PAGES: ComparePageData[] = [
     ],
     framing: [
       "Momentum was a good product for exactly one thing: capturing what was said on a call and writing it into structured CRM fields, with the odd Slack nudge. Salesforce bought it to make Agentforce less of a demo. That is a Salesforce story.",
-      "CHRM does the field-writing part with citations, and then the rest of the AE’s work: sends the follow-up from the rep’s inbox, works the committee on LinkedIn, enriches the contacts, flags the risk, and learns from the outcome. On HubSpot and Pipedrive, which are the CRMs the mid-market actually runs.",
+      "2nd Closer does the field-writing part with citations, and then the rest of the AE’s work: sends the follow-up from the rep’s inbox, works the committee on LinkedIn, enriches the contacts, flags the risk, and learns from the outcome. On HubSpot and Pipedrive, which are the CRMs the mid-market actually runs.",
     ],
     rows: [
       { cap: "Supports HubSpot and Pipedrive going forward", them: N("Salesforce-owned; Agentforce roadmap"), chrm: Y("Both, natively, with per-pipeline field maps") },
@@ -159,7 +159,7 @@ export const COMPARE_PAGES: ComparePageData[] = [
     ],
     verdict: "If you are on Salesforce, wait and see what Agentforce ships. If you are on HubSpot or Pipedrive, the execution layer lives here.",
     faqs: [
-      ["Can CHRM import what Momentum wrote?", "Momentum wrote to your CRM fields; those fields are still yours. CHRM reads them as history and keeps filling them."],
+      ["Can 2nd Closer import what Momentum wrote?", "Momentum wrote to your CRM fields; those fields are still yours. 2nd Closer reads them as history and keeps filling them."],
       ["How fast can we switch?", "Under a business day. OAuth into HubSpot or Pipedrive, connect the calendar, a 30-minute call to confirm the field map."],
     ],
     related: ["sybill", "hubspot-breeze", "ai-native-crms"],
@@ -170,8 +170,8 @@ export const COMPARE_PAGES: ComparePageData[] = [
   {
     slug: "hubspot-breeze",
     short: "HubSpot Breeze",
-    title: "HubSpot Breeze and Smart Deal Progression vs CHRM",
-    h: "Your CRM’s AI suggests. <em>CHRM executes.</em>",
+    title: "HubSpot Breeze and Smart Deal Progression vs 2nd Closer",
+    h: "Your CRM’s AI suggests. <em>2nd Closer executes.</em>",
     sub: "HubSpot’s Meeting Notetaker and Smart Deal Progression read a call and suggest stage, amount and close-date updates for a rep to approve. On Sales Hub Professional and above. In English. On Google Meet.",
     eyebrow: "For HubSpot teams weighing Breeze",
     themLabel: "HubSpot Breeze",
@@ -183,7 +183,7 @@ export const COMPARE_PAGES: ComparePageData[] = [
     ],
     framing: [
       "Credit where due: HubSpot shipped a real notetaker and Smart Deal Progression is a sensible feature. It analyses a transcript and proposes updates to the standard deal properties, which the rep reviews and applies with a click. That is a suggestion engine, and a good one.",
-      "CHRM is an execution engine. It writes your custom fields, not just stage and amount. It sends the follow-up rather than drafting it into a queue. It works LinkedIn, enriches contacts, flags risk and learns from outcomes. And it does all of that on Starter, on Pipedrive, on Zoom and Teams, and in any language your team sells in.",
+      "2nd Closer is an execution engine. It writes your custom fields, not just stage and amount. It sends the follow-up rather than drafting it into a queue. It works LinkedIn, enriches contacts, flags risk and learns from outcomes. And it does all of that on Starter, on Pipedrive, on Zoom and Teams, and in any language your team sells in.",
     ],
     rows: [
       { cap: "Available on HubSpot Starter", them: N("Sales Hub Professional or Enterprise seats"), chrm: Y("Any HubSpot tier; also Pipedrive") },
@@ -195,10 +195,10 @@ export const COMPARE_PAGES: ComparePageData[] = [
       { cap: "Deal risk with next action", them: P("Deal health signals"), chrm: Y("Five categories, severity, source line, recommended action") },
       { cap: "Pricing model", them: P("Included with Pro+, agents metered per outcome"), chrm: Y("Flat per-AE subscription, no credits") },
     ],
-    verdict: "Use Breeze if you are on Pro+, sell in English on Google Meet, and are happy for reps to approve every update. Use CHRM if you want the work done.",
+    verdict: "Use Breeze if you are on Pro+, sell in English on Google Meet, and are happy for reps to approve every update. Use 2nd Closer if you want the work done.",
     faqs: [
-      ["Do Breeze and CHRM conflict?", "No. CHRM writes fields and activities through the normal API; Breeze can still read them. Most teams turn Smart Deal Progression suggestions off once CHRM is writing the fields."],
-      ["Does CHRM use HubSpot credits?", "No. CHRM is priced per AE seat and does not consume Breeze credits."],
+      ["Do Breeze and 2nd Closer conflict?", "No. 2nd Closer writes fields and activities through the normal API; Breeze can still read them. Most teams turn Smart Deal Progression suggestions off once 2nd Closer is writing the fields."],
+      ["Does 2nd Closer use HubSpot credits?", "No. 2nd Closer is priced per AE seat and does not consume Breeze credits."],
     ],
     related: ["momentum", "sybill", "fathom"],
     sources: [
@@ -212,8 +212,8 @@ export const COMPARE_PAGES: ComparePageData[] = [
     slug: "sybill",
     short: "Sybill",
     title: "Sybill alternative: CRM autofill plus the rest of the job",
-    h: "Sybill fills the fields. <em>CHRM does the job.</em>",
-    sub: "Sybill is a strong AI sales assistant: notes, CRM autofill on its Business tier, follow-up drafts. CHRM starts where the draft ends.",
+    h: "Sybill fills the fields. <em>2nd Closer does the job.</em>",
+    sub: "Sybill is a strong AI sales assistant: notes, CRM autofill on its Business tier, follow-up drafts. 2nd Closer starts where the draft ends.",
     eyebrow: "For teams comparing AI sales assistants",
     themLabel: "Sybill",
     themSub: "AI sales assistant · $19–90/user/mo",
@@ -224,7 +224,7 @@ export const COMPARE_PAGES: ComparePageData[] = [
     ],
     framing: [
       "Sybill’s CRM Autofill extracts pain points, objections, budget, next steps and MEDDPICC/BANT criteria from a call and writes structured updates to HubSpot, Salesforce, Zoho or Dynamics. It is available on the Business plan and Pipedrive support is listed as coming soon.",
-      "CHRM does that with citations, and then keeps going: the follow-up goes out from the rep’s inbox, the new stakeholder gets enriched and a LinkedIn warm-up, the risk gets a severity and a next action, and the playbook learns from the outcome. It is the difference between an assistant and a second AE.",
+      "2nd Closer does that with citations, and then keeps going: the follow-up goes out from the rep’s inbox, the new stakeholder gets enriched and a LinkedIn warm-up, the risk gets a severity and a next action, and the playbook learns from the outcome. It is the difference between an assistant and a second AE.",
     ],
     rows: [
       { cap: "Pipedrive support today", them: N("Coming soon"), chrm: Y("Native, webhook-driven, half of early customers") },
@@ -237,9 +237,9 @@ export const COMPARE_PAGES: ComparePageData[] = [
       { cap: "Win/loss playbook iteration", them: N(), chrm: Y() },
       { cap: "Pricing", them: Y("$19–90 per user per month"), chrm: P("Per AE, shared on the intro call; managers, RevOps, leadership free") },
     ],
-    verdict: "If notes, autofill and a draft are the whole job for your team, Sybill is well priced. If the job is everything an AE does after the call, CHRM costs a fraction of the hire it replaces.",
+    verdict: "If notes, autofill and a draft are the whole job for your team, Sybill is well priced. If the job is everything an AE does after the call, 2nd Closer costs a fraction of the hire it replaces.",
     faqs: [
-      ["Can CHRM ingest Sybill’s transcripts?", "CHRM ingests Fireflies, Fathom, Otter and Gong today. If you want Sybill added, say so on the intro call."],
+      ["Can 2nd Closer ingest Sybill’s transcripts?", "2nd Closer ingests Fireflies, Fathom, Otter and Gong today. If you want Sybill added, say so on the intro call."],
     ],
     related: ["momentum", "hubspot-breeze", "oliv"],
     sources: [
@@ -253,8 +253,8 @@ export const COMPARE_PAGES: ComparePageData[] = [
     slug: "rox",
     short: "Rox",
     title: "Rox alternative for HubSpot and Pipedrive teams",
-    h: "Enterprise agent swarms want a quarter. <em>CHRM wants a Tuesday.</em>",
-    sub: "Rox deploys AI agents for account executives on top of Salesforce and enterprise data. CHRM is the same idea for the teams that run HubSpot or Pipedrive and do not have an implementation budget.",
+    h: "Enterprise agent swarms want a quarter. <em>2nd Closer wants a Tuesday.</em>",
+    sub: "Rox deploys AI agents for account executives on top of Salesforce and enterprise data. 2nd Closer is the same idea for the teams that run HubSpot or Pipedrive and do not have an implementation budget.",
     eyebrow: "For teams who read about Rox and are not on Salesforce",
     themLabel: "Rox",
     themSub: "AI revenue agents · Salesforce, Zendesk, ERPs",
@@ -264,8 +264,8 @@ export const COMPARE_PAGES: ComparePageData[] = [
       "You want it running this week.",
     ],
     framing: [
-      "Rox is the most-funded version of the idea CHRM is built on: the AE should not be doing research, signal-tracking and CRM updates by hand. Rox plugs into Salesforce, Zendesk and ERPs and deploys hundreds of agents against enterprise data.",
-      "CHRM is the mid-market execution layer. Four OAuth sign-ins, a 30-minute call, and the after-call work is being done on your HubSpot or Pipedrive by the next morning: fields, follow-ups, LinkedIn, enrichment, risk.",
+      "Rox is the most-funded version of the idea 2nd Closer is built on: the AE should not be doing research, signal-tracking and CRM updates by hand. Rox plugs into Salesforce, Zendesk and ERPs and deploys hundreds of agents against enterprise data.",
+      "2nd Closer is the mid-market execution layer. Four OAuth sign-ins, a 30-minute call, and the after-call work is being done on your HubSpot or Pipedrive by the next morning: fields, follow-ups, LinkedIn, enrichment, risk.",
     ],
     rows: [
       { cap: "HubSpot and Pipedrive as the system of record", them: N("Salesforce-first"), chrm: Y() },
@@ -276,8 +276,8 @@ export const COMPARE_PAGES: ComparePageData[] = [
       { cap: "Risk detection with next action", them: Y("Account signals"), chrm: Y("Deal-level, five categories, source line") },
       { cap: "Pricing", them: P("Free tier, $50/mo core, enterprise custom"), chrm: Y("Flat per-AE subscription, shared on the intro call") },
     ],
-    verdict: "Rox for the enterprise on Salesforce. CHRM for the 5–50 closer team on HubSpot or Pipedrive that wants the same outcome tomorrow.",
-    faqs: [["Does CHRM support Salesforce?", "Not today. HubSpot and Pipedrive. Tell us on the intro call if Salesforce is your system of record."]],
+    verdict: "Rox for the enterprise on Salesforce. 2nd Closer for the 5–50 closer team on HubSpot or Pipedrive that wants the same outcome tomorrow.",
+    faqs: [["Does 2nd Closer support Salesforce?", "Not today. HubSpot and Pipedrive. Tell us on the intro call if Salesforce is your system of record."]],
     related: ["diy-gtm-stack", "ai-native-crms", "oliv"],
     sources: [["Rox at $1.2B valuation", "https://techcrunch.com/2026/03/12/sales-automation-startup-rox-ai-hits-1-2b-valuation-sources-say/"]],
   },
@@ -288,7 +288,7 @@ export const COMPARE_PAGES: ComparePageData[] = [
     short: "Oliv.ai",
     title: "Oliv.ai alternative: one second AE instead of a menu of agents",
     h: "Modular agents, <em>or one second AE.</em>",
-    sub: "Oliv sells agents by the module: CRM manager, deal driver, re-activator, recaps. CHRM is one execution layer that does the whole after-call job by default, on your schema, without assembly.",
+    sub: "Oliv sells agents by the module: CRM manager, deal driver, re-activator, recaps. 2nd Closer is one execution layer that does the whole after-call job by default, on your schema, without assembly.",
     eyebrow: "For teams comparing agent platforms on HubSpot or Pipedrive",
     themLabel: "Oliv.ai",
     themSub: "Modular AI agents · $19–120/user/mo",
@@ -299,7 +299,7 @@ export const COMPARE_PAGES: ComparePageData[] = [
     ],
     framing: [
       "Oliv is a credible peer: it works with HubSpot and Pipedrive, processes calls in minutes, and lets you buy the agents you want. The trade-off is that you are assembling the AE from parts, and the parts are organised around a MEDDIC-style framework.",
-      "CHRM reads the process you already encoded in your CRM and runs all of it. Fields, follow-ups sent, sequences, committee mapping, LinkedIn warm-up, Apollo enrichment, risk, competitor handling, playbook learning. One price per AE, and every non-AE seat is free.",
+      "2nd Closer reads the process you already encoded in your CRM and runs all of it. Fields, follow-ups sent, sequences, committee mapping, LinkedIn warm-up, Apollo enrichment, risk, competitor handling, playbook learning. One price per AE, and every non-AE seat is free.",
     ],
     rows: [
       { cap: "HubSpot and Pipedrive", them: Y(), chrm: Y() },
@@ -311,8 +311,8 @@ export const COMPARE_PAGES: ComparePageData[] = [
       { cap: "Win/loss playbook iteration", them: N(), chrm: Y() },
       { cap: "Pricing", them: Y("$19–120 per user per month, per agent"), chrm: P("Per AE, shared on the intro call; other seats free") },
     ],
-    verdict: "If you want to pick two agents for $40 a seat, Oliv is a fair choice. If you want the whole second AE, it is CHRM.",
-    faqs: [["Why is CHRM priced per AE rather than per user?", "Because it replaces a hire, not a tool. Only the closers whose deals CHRM works are billed; every manager, RevOps and leadership seat is free. We share the number on the intro call."]],
+    verdict: "If you want to pick two agents for $40 a seat, Oliv is a fair choice. If you want the whole second AE, it is 2nd Closer.",
+    faqs: [["Why is 2nd Closer priced per AE rather than per user?", "Because it replaces a hire, not a tool. Only the closers whose deals 2nd Closer works are billed; every manager, RevOps and leadership seat is free. We share the number on the intro call."]],
     related: ["sybill", "rox", "hubspot-breeze"],
     sources: [["Oliv.ai agents", "https://www.oliv.ai/blog/ai-sales-assistant"]],
   },
@@ -321,9 +321,9 @@ export const COMPARE_PAGES: ComparePageData[] = [
   {
     slug: "fathom",
     short: "Fathom & notetakers",
-    title: "Fathom, Fireflies or tl;dv plus CHRM",
-    h: "Keep your notetaker. <em>CHRM does the rest.</em>",
-    sub: "Fathom is HubSpot’s most-installed app for a reason. It records and summarises beautifully. It also stops there. CHRM takes the transcript and does the AE’s work with it.",
+    title: "Fathom, Fireflies or tl;dv plus 2nd Closer",
+    h: "Keep your notetaker. <em>2nd Closer does the rest.</em>",
+    sub: "Fathom is HubSpot’s most-installed app for a reason. It records and summarises beautifully. It also stops there. 2nd Closer takes the transcript and does the AE’s work with it.",
     eyebrow: "For teams already on Fathom, Fireflies, tl;dv or Otter",
     themLabel: "Notetakers",
     themSub: "Fathom · Fireflies · tl;dv · Otter",
@@ -333,8 +333,8 @@ export const COMPARE_PAGES: ComparePageData[] = [
       "You do not want to install a fourth tool, or ask reps to change anything.",
     ],
     framing: [
-      "This is not a versus page. CHRM has its own notetaker, and it also ingests Fireflies, Fathom, Otter and Gong transcripts as one source among several. If your team likes its notetaker, keep it.",
-      "What notetakers push to the CRM is a summary and, on paid tiers, some property sync. What CHRM does with the same transcript is the job: your custom fields with citations, the follow-up sent from the rep’s inbox, the new stakeholder enriched and warmed up on LinkedIn, the risk flagged with a next action, and the playbook learning from the outcome.",
+      "This is not a versus page. 2nd Closer has its own notetaker, and it also ingests Fireflies, Fathom, Otter and Gong transcripts as one source among several. If your team likes its notetaker, keep it.",
+      "What notetakers push to the CRM is a summary and, on paid tiers, some property sync. What 2nd Closer does with the same transcript is the job: your custom fields with citations, the follow-up sent from the rep’s inbox, the new stakeholder enriched and warmed up on LinkedIn, the risk flagged with a next action, and the playbook learning from the outcome.",
     ],
     rows: [
       { cap: "Records and transcribes", them: Y("Their job"), chrm: Y("Built-in, or theirs") },
@@ -346,9 +346,9 @@ export const COMPARE_PAGES: ComparePageData[] = [
       { cap: "Learns from outcomes", them: N(), chrm: Y() },
       { cap: "Pricing", them: Y("$0–59 per user per month"), chrm: P("Per AE, shared on the intro call; other seats free") },
     ],
-    verdict: "Notetakers are a $10–25 line item that records the conversation. CHRM is the second AE who acts on it. Most CHRM customers keep both.",
+    verdict: "Notetakers are a $10–25 line item that records the conversation. 2nd Closer is the second AE who acts on it. Most 2nd Closer customers keep both.",
     faqs: [
-      ["Do I need to remove Fathom?", "No. Connect it, or let CHRM’s notetaker join instead, or run both. Two sources, one structured record per deal."],
+      ["Do I need to remove Fathom?", "No. Connect it, or let 2nd Closer’s notetaker join instead, or run both. Two sources, one structured record per deal."],
     ],
     related: ["hubspot-breeze", "sybill", "momentum"],
     sources: [["Fathom on the HubSpot marketplace", "https://ecosystem.hubspot.com/marketplace/listing/ai-notetaker-by-fathom"]],

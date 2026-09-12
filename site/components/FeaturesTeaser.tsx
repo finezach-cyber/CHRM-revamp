@@ -1,11 +1,11 @@
-// CHRM marketing — Features teaser on the homepage. Four steps, links into /features.
+// 2nd Closer marketing — Features teaser on the homepage. Four steps, links into /features.
 import Link from "next/link";
 
 const STEPS = [
   { n: "01", name: "Capture", desc: "Every call, every email, every thread. In, automatically." },
   { n: "02", name: "Structure", desc: "Conversation becomes structured CRM data. Your fields, your rules." },
   { n: "03", name: "Activate", desc: "Follow-ups send. Risks flag. The next action happens." },
-  { n: "04", name: "Iterate", desc: "CHRM learns what works. Your playbook gets sharper." },
+  { n: "04", name: "Iterate", desc: "2nd Closer learns what works. Your playbook gets sharper." },
 ];
 
 export default function FeaturesTeaser() {

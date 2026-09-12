@@ -1,6 +1,6 @@
 import type { PageData } from "./types";
 
-// CHRM marketing — Platform & experience pages
+// 2nd Closer marketing — Platform & experience pages
 // Workspace, Chrome extension, Team
 
 export const PLATFORM_PAGES: PageData[] = [
@@ -10,7 +10,7 @@ export const PLATFORM_PAGES: PageData[] = [
     slug: 'workspace',
     section: 'platform',
     category: 'Deals workspace',
-    seoTitle: 'A sales pipeline that fills itself: the CHRM workspace',
+    seoTitle: 'A sales pipeline that fills itself: the 2nd Closer workspace',
     h: 'What reps <em>actually look at all day.</em>',
     sub: 'A tour of the main app: pipeline, deal detail, risk feed, inline insights. The screen your team opens before coffee.',
     meta: [
@@ -21,7 +21,7 @@ export const PLATFORM_PAGES: PageData[] = [
     ],
     prose: [
       'The homepage can&rsquo;t show enough screen. If your team is the kind that needs to actually see the product before they commit, this is the page.',
-      'CHRM&rsquo;s workspace is built for the closer who has fifteen deals in flight and a Friday review at 4pm. Pipeline view shows every deal with the AI-surfaced state — risk severity, summary excerpt, last touch, next action — without the rep having to click into each one.',
+      '2nd Closer&rsquo;s workspace is built for the closer who has fifteen deals in flight and a Friday review at 4pm. Pipeline view shows every deal with the AI-surfaced state — risk severity, summary excerpt, last touch, next action — without the rep having to click into each one.',
       { h: 'Deal detail is the focus.' },
       'Click into a deal and the timeline collapses every conversation — calls, emails, LinkedIn touches, CRM notes — into a single reverse-chronological feed. The AI summary sits above it with field-level citations. Open risks are pinned. Stakeholder map is on the right.',
       { h: 'Bulk actions where they matter.' },
@@ -45,8 +45,8 @@ export const PLATFORM_PAGES: PageData[] = [
     slug: 'chrome-extension',
     section: 'platform',
     category: 'Chrome extension',
-    h: 'Write with CHRM, <em>inside your CRM.</em>',
-    sub: 'A browser extension that adds a Write-with-CHRM button to email composers in HubSpot and Pipedrive. Reps stay in their CRM. CHRM does the drafting.',
+    h: 'Write with 2nd Closer, <em>inside your CRM.</em>',
+    sub: 'A browser extension that adds a Write-with-2nd Closer button to email composers in HubSpot and Pipedrive. Reps stay in their CRM. 2nd Closer does the drafting.',
     meta: [
       ['Surface', 'Chrome Web Store'],
       ['Detected CRMs', 'HubSpot + Pipedrive'],
@@ -54,14 +54,14 @@ export const PLATFORM_PAGES: PageData[] = [
       ['Tracking', 'Sent emails logged to deal'],
     ],
     prose: [
-      'There&rsquo;s a category of CHRM user who lives in their CRM. They&rsquo;re not opening a separate tool, they don&rsquo;t want to open a separate tool, and asking them to is friction. The Chrome extension is for them.',
-      'Install the extension. The next time the rep opens an email composer inside HubSpot or Pipedrive, a Write-with-CHRM button appears. One click drafts the email, using the same engagement intelligence, the same voice match, the same deal grounding as the main app. The rep edits and sends from within their CRM.',
+      'There&rsquo;s a category of 2nd Closer user who lives in their CRM. They&rsquo;re not opening a separate tool, they don&rsquo;t want to open a separate tool, and asking them to is friction. The Chrome extension is for them.',
+      'Install the extension. The next time the rep opens an email composer inside HubSpot or Pipedrive, a Write-with-2nd Closer button appears. One click drafts the email, using the same engagement intelligence, the same voice match, the same deal grounding as the main app. The rep edits and sends from within their CRM.',
       { h: 'Auto-detects which CRM.' },
       'The extension detects whether the rep is on HubSpot or Pipedrive and adapts its UI and field-extraction accordingly. No configuration toggle to flip.',
       { h: 'Sent emails close the loop.' },
-      'When a CHRM-drafted email is sent through the extension, the event is recorded against the deal. The drafting model uses that signal to improve future drafts for the same rep.',
+      'When a 2nd Closer-drafted email is sent through the extension, the event is recorded against the deal. The drafting model uses that signal to improve future drafts for the same rep.',
       { h: 'Authentication is per user.' },
-      'The extension authenticates against the CHRM backend with a per-user API key, stored locally. Keys can be revoked from the user&rsquo;s profile if a device is lost.',
+      'The extension authenticates against the 2nd Closer backend with a per-user API key, stored locally. Keys can be revoked from the user&rsquo;s profile if a device is lost.',
     ],
     bullets: [
       ['Native to HubSpot + Pipedrive', 'Button appears in the CRM\u2019s own email composer. No new surface.'],
@@ -69,7 +69,7 @@ export const PLATFORM_PAGES: PageData[] = [
       ['Same engine as the app', 'Engagement intelligence, deal grounding, voice match. Identical.'],
       ['Sent-email tracking', 'Closes the feedback loop. Future drafts improve.'],
     ],
-    shotLabel: 'Pipedrive composer · Write with CHRM',
+    shotLabel: 'Pipedrive composer · Write with 2nd Closer',
     shotHint: 'Drafted from deal context. Sent from the rep\u2019s CRM.',
     related: ['follow-up-emails', 'workspace', 'team'],
   },
@@ -89,7 +89,7 @@ export const PLATFORM_PAGES: PageData[] = [
     ],
     prose: [
       'Most evaluations stall at the same place: the buyer believes the product works for one rep, but can&rsquo;t see how it scales to a team. This page is for that buyer.',
-      'CHRM is multi-tenant by design. Each organisation has its own CRM connection, its own users, its own settings, its own data. No co-mingling, no cross-org leakage. Inside the org, four roles control what people can do: owner, admin, manager, closer.',
+      '2nd Closer is multi-tenant by design. Each organisation has its own CRM connection, its own users, its own settings, its own data. No co-mingling, no cross-org leakage. Inside the org, four roles control what people can do: owner, admin, manager, closer.',
       { h: 'Roles, with real boundaries.' },
       'Owners can change billing and delete the organisation. Admins can manage integrations and team settings. Managers can see all deals and configure team-wide automation. Closers can see and act on their own deals. Sensitive operations — connecting a CRM, changing the field map — are scoped to admins and above.',
       { h: 'Invitations are tokenised.' },

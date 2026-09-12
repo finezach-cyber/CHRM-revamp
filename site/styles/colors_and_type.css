@@ -1,6 +1,6 @@
 /* =============================================================
-   CHRM — Colors & Type
-   Editorial base (paper + ink) with one working accent: CHRM blue.
+   2nd Closer — Colors & Type
+   Editorial base (paper + ink) with one working accent: 2nd Closer blue.
    Green and amber exist only to mean "done" and "at risk".
    ============================================================= */
 
@@ -20,8 +20,8 @@
   --tint:         #F2F1EC;   /* subtle surface tint */
   --tint-2:       #ECEAE3;   /* slightly darker tint */
 
-  /* ===== COLOR — Accent (CHRM blue; matches the product UI) == */
-  --accent:       #2B4BE8;   /* CHRM blue — interactive, the "H" in the wordmark */
+  /* ===== COLOR — Accent (2nd Closer blue; matches the product UI) == */
+  --accent:       #2B4BE8;   /* 2nd Closer blue — interactive, interface accent, never the mark */
   --accent-ink:   #FFFFFF;   /* fg on accent */
   --accent-hover: #1F3AC4;
   --accent-soft:  #E8ECFF;   /* tint for chips and highlighted cells */

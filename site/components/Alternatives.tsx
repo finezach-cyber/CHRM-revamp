@@ -1,4 +1,4 @@
-// CHRM marketing — The three ways teams try to fix this, and what each one costs.
+// 2nd Closer marketing — The three ways teams try to fix this, and what each one costs.
 import Link from "next/link";
 import { ANCHORS } from "@/lib/site";
 
@@ -50,13 +50,13 @@ const COLS: Col[] = [
   },
   {
     id: "chrm",
-    name: "CHRM",
+    name: "2nd Closer",
     sub: "The execution layer",
     href: "/setup",
     cells: [
       "Under one business day",
       "Free during the public beta. You bring the LLM key; that usage is the only cost.",
-      "CHRM. Upstream changes are absorbed by us.",
+      "2nd Closer. Upstream changes are absorbed by us.",
       "The whole job, by default.",
       "Kept. Read, respected, written back to.",
     ],
@@ -73,7 +73,7 @@ export default function Alternatives() {
         </h2>
         <p className="sec-head__sub">
           Every one of them starts with “first we need to…”. A migration. A hire. A project.
-          CHRM starts with four sign-ins.
+          2nd Closer starts with four sign-ins.
         </p>
       </header>
 

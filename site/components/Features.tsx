@@ -1,5 +1,5 @@
 "use client";
-// CHRM features page — 4-step framework. Sticky step index shades when stuck.
+// 2nd Closer features page — 4-step framework. Sticky step index shades when stuck.
 import { Fragment, useEffect, useRef, useState } from "react";
 
 type FeatureStepData = {
@@ -22,10 +22,10 @@ const FEATURE_STEPS: FeatureStepData[] = [
     name: "Capture",
     short: "Every conversation, in &mdash; automatically.",
     h: "Every conversation, in. <em>Automatically.</em>",
-    sub: "CHRM has its own notetaker. It joins every booked call on your calendar, reads every email thread, and pulls context from LinkedIn and Apollo. Nothing to plug in. Nothing for your team to do.",
+    sub: "2nd Closer has its own notetaker. It joins every booked call on your calendar, reads every email thread, and pulls context from LinkedIn and Apollo. Nothing to plug in. Nothing for your team to do.",
     prose: [
-      "Your team already talks to buyers. CHRM listens to every word — without making them log it, and without making them install a fourth notetaker. The CHRM notetaker is built in. It auto-joins every call on your team's calendar, transcribes, and feeds the rest of the system continuously.",
-      "Around the call, CHRM pulls everything else worth knowing about the deal: the email thread either side of it, the buyer's LinkedIn for stakeholder context, the company's Apollo record for firmographics. If you already use Fireflies, Fathom, or Otter, CHRM ingests their transcripts too — they're just one source among several.",
+      "Your team already talks to buyers. 2nd Closer listens to every word — without making them log it, and without making them install a fourth notetaker. The 2nd Closer notetaker is built in. It auto-joins every call on your team's calendar, transcribes, and feeds the rest of the system continuously.",
+      "Around the call, 2nd Closer pulls everything else worth knowing about the deal: the email thread either side of it, the buyer's LinkedIn for stakeholder context, the company's Apollo record for firmographics. If you already use Fireflies, Fathom, or Otter, 2nd Closer ingests their transcripts too — they're just one source among several.",
     ],
     bullets: [
       ["Built-in notetaker", "Joins every Zoom, Meet, and Teams call on your team’s calendar. No third-party tool to install."],
@@ -45,13 +45,13 @@ const FEATURE_STEPS: FeatureStepData[] = [
     h: "Conversation becomes <em>structured deal data.</em>",
     sub: "Your fields. Your stages. Your playbook. Populated from the call, not from a rep’s memory two days later.",
     prose: [
-      "CHRM reads each conversation and writes it into your CRM using your existing field definitions. Champion, budget signal, timeline, top objection, next step, the twenty other fields you actually care about. Whatever your team has built into HubSpot or Pipedrive, CHRM populates.",
-      "We don't impose a template. We don't standardise you onto a generic MEDDPICC. Your sales process is already encoded in your CRM schema. CHRM reads it, asks a few clarifying questions during a 30-minute call, and from then on writes structured data into the fields you already have. Empty fields where information wasn't discussed; populated fields where it was.",
+      "2nd Closer reads each conversation and writes it into your CRM using your existing field definitions. Champion, budget signal, timeline, top objection, next step, the twenty other fields you actually care about. Whatever your team has built into HubSpot or Pipedrive, 2nd Closer populates.",
+      "We don't impose a template. We don't standardise you onto a generic MEDDPICC. Your sales process is already encoded in your CRM schema. 2nd Closer reads it, asks a few clarifying questions during a 30-minute call, and from then on writes structured data into the fields you already have. Empty fields where information wasn't discussed; populated fields where it was.",
     ],
     bullets: [
       ["Your custom fields", "Whatever you built into HubSpot or Pipedrive. We read the schema you already have."],
       ["92–97% accuracy", "On well-structured calls. Calls where deal specifics are discussed produce near-perfect outputs."],
-      ["Empty over wrong", "When information is ambiguous or not discussed, CHRM leaves the field empty rather than guess."],
+      ["Empty over wrong", "When information is ambiguous or not discussed, 2nd Closer leaves the field empty rather than guess."],
       ["Stakeholder maps", "Champions, blockers, economic buyers — tagged and tied to the deal automatically."],
     ],
     shotLabel: "Deal record · auto-populated",
@@ -63,9 +63,9 @@ const FEATURE_STEPS: FeatureStepData[] = [
     name: "Activate",
     short: "The next action happens. Automatically.",
     h: "The next action <em>happens.</em>",
-    sub: "CHRM doesn't surface what to do. It does it. Follow-ups send. Risks flag. The work after the call is finished before the closer’s next Slack message.",
+    sub: "2nd Closer doesn't surface what to do. It does it. Follow-ups send. Risks flag. The work after the call is finished before the closer’s next Slack message.",
     prose: [
-      "This is the layer every other tool stops short of. Note-takers stop at the transcript. Conversation intelligence stops at the insight. Your CRM stops at the field. CHRM acts on all of it.",
+      "This is the layer every other tool stops short of. Note-takers stop at the transcript. Conversation intelligence stops at the insight. Your CRM stops at the field. 2nd Closer acts on all of it.",
       "Within minutes of a call ending, a personalised follow-up is drafted and sent through your CRM — referencing the things the buyer actually said, attaching the right collateral, using the rep's voice. Risk signals hit the manager dashboard. Stakeholder gaps surface before they become lost deals. No closer in the loop.",
     ],
     bullets: [
@@ -81,17 +81,17 @@ const FEATURE_STEPS: FeatureStepData[] = [
     id: "iterate",
     n: "04",
     name: "Iterate",
-    short: "CHRM learns. Your playbook gets sharper.",
+    short: "2nd Closer learns. Your playbook gets sharper.",
     h: "Your playbook <em>gets sharper.</em>",
-    sub: "CHRM doesn’t just run your process. It watches every deal and learns what actually works.",
+    sub: "2nd Closer doesn’t just run your process. It watches every deal and learns what actually works.",
     prose: [
-      "Sales playbooks are usually written once and revised never — because the data needed to revise them lives in conversations nobody logged. With CHRM, every conversation is structured. So is the outcome. The playbook stops being a Notion doc nobody reads and starts being a system that improves.",
-      "CHRM surfaces patterns across closed-won and closed-lost: which objections appear earliest in winning deals, which stakeholder mixes correlate with longer cycles, which follow-up phrasing produces replies. Your weekly review becomes a coaching session backed by real data. Your playbook becomes a record of what your team actually wins on.",
+      "Sales playbooks are usually written once and revised never — because the data needed to revise them lives in conversations nobody logged. With 2nd Closer, every conversation is structured. So is the outcome. The playbook stops being a Notion doc nobody reads and starts being a system that improves.",
+      "2nd Closer surfaces patterns across closed-won and closed-lost: which objections appear earliest in winning deals, which stakeholder mixes correlate with longer cycles, which follow-up phrasing produces replies. Your weekly review becomes a coaching session backed by real data. Your playbook becomes a record of what your team actually wins on.",
     ],
     bullets: [
-      ["Win/loss patterns", "CHRM surfaces what actually correlates with closed-won — across every deal, not a sample."],
+      ["Win/loss patterns", "2nd Closer surfaces what actually correlates with closed-won — across every deal, not a sample."],
       ["Coaching signals", "Per-rep execution quality, follow-up gaps, deals where the process broke."],
-      ["Playbook updates", "When a pattern is clear, CHRM suggests a playbook change you can ship or ignore."],
+      ["Playbook updates", "When a pattern is clear, 2nd Closer suggests a playbook change you can ship or ignore."],
       ["Forecasting that holds", "Pipeline data is honest, so the forecast is too. Variance drops quarter over quarter."],
     ],
     shotLabel: "Weekly pattern report",
@@ -129,7 +129,7 @@ function FeatureStep({ step }: { step: FeatureStepData }) {
 
         <figure className="f-step__shot">
           <div className="f-step__shot-head">
-            <span className="f-step__shot-brand">CHRM</span>
+            <span className="f-step__shot-brand">2nd Closer</span>
             <span className="f-step__shot-meta">{step.shotLabel}</span>
           </div>
           <div className="f-step__shot-body">
@@ -177,7 +177,7 @@ export default function Features() {
   return (
     <main className="f-page" id="top">
       <header className="f-hero">
-        <p className="f-hero__eye">Features &middot; CHRM</p>
+        <p className="f-hero__eye">Features &middot; 2nd Closer</p>
         <h1 className="f-hero__h">
           Capture. Structure. Activate. <em>Iterate.</em>
         </h1>

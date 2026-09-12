@@ -1,11 +1,11 @@
-# CHRM revamp
+# 2nd Closer revamp
 
-Research, strategy and a drop-in redesign of [chrm.app](https://www.chrm.app) around one promise: **every closer gets a second AE**.
+Research, strategy and a drop-in redesign of [2ndcloser.ai](https://www.2ndcloser.ai), formerly chrm.app, around one promise: **an AI account executive that does the after-call work**.
 
 | Folder | What's in it |
 |---|---|
-| `docs/01-positioning-research.md` | What CHRM is, how it is positioned today, the ICP, the leaks, the recommended positioning |
-| `docs/02-competitive-landscape.md` | The 12 alternatives plus the DIY stack: pricing, CRM coverage, what they do after the call, where CHRM wins |
+| `docs/01-positioning-research.md` | What 2nd Closer is, how it is positioned today, the ICP, the leaks, the recommended positioning |
+| `docs/02-competitive-landscape.md` | The 12 alternatives plus the DIY stack: pricing, CRM coverage, what they do after the call, where 2nd Closer wins |
 | `docs/03-keyword-strategy.md` | Six keyword clusters, gap analysis, page map, 90-day roadmap. Volumes are estimate bands to validate in Ahrefs/Semrush. |
 | `docs/04-brand-and-website-redesign.md` | What changed on the site and why, conversion mechanics, config, launch checklist, measurement |
 | `brand/` | Refreshed logo (the H is the only coloured letter), favicon, tokens, guidelines |

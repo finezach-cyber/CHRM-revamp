@@ -1,6 +1,6 @@
-# CHRM revamp
+# 2nd Closer (formerly CHRM) revamp
 
-Research, strategy and a drop-in redesign of [chrm.app](https://www.chrm.app) around one promise: **every closer gets a second AE**.
+Research, strategy and a drop-in redesign of [2ndcloser.ai](https://www.2ndcloser.ai), formerly chrm.app, around one promise: **an AI account executive that does the after-call work**.
 
 | Folder | What's in it |
 |---|---|
@@ -9,6 +9,7 @@ Research, strategy and a drop-in redesign of [chrm.app](https://www.chrm.app) ar
 | `docs/03-keyword-strategy.md` | Six keyword clusters, gap analysis, page map, 90-day roadmap. Volumes are estimate bands to validate in Ahrefs/Semrush. |
 | `docs/04-brand-and-website-redesign.md` | What changed on the site and why, conversion mechanics, config, launch checklist, measurement |
 | `docs/05-seed-series-a-positioning.md` | The problems that draw seed and Series A founders (validated), positioning by stage, the free BYOK beta as positioning, the collateral plan |
+| `docs/06-naming.md` | The rename to 2nd Closer: every name tested with volumes, SERP owners and domain status, the positioning risk, copy rules and the launch checklist |
 | `docs/data/` | DataForSEO outputs: scored keywords, competitor rankings, founder cluster, generated tables |
 | `tools/dataforseo/validate.py` | Re-runnable keyword validation (credentials from env vars; cache is git-ignored) |
 | `brand/` | Refreshed logo (the H is the only coloured letter), favicon, tokens, guidelines |

@@ -1,4 +1,4 @@
-// CHRM — Integrations index page.
+// 2nd Closer — Integrations index page.
 import Link from "next/link";
 import type { PageData } from "@/lib/types";
 import { INTEGRATION_PAGES, hrefForPage } from "@/lib/data";
@@ -23,13 +23,13 @@ export default function IntegrationsIndex() {
   return (
     <main className="idx-page" id="top">
       <p className="sp-crumbs">
-        <Link href="/">CHRM</Link>
+        <Link href="/">2nd Closer</Link>
         <span>/</span>
         <span style={{ color: "var(--ink)" }}>Integrations</span>
       </p>
 
       <header className="idx-hero">
-        <p className="idx-hero__eye">Integrations &middot; CHRM</p>
+        <p className="idx-hero__eye">Integrations &middot; 2nd Closer</p>
         <h1 className="idx-hero__h">
           Connects with <em>your stack.</em>
         </h1>
@@ -45,7 +45,7 @@ export default function IntegrationsIndex() {
           <div>
             <h2 className="idx-section__h">CRM</h2>
             <p className="idx-section__sub">
-              CHRM operates on top of one of these. Pick yours; we read its schema and write back
+              2nd Closer operates on top of one of these. Pick yours; we read its schema and write back
               to it.
             </p>
           </div>

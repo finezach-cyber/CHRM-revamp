@@ -1,4 +1,4 @@
-// CHRM — Four-step taxonomy for product pages.
+// 2nd Closer — Four-step taxonomy for product pages.
 // Each product slug maps to one step: Capture / Structure / Activate / Iterate.
 import type { Step, GroupedStep } from "./types";
 import { PRODUCT_PAGES } from "./product-pages";
@@ -7,7 +7,7 @@ export const STEPS: Step[] = [
   { id: "capture", n: "01", name: "Capture", blurb: "Conversation in. Every channel. Automatically." },
   { id: "structure", n: "02", name: "Structure", blurb: "Calls become structured deal data. Your fields. Your rules." },
   { id: "activate", n: "03", name: "Activate", blurb: "The next action happens. Follow-ups, risks, outreach." },
-  { id: "iterate", n: "04", name: "Iterate", blurb: "CHRM learns. Your playbook gets sharper." },
+  { id: "iterate", n: "04", name: "Iterate", blurb: "2nd Closer learns. Your playbook gets sharper." },
 ];
 
 // Slug → step id

@@ -1,5 +1,5 @@
 "use client";
-// CHRM marketing — FAQ. Collapsible section with accordion questions inside.
+// 2nd Closer marketing — FAQ. Collapsible section with accordion questions inside.
 import { useState } from "react";
 import { FAQS } from "@/lib/faqs";
 
@@ -22,7 +22,7 @@ export default function FAQ() {
         <div className="m-faq__head-l">
           <span className="t-eyebrow">Frequently asked</span>
           <h2 className="m-faq__head-h">
-            Everything you need to know <em>about CHRM.</em>
+            Everything you need to know <em>about 2nd Closer.</em>
           </h2>
         </div>
         <span className="m-faq__head-meta">{FAQS.length} questions</span>

@@ -1,5 +1,5 @@
 "use client";
-// CHRM — "The five minutes after the call." An execution feed that reveals itself
+// 2nd Closer — "The five minutes after the call." An execution feed that reveals itself
 // row by row. This is the one visual that shows the whole job, not just field-filling.
 import { useEffect, useState } from "react";
 
@@ -19,7 +19,7 @@ const ROWS: Row[] = [
     kind: "done",
     label: "Captured",
     title: "Call ends. Transcript processed.",
-    detail: "CHRM notetaker · 41 min · Vertex Financial · Discovery",
+    detail: "2nd Closer notetaker · 41 min · Vertex Financial · Discovery",
   },
   {
     t: "+0:41",
@@ -109,9 +109,9 @@ export default function AfterTheCall({ compact = false }: { compact?: boolean })
   }, []);
 
   return (
-    <figure className={"atc" + (compact ? " atc--compact" : "")} aria-label="What CHRM does in the five minutes after a call">
+    <figure className={"atc" + (compact ? " atc--compact" : "")} aria-label="What 2nd Closer does in the five minutes after a call">
       <div className="atc__head">
-        <span className="atc__brand">CHRM</span>
+        <span className="atc__brand">2nd Closer</span>
         <span className="atc__meta">Vertex Financial · Discovery call · ended 14:32</span>
         <span className="atc__live" aria-hidden="true">
           <span className="atc__dot" /> live

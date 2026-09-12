@@ -1,4 +1,4 @@
-// CHRM — shared Subpage. Renders one feature/integration/platform page by slug.
+// 2nd Closer — shared Subpage. Renders one feature/integration/platform page by slug.
 import Link from "next/link";
 import type { PageData, ProseItem } from "@/lib/types";
 import { getPage, hrefForPage } from "@/lib/data";
@@ -32,7 +32,7 @@ function Crumbs({ page }: { page: PageData }) {
       : "/product";
   return (
     <p className="sp-crumbs">
-      <Link href="/">CHRM</Link>
+      <Link href="/">2nd Closer</Link>
       <span>/</span>
       <Link href={sectionHref}>{sectionLabel}</Link>
       <span>/</span>
@@ -109,7 +109,7 @@ export default function Subpage({ slug }: { slug: string }) {
       {hasShot && (
         <figure className="sp-shot">
           <div className="sp-shot__head">
-            <span className="sp-shot__brand">CHRM</span>
+            <span className="sp-shot__brand">2nd Closer</span>
             <span className="sp-shot__meta">{page.shotLabel}</span>
           </div>
           <div className="sp-shot__body">

@@ -1,5 +1,5 @@
 "use client";
-// CHRM marketing — Compare. Tab strip selecting which category to compare against.
+// 2nd Closer marketing — Compare. Tab strip selecting which category to compare against.
 import { useEffect, useState } from "react";
 
 type Status = { kind: "yes" | "no" | "shaky" | "partial"; note: string | null };
@@ -42,7 +42,7 @@ const CATEGORIES: Category[] = [
     label: "AI-native CRMs",
     sub: "Attio · Day.ai · Clarify · agentic CRM startups",
     framing:
-      "They promise to replace your CRM with an AI-native one. The vision is clean. Then you read the implementation guide. Every capability beyond core record-keeping requires custom workflow nodes, agents you configure yourself, schemas you migrate, and an engineer to keep the integrations stitched together. The output is slop held together with shaky APIs. We don’t replace your CRM. CRMs are great record-keeping tools. CHRM sits on top of yours.",
+      "They promise to replace your CRM with an AI-native one. The vision is clean. Then you read the implementation guide. Every capability beyond core record-keeping requires custom workflow nodes, agents you configure yourself, schemas you migrate, and an engineer to keep the integrations stitched together. The output is slop held together with shaky APIs. We don’t replace your CRM. CRMs are great record-keeping tools. 2nd Closer sits on top of yours.",
     them: {
       capture: SHAKY(),
       "crm-populate": SHAKY("Possible inside their own CRM only — not yours"),
@@ -114,7 +114,7 @@ const CATEGORIES: Category[] = [
     label: "Conversation intelligence",
     sub: "Gong · Chorus · Clari",
     framing:
-      "They record and analyse every conversation. They produce excellent coaching insights and a wishlist for your reps to execute. The dashboard is a system of record for what went wrong. The follow-up, the risk fix, the stakeholder chase all stay your team’s problem. CHRM can be used as a coaching tool, but coaching is a side effect. The primary function is execution and continuous playbook iteration.",
+      "They record and analyse every conversation. They produce excellent coaching insights and a wishlist for your reps to execute. The dashboard is a system of record for what went wrong. The follow-up, the risk fix, the stakeholder chase all stay your team’s problem. 2nd Closer can be used as a coaching tool, but coaching is a side effect. The primary function is execution and continuous playbook iteration.",
     them: {
       capture: Y(),
       "crm-populate": PART("Some fields; not the full record"),
@@ -150,7 +150,7 @@ const CATEGORIES: Category[] = [
     label: "Lead generation",
     sub: "Apollo · ZoomInfo · Outreach · Salesloft",
     framing:
-      "They find prospects, enrich them, sequence them, schedule the meeting. Their job ends when the buyer accepts the call. CHRM starts where they end. We integrate with both (Apollo enrichment, Outreach data), so your top-of-funnel work flows into ours. We are not trying to do their job.",
+      "They find prospects, enrich them, sequence them, schedule the meeting. Their job ends when the buyer accepts the call. 2nd Closer starts where they end. We integrate with both (Apollo enrichment, Outreach data), so your top-of-funnel work flows into ours. We are not trying to do their job.",
     them: {
       capture: N("Out of scope; pre-meeting only"),
       "crm-populate": PART("Contact-level only, not deal execution"),
@@ -225,7 +225,7 @@ export default function Compare({ headed = true }: { headed?: boolean }) {
         <header className="sec-head">
           <div className="t-eyebrow">Compare</div>
           <h2 className="sec-head__h">
-            What CHRM is, <em>and isn&rsquo;t.</em>
+            What 2nd Closer is, <em>and isn&rsquo;t.</em>
           </h2>
           <p className="sec-head__sub">
             Four categories of tool the market keeps confusing us with. Pick one to compare
@@ -275,7 +275,7 @@ export default function Compare({ headed = true }: { headed?: boolean }) {
               <tr>
                 <th scope="col" className="cmp-th cmp-th--cap">Capability</th>
                 <th scope="col" className="cmp-th cmp-th--chrm">
-                  <span className="cmp-th__brand">CHRM</span>
+                  <span className="cmp-th__brand">2nd Closer</span>
                   <span className="cmp-th__sub">The execution layer</span>
                 </th>
                 <th scope="col" className="cmp-th">

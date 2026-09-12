@@ -1,4 +1,4 @@
-// CHRM — Blog index page (author byline + avatar).
+// 2nd Closer — Blog index page (author byline + avatar).
 import Link from "next/link";
 import { BLOG_POSTS, AUTHORS, hrefForBlog } from "@/lib/data";
 
@@ -16,13 +16,13 @@ export default function BlogIndex() {
   return (
     <main className="blog-index" id="top">
       <p className="sp-crumbs">
-        <Link href="/">CHRM</Link>
+        <Link href="/">2nd Closer</Link>
         <span>/</span>
         <span style={{ color: "var(--ink)" }}>Blog</span>
       </p>
 
       <header className="blog-index__hero">
-        <p className="blog-index__eye">The CHRM Journal</p>
+        <p className="blog-index__eye">The 2nd Closer Journal</p>
         <h1 className="blog-index__h">
           Notes from the <em>execution layer.</em>
         </h1>

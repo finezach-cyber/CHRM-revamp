@@ -17,7 +17,7 @@ export async function generateMetadata({
   const page = getPage(slug);
   if (!page) return {};
   return {
-    title: { absolute: `${page.seoTitle || page.category} — CHRM` },
+    title: { absolute: `${page.seoTitle || page.category} — 2nd Closer` },
     description: plainText(page.sub),
     alternates: { canonical: `/integrations/${slug}` },
   };

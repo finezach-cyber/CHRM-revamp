@@ -1,4 +1,4 @@
-// CHRM — For startups: seed (founder-led) and Series A (first AEs). Two stages, one product.
+// 2nd Closer — For startups: seed (founder-led) and Series A (first AEs). Two stages, one product.
 import Link from "next/link";
 import AfterTheCall from "./AfterTheCall";
 import { BOOKING_URL, BETA } from "@/lib/site";
@@ -7,7 +7,7 @@ export default function StartupsPage() {
   return (
     <main className="sp-page" id="top" data-screen-label="For startups">
       <p className="sp-crumbs">
-        <Link href="/">CHRM</Link>
+        <Link href="/">2nd Closer</Link>
         <span>/</span>
         <span style={{ color: "var(--ink)" }}>For startups</span>
       </p>
@@ -20,7 +20,7 @@ export default function StartupsPage() {
         <p className="sp-hero__sub">
           At seed the founder is the sales team. At Series A the first AEs arrive and the founder’s
           process has to survive the handoff. Both stages lose deals in the same place: the work
-          after the call. CHRM does that work, on the CRM you already have, free while it’s in beta.
+          after the call. 2nd Closer does that work, on the CRM you already have, free while it’s in beta.
         </p>
       </header>
 
@@ -35,7 +35,7 @@ export default function StartupsPage() {
       <section className="st-stage" id="seed">
         <div>
           <p className="st-stage__eye">Seed · founder-led sales</p>
-          <h2 className="st-stage__h">You keep selling. <em>CHRM keeps the rest.</em></h2>
+          <h2 className="st-stage__h">You keep selling. <em>2nd Closer keeps the rest.</em></h2>
           <p className="st-stage__p">
             You are running every call, and the calls are the easy part. The follow-up goes out two
             days late. The CRM has the deals you remember to log. The investor update pipeline is a
@@ -46,7 +46,7 @@ export default function StartupsPage() {
             <li><strong>Follow-ups sent in five minutes,</strong> in your voice, from your inbox, referencing what the buyer actually said.</li>
             <li><strong>Your CRM fills itself,</strong> so the pipeline you show investors is the one that exists.</li>
             <li><strong>Every stakeholder mentioned gets mapped and enriched,</strong> and warmed up on LinkedIn while you sleep.</li>
-            <li><strong>Your process gets written down by being run.</strong> The fields CHRM fills become the playbook your first AE inherits.</li>
+            <li><strong>Your process gets written down by being run.</strong> The fields 2nd Closer fills become the playbook your first AE inherits.</li>
             <li><strong>Free during the beta, on your own LLM key.</strong> A seed budget can carry it.</li>
           </ul>
           <div className="st-stage__ctas">
@@ -67,11 +67,11 @@ export default function StartupsPage() {
           <p className="st-stage__p">
             You raised, you hired, and now three to ten closers are running a process that lived in
             the founder’s head. Field completion is 31%. The board deck takes the weekend. The new
-            VP Sales inherits a CRM nobody trusts. CHRM makes every one of those closers a two-person
+            VP Sales inherits a CRM nobody trusts. 2nd Closer makes every one of those closers a two-person
             team, and gives leadership a pipeline it can actually read.
           </p>
           <ul className="st-stage__list">
-            <li><strong>Every closer gets a second AE.</strong> The CRM, the follow-ups, the committee, the risk flags. Reps sell; CHRM executes.</li>
+            <li><strong>Every AE gets a second.</strong> The CRM, the follow-ups, the committee, the risk flags. Reps sell; 2nd Closer executes.</li>
             <li><strong>Field completion goes from ~31% to ~100%,</strong> with a citation on every value. The forecast stops being a vibe.</li>
             <li><strong>Your methodology runs itself.</strong> MEDDPICC, BANT, SPICED or your own fields, filled from every call, not from a rep’s memory two days later.</li>
             <li><strong>Risk shows up Monday morning,</strong> not at the end of the quarter: missing decision-maker, budget unconfirmed, champion gone quiet.</li>
@@ -84,9 +84,9 @@ export default function StartupsPage() {
         </div>
         <div>
           <figure className="sp-shot">
-            <div className="sp-shot__head"><span className="sp-shot__brand">CHRM</span><span className="sp-shot__meta">Field-map view · pipeline-scoped</span></div>
-            <div className="sp-shot__body"><img className="sp-shot__img" src="/assets/screenshots/product-crm-hygiene.png" alt="CHRM field map view: every CRM field mapped to an AI-extractable structure" loading="lazy" /></div>
-            <div className="sp-shot__foot">Every CRM field, mapped to what CHRM extracts from a call. Configured in the 30-minute call.</div>
+            <div className="sp-shot__head"><img src="/assets/2nd-closer-wordmark-day.svg" alt="2nd Closer" className="sp-shot__brand-img" /><span className="sp-shot__meta">Field-map view · pipeline-scoped</span></div>
+            <div className="sp-shot__body"><img className="sp-shot__img" src="/assets/screenshots/product-crm-hygiene.png" alt="2nd Closer field map view: every CRM field mapped to an AI-extractable structure" loading="lazy" /></div>
+            <div className="sp-shot__foot">Every CRM field, mapped to what 2nd Closer extracts from a call. Configured in the 30-minute call.</div>
           </figure>
         </div>
       </section>
@@ -95,7 +95,7 @@ export default function StartupsPage() {
         <p className="cd-verdict__eye">Which CRM should a startup pick?</p>
         <p className="cd-verdict__p">
           Whichever one your team will open. HubSpot if inbound matters and you want the startup
-          discount, Pipedrive if you run outbound. CHRM works on either from day one, so the choice
+          discount, Pipedrive if you run outbound. 2nd Closer works on either from day one, so the choice
           stops being about which CRM has the best AI. <Link href="/compare/ai-native-crms">Looking at Attio? Read this first.</Link>
         </p>
         <div className="cd-verdict__ctas">

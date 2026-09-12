@@ -1,5 +1,5 @@
 "use client";
-// CHRM marketing — Stories. Four roles, all at the same company.
+// 2nd Closer marketing — Stories. Four roles, all at the same company.
 import { useEffect, useState } from "react";
 import Link from "next/link";
 
@@ -30,7 +30,7 @@ const STORIES: Story[] = [
     shot: {
       label: "CRM forecast view · post-rollout",
       hint: "A populated HubSpot pipeline column that wasn’t there the week before.",
-      cta: "See the forecast view in CHRM",
+      cta: "See the forecast view in 2nd Closer",
     },
     chapters: [
       {
@@ -42,19 +42,19 @@ const STORIES: Story[] = [
         ],
       },
       {
-        eye: "Where CHRM came in",
+        eye: "Where 2nd Closer came in",
         h: "The risk was nothing. So I just tried it.",
         body: [
           "What got me past the door was the offer. Twenty-minute call. Free while it&rsquo;s in beta, on our own API key. No contract negotiation, no procurement form, no implementation timeline written on the whiteboard. If it didn't work I'd close the tab.",
-          "I signed up on a Tuesday afternoon. Wednesday at 9am we had a twenty-minute call. By 9:45 CHRM&rsquo;s notetaker was joining every booked call on the calendar, every HubSpot deal had a CHRM record, and every Apollo prospect we had had a stakeholder map. There was nothing to roll out. There was nothing to ask the team to learn. Nobody knew CHRM existed until they noticed their CRMs were full.",
+          "I signed up on a Tuesday afternoon. Wednesday at 9am we had a twenty-minute call. By 9:45 2nd Closer&rsquo;s notetaker was joining every booked call on the calendar, every HubSpot deal had a 2nd Closer record, and every Apollo prospect we had had a stakeholder map. There was nothing to roll out. There was nothing to ask the team to learn. Nobody knew 2nd Closer existed until they noticed their CRMs were full.",
         ],
       },
       {
         eye: "How we set it up",
         h: "There was no implementation. There was a 20-minute call.",
         body: [
-          "We connected HubSpot. We connected Google Calendar, our LinkedIn, and Apollo. CHRM has its own notetaker. It joined every call from that moment forward, so there was no Fathom or Otter to plug in. I named the twelve fields I actually needed populated &mdash; champion, budget signal, timeline, next step, top objection, the rest of it. I named the five deal stages we use. That was the setup.",
-          "I never wrote a spec. I never opened a ticket. I never asked a single closer to do anything differently. Nothing in the stack was replaced. HubSpot stayed HubSpot. Fathom stayed Fathom. CHRM just sat on top.",
+          "We connected HubSpot. We connected Google Calendar, our LinkedIn, and Apollo. 2nd Closer has its own notetaker. It joined every call from that moment forward, so there was no Fathom or Otter to plug in. I named the twelve fields I actually needed populated &mdash; champion, budget signal, timeline, next step, top objection, the rest of it. I named the five deal stages we use. That was the setup.",
+          "I never wrote a spec. I never opened a ticket. I never asked a single closer to do anything differently. Nothing in the stack was replaced. HubSpot stayed HubSpot. Fathom stayed Fathom. 2nd Closer just sat on top.",
         ],
       },
       {
@@ -62,12 +62,12 @@ const STORIES: Story[] = [
         h: "My VP walked in to a CRM that was actually full.",
         body: [
           "By the end of week one I was opening HubSpot on Monday morning and seeing a real pipeline for the first time since we&rsquo;d started selling. Every deal had a champion, a budget signal, a top risk, a next step. I could read the column. I could forecast from it.",
-          "My new VP started two weeks after CHRM went live. The first conversation I had with him was about strategy, not about cleaning up the CRM. I closed Q3 nine points over plan &mdash; not because CHRM closed deals, but because we stopped losing the ones we&rsquo;d already earned to follow-ups that went out two days late.",
+          "My new VP started two weeks after 2nd Closer went live. The first conversation I had with him was about strategy, not about cleaning up the CRM. I closed Q3 nine points over plan &mdash; not because 2nd Closer closed deals, but because we stopped losing the ones we&rsquo;d already earned to follow-ups that went out two days late.",
         ],
       },
     ],
     results: [
-      { big: "9 pts", label: "Over plan in the first full quarter on CHRM" },
+      { big: "9 pts", label: "Over plan in the first full quarter on 2nd Closer" },
       { big: "0", label: "Days of implementation time" },
       { big: "< 1 day", label: "From signup to first call processed" },
     ],
@@ -78,11 +78,11 @@ const STORIES: Story[] = [
     tabMeta: "Configuration · playbook",
     co: COMPANY,
     photo: "/photos/vp-sales.png",
-    quote: "I configured my playbook into CHRM. In a 30-minute call. No engineer.",
+    quote: "I configured my playbook into 2nd Closer. In a 30-minute call. No engineer.",
     shot: {
       label: "Field configuration · MEDDPICC",
       hint: "Twenty-two custom HubSpot fields mapped to the team’s playbook.",
-      cta: "See the configuration view in CHRM",
+      cta: "See the configuration view in 2nd Closer",
     },
     chapters: [
       {
@@ -94,18 +94,18 @@ const STORIES: Story[] = [
         ],
       },
       {
-        eye: "Where CHRM came in",
+        eye: "Where 2nd Closer came in",
         h: "It read my HubSpot. It didn&rsquo;t try to rewrite it.",
         body: [
-          "What CHRM asked me on the call was: which of your existing fields do you want filled, and what does a populated one look like. That was the whole conversation. Not, here is our framework. Not, here is best practice. My schema, my stages, my definitions.",
-          "I didn&rsquo;t need to teach anybody our process. I didn&rsquo;t need to write a brief. I didn&rsquo;t need to put an engineer on a call. Nobody from CHRM ever asked me what MEDDPICC was. The structure was already in the CRM &mdash; they just read it.",
+          "What 2nd Closer asked me on the call was: which of your existing fields do you want filled, and what does a populated one look like. That was the whole conversation. Not, here is our framework. Not, here is best practice. My schema, my stages, my definitions.",
+          "I didn&rsquo;t need to teach anybody our process. I didn&rsquo;t need to write a brief. I didn&rsquo;t need to put an engineer on a call. Nobody from 2nd Closer ever asked me what MEDDPICC was. The structure was already in the CRM &mdash; they just read it.",
         ],
       },
       {
         eye: "How we set it up",
-        h: "Thirty minutes. Me, the founder of CHRM, and HubSpot.",
+        h: "Thirty minutes. Me, the founder of 2nd Closer, and HubSpot.",
         body: [
-          "We connected HubSpot via OAuth. CHRM pulled every custom field, every deal stage, every property I'd built. I went down the list and said: fill this one, fill this one, leave this one alone. For each field I gave it one or two sentences of context &mdash; what a strong champion looks like to us, what we mean by &lsquo;board-level deal,&rsquo; how we score budget.",
+          "We connected HubSpot via OAuth. 2nd Closer pulled every custom field, every deal stage, every property I'd built. I went down the list and said: fill this one, fill this one, leave this one alone. For each field I gave it one or two sentences of context &mdash; what a strong champion looks like to us, what we mean by &lsquo;board-level deal,&rsquo; how we score budget.",
           "By minute thirty it was done. Twenty-two fields configured. Five stages mapped to risk signals. Three personas wired to follow-up templates I already had in the team Notion. I never opened a ticket with engineering. I never wrote a runbook. I configured my own sales process into the tool, in the time it would have taken me to write the brief for someone else to do it.",
         ],
       },
@@ -113,7 +113,7 @@ const STORIES: Story[] = [
         eye: "What changed",
         h: "My pipeline review is a strategy conversation now.",
         body: [
-          "Field completion went from thirty-one percent to ninety-six in the first two weeks. The first Friday after we went live, CHRM flagged three deals at risk for reasons that would not have surfaced until close. We saved two of them. We coached the third into a clean loss instead of a six-week stall.",
+          "Field completion went from thirty-one percent to ninety-six in the first two weeks. The first Friday after we went live, 2nd Closer flagged three deals at risk for reasons that would not have surfaced until close. We saved two of them. We coached the third into a clean loss instead of a six-week stall.",
           "Two of my ten reps hit quota last quarter who hadn&rsquo;t all year. They didn&rsquo;t suddenly get better; the deals they were already running just stopped leaking on the execution side. My Friday pipeline review is a strategy conversation now, not an archaeology dig through call notes.",
         ],
       },
@@ -134,7 +134,7 @@ const STORIES: Story[] = [
     shot: {
       label: "Drafted follow-up · staged from call",
       hint: "A personalised email, ready to send four minutes after the call ended.",
-      cta: "See the follow-up view in CHRM",
+      cta: "See the follow-up view in 2nd Closer",
     },
     chapters: [
       {
@@ -146,10 +146,10 @@ const STORIES: Story[] = [
         ],
       },
       {
-        eye: "Where CHRM came in",
+        eye: "Where 2nd Closer came in",
         h: "My calendar gave me the afternoon back.",
         body: [
-          "My VP rolled it out across the team. I didn't have to do anything &mdash; CHRM&rsquo;s notetaker was on every booked call the next morning. My discovery calls started showing up in HubSpot fully populated by the time I'd had coffee. The follow-up was already drafted, in my voice, referencing the things the prospect actually said.",
+          "My VP rolled it out across the team. I didn't have to do anything &mdash; 2nd Closer&rsquo;s notetaker was on every booked call the next morning. My discovery calls started showing up in HubSpot fully populated by the time I'd had coffee. The follow-up was already drafted, in my voice, referencing the things the prospect actually said.",
           "I read each one. I edited one paragraph in roughly half of them. I sent. The rest of the afternoon I spent on calls.",
         ],
       },
@@ -157,7 +157,7 @@ const STORIES: Story[] = [
         eye: "How we set it up",
         h: "Nothing. Literally nothing on my end.",
         body: [
-          "I was told on Monday that CHRM was going live. I was asked once for two examples of follow-up emails I was proud of, so the tone would match. That was it. I never logged into CHRM. I never learned a new tool. My HubSpot looked the same. My calendar looked the same &mdash; except a new participant called CHRM was on every booked call. The difference was that everything I used to do at 6pm was already done.",
+          "I was told on Monday that 2nd Closer was going live. I was asked once for two examples of follow-up emails I was proud of, so the tone would match. That was it. I never logged into 2nd Closer. I never learned a new tool. My HubSpot looked the same. My calendar looked the same &mdash; except a new participant called 2nd Closer was on every booked call. The difference was that everything I used to do at 6pm was already done.",
         ],
       },
       {
@@ -185,7 +185,7 @@ const STORIES: Story[] = [
     shot: {
       label: "Leading indicators · real-time",
       hint: "Persona, intent, source signal — captured the day the call happens.",
-      cta: "See the leading-indicator view in CHRM",
+      cta: "See the leading-indicator view in 2nd Closer",
     },
     chapters: [
       {
@@ -197,10 +197,10 @@ const STORIES: Story[] = [
         ],
       },
       {
-        eye: "Where CHRM came in",
-        h: "CHRM gave me leading data, not lagging.",
+        eye: "Where 2nd Closer came in",
+        h: "2nd Closer gave me leading data, not lagging.",
         body: [
-          "The breakthrough wasn't a new dashboard. It was that CHRM captures and structures the leading signal from every single conversation, on the day it happens. Persona. Intent. Trigger. Champion strength. Source confirmation. Competitor mentioned. What the buyer actually said about why they're talking to us.",
+          "The breakthrough wasn't a new dashboard. It was that 2nd Closer captures and structures the leading signal from every single conversation, on the day it happens. Persona. Intent. Trigger. Champion strength. Source confirmation. Competitor mentioned. What the buyer actually said about why they're talking to us.",
           "That data is in HubSpot the morning after every discovery call &mdash; not six weeks later when the deal closed or didn't. I stopped operating on closed-won as my primary signal and started operating on what was being captured upstream.",
         ],
       },
@@ -208,15 +208,15 @@ const STORIES: Story[] = [
         eye: "How we set it up",
         h: "I co-owned the field map with the VP of Sales.",
         body: [
-          "I sat in the CHRM configuration call alongside our VP of Sales. We named the leading fields I needed populated for marketing visibility &mdash; confirmed lead source, persona segmentation, deal trigger, competitor mentioned, decision criteria, champion strength at discovery. Not lagging fields. Leading ones.",
-          "CHRM populated them from every call from that day forward. No change to the marketing stack. No new tool. Just real signal showing up in HubSpot the morning after each conversation &mdash; four to six weeks before that signal would have shown up as a closed-won or closed-lost outcome.",
+          "I sat in the 2nd Closer configuration call alongside our VP of Sales. We named the leading fields I needed populated for marketing visibility &mdash; confirmed lead source, persona segmentation, deal trigger, competitor mentioned, decision criteria, champion strength at discovery. Not lagging fields. Leading ones.",
+          "2nd Closer populated them from every call from that day forward. No change to the marketing stack. No new tool. Just real signal showing up in HubSpot the morning after each conversation &mdash; four to six weeks before that signal would have shown up as a closed-won or closed-lost outcome.",
         ],
       },
       {
         eye: "What changed",
         h: "I started catching problems the same week they started.",
         body: [
-          "Three weeks in, CHRM&rsquo;s data flagged a persona mismatch on a campaign I&rsquo;d just shipped. The discovery calls were happening, but the persona field on every one of them read &lsquo;champion at wrong altitude.&rsquo; Six weeks earlier that would have surfaced as a closed-lost cluster I&rsquo;d be writing up at the next QBR. Instead I killed the campaign in week three and re-routed the budget. Pipeline impact was measurable inside the quarter, not the next one.",
+          "Three weeks in, 2nd Closer&rsquo;s data flagged a persona mismatch on a campaign I&rsquo;d just shipped. The discovery calls were happening, but the persona field on every one of them read &lsquo;champion at wrong altitude.&rsquo; Six weeks earlier that would have surfaced as a closed-lost cluster I&rsquo;d be writing up at the next QBR. Instead I killed the campaign in week three and re-routed the budget. Pipeline impact was measurable inside the quarter, not the next one.",
           "More broadly, my QBR conversation changed from &lsquo;here&rsquo;s what we missed&rsquo; to &lsquo;here&rsquo;s what we&rsquo;re catching.&rsquo; Pipeline per marketing dollar went up thirty-eight percent the next quarter. I hadn&rsquo;t gotten smarter; the lag between a problem starting and me seeing it had collapsed from six weeks to one day.",
         ],
       },
@@ -234,7 +234,7 @@ function StoryShot({ shot, id }: { shot: Shot; id: string }) {
     <figure className="m-stories__shot">
       <div className="m-stories__shot-frame">
         <div className="m-stories__shot-head">
-          <span className="m-stories__shot-brand">CHRM</span>
+          <span className="m-stories__shot-brand">2nd Closer</span>
           <span className="m-stories__shot-meta">{shot.label}</span>
         </div>
         <div className="m-stories__shot-body">
@@ -276,7 +276,7 @@ export default function Stories() {
       <header className="m-stories__head">
         <div>
           <div className="t-eyebrow">Stories from the team</div>
-          <h2 className="m-stories__h">A day on CHRM, by role.</h2>
+          <h2 className="m-stories__h">A day on 2nd Closer, by role.</h2>
         </div>
         <p className="m-stories__sub">
           Four people. <em>One company.</em> {COMPANY}. People shown are fictive and
@@ -365,7 +365,7 @@ export default function Stories() {
 
       <p className="m-stories__disclaim">
         Scenarios and the people shown are illustrative, not customer testimonials. Numbers
-        are representative of CHRM&rsquo;s design intent at this stage of the company.
+        are representative of 2nd Closer&rsquo;s design intent at this stage of the company.
       </p>
     </section>
   );

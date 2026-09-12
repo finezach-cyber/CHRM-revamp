@@ -3,9 +3,9 @@ import PageShell from "@/components/PageShell";
 import About from "@/components/About";
 
 export const metadata: Metadata = {
-  title: { absolute: "Stay human, let AI do the rest — CHRM" },
+  title: { absolute: "Stay human, let AI do the rest — 2nd Closer" },
   description:
-    "CHRM’s design philosophy: AI that creates work is a failure, humans are for trust and direction, and software shouldn’t need an implementation industry to run.",
+    "2nd Closer’s design philosophy: AI that creates work is a failure, humans are for trust and direction, and software shouldn’t need an implementation industry to run.",
   alternates: { canonical: "/about" },
 };
 

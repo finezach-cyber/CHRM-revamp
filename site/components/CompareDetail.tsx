@@ -1,4 +1,4 @@
-// CHRM — One comparison page, rendered from lib/compare-pages.ts.
+// 2nd Closer — One comparison page, rendered from lib/compare-pages.ts.
 import Link from "next/link";
 import type { CmpCell, ComparePageData } from "@/lib/compare-pages";
 import { getComparePage } from "@/lib/compare-pages";
@@ -23,7 +23,7 @@ export default function CompareDetail({ slug }: { slug: string }) {
   return (
     <main className="sp-page cd-page" id="top" data-screen-label={"Compare · " + page.short}>
       <p className="sp-crumbs">
-        <Link href="/">CHRM</Link>
+        <Link href="/">2nd Closer</Link>
         <span>/</span>
         <Link href="/compare">Compare</Link>
         <span>/</span>
@@ -66,7 +66,7 @@ export default function CompareDetail({ slug }: { slug: string }) {
             <tr>
               <th scope="col" className="cmp-th cmp-th--cap">Capability</th>
               <th scope="col" className="cmp-th cmp-th--chrm">
-                <span className="cmp-th__brand">CHRM</span>
+                <span className="cmp-th__brand">2nd Closer</span>
                 <span className="cmp-th__sub">The execution layer</span>
               </th>
               <th scope="col" className="cmp-th">

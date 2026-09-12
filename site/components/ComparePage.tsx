@@ -1,4 +1,4 @@
-// CHRM — Compare index: search-intent comparison pages first, the category matrix below.
+// 2nd Closer — Compare index: search-intent comparison pages first, the category matrix below.
 import Link from "next/link";
 import Compare from "./Compare";
 import { COMPARE_PAGES } from "@/lib/compare-pages";
@@ -7,16 +7,16 @@ export default function ComparePage() {
   return (
     <main className="sp-page" id="top">
       <p className="sp-crumbs">
-        <Link href="/">CHRM</Link>
+        <Link href="/">2nd Closer</Link>
         <span>/</span>
         <span style={{ color: "var(--ink)" }}>Compare</span>
       </p>
       <header className="sp-hero">
         <h1 className="sp-hero__h">
-          What CHRM is, <em>and isn&rsquo;t.</em>
+          What 2nd Closer is, <em>and isn&rsquo;t.</em>
         </h1>
         <p className="sp-hero__sub">
-          CHRM is not a CRM, not a notetaker and not a workflow builder. It is a second AE that
+          2nd Closer is not a CRM, not a notetaker and not a workflow builder. It is a second AE that
           works inside the CRM you already run. Here is how that compares to the things you were
           about to buy, hire or build instead.
         </p>

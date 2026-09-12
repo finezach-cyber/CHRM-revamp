@@ -1,5 +1,5 @@
 "use client";
-// CHRM — Lead form. Posts to FORM_ENDPOINT when configured; otherwise opens a pre-filled email.
+// 2nd Closer — Lead form. Posts to FORM_ENDPOINT when configured; otherwise opens a pre-filled email.
 // Either way, no lead is lost to a dead "#" link.
 import { useState } from "react";
 import { CONTACT_EMAIL, FORM_ENDPOINT } from "@/lib/site";
@@ -25,7 +25,7 @@ export default function LeadForm() {
     };
 
     if (!FORM_ENDPOINT) {
-      const subject = encodeURIComponent(`CHRM beta · ${payload.crm} · ${payload.aes} AEs · ${payload.provider}`);
+      const subject = encodeURIComponent(`2nd Closer beta · ${payload.crm} · ${payload.aes} AEs · ${payload.provider}`);
       const body = encodeURIComponent(
         `Name: ${payload.name}\nWork email: ${payload.email}\nCRM: ${payload.crm}\nAEs: ${payload.aes}\nLLM key: ${payload.provider}\n\n${payload.notes}`
       );

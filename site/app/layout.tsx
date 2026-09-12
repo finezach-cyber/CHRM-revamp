@@ -5,18 +5,20 @@ import "../styles/marketing.css";
 import A11y from "@/components/A11y";
 import { SITE_URL, DESCRIPTION, TAGLINE } from "@/lib/site";
 
-const TITLE = "CHRM — A second AE for every closer. Works with HubSpot & Pipedrive.";
+const TITLE = "2nd Closer — AI account executive for HubSpot & Pipedrive";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
     default: TITLE,
-    template: "%s — CHRM",
+    template: "%s — 2nd Closer",
   },
   description: DESCRIPTION,
-  applicationName: "CHRM",
+  applicationName: "2nd Closer",
   keywords: [
     "AI account executive",
+    "AI sales agent",
+    "second AE",
     "AI sales assistant for HubSpot",
     "AI for Pipedrive",
     "CRM automation",
@@ -27,7 +29,7 @@ export const metadata: Metadata = {
   robots: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
   openGraph: {
     type: "website",
-    siteName: "CHRM",
+    siteName: "2nd Closer",
     title: TITLE,
     description: DESCRIPTION,
     url: SITE_URL,
@@ -45,9 +47,10 @@ const JSON_LD = [
   {
     "@context": "https://schema.org",
     "@type": "Organization",
-    name: "CHRM",
+    name: "2nd Closer",
+    alternateName: "CHRM",
     url: SITE_URL + "/",
-    logo: SITE_URL + "/assets/logo-wordmark.svg",
+    logo: SITE_URL + "/assets/2nd-closer-lockup-day.svg",
     slogan: TAGLINE,
     description: DESCRIPTION,
     founder: {
@@ -62,20 +65,20 @@ const JSON_LD = [
   {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    name: "CHRM",
+    name: "2nd Closer",
     url: SITE_URL + "/",
-    description: "The execution layer for CRM. A second AE for every closer on HubSpot or Pipedrive. Live in under a day.",
-    publisher: { "@type": "Organization", name: "CHRM" },
+    description: "The execution layer for CRM. An AI account executive that does the after-call work on HubSpot or Pipedrive. Live in under a day.",
+    publisher: { "@type": "Organization", name: "2nd Closer" },
   },
   {
     "@context": "https://schema.org",
     "@type": "SoftwareApplication",
-    name: "CHRM",
+    name: "2nd Closer",
     applicationCategory: "BusinessApplication",
     operatingSystem: "Web",
     url: SITE_URL + "/",
     description: DESCRIPTION,
-    publisher: { "@type": "Organization", name: "CHRM" },
+    publisher: { "@type": "Organization", name: "2nd Closer" },
   },
 ];
 

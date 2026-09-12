@@ -1,5 +1,5 @@
 "use client";
-// CHRM — shared accessibility helpers (WCAG 2.1 AA).
+// 2nd Closer — shared accessibility helpers (WCAG 2.1 AA).
 //  · Injects a "Skip to content" link as the first focusable element.
 //  · Tags the page's <main> with a skip-target id + tabindex=-1.
 //  · Escape closes an open nav dropdown; arrow keys rove between tablist tabs.

@@ -1,7 +1,7 @@
-// CHRM marketing — Onboarding section on the homepage.
+// 2nd Closer marketing — Onboarding section on the homepage.
 const CONNECTORS: [string, string, string][] = [
-  ["01", "Your CRM", "HubSpot or Pipedrive. OAuth in fifteen minutes. CHRM reads your existing fields and stages. We do not impose a schema."],
-  ["02", "Your calendar", "Google or Microsoft. CHRM’s built-in notetaker joins every booked call automatically. No third-party tool to install."],
+  ["01", "Your CRM", "HubSpot or Pipedrive. OAuth in fifteen minutes. 2nd Closer reads your existing fields and stages. We do not impose a schema."],
+  ["02", "Your calendar", "Google or Microsoft. 2nd Closer’s built-in notetaker joins every booked call automatically. No third-party tool to install."],
   ["03", "LinkedIn", "For stakeholder context. Champions, blockers, decision-makers — pulled per deal, kept current."],
   ["04", "Apollo", "For firmographics and prospect data. Every account record arrives populated."],
 ];
@@ -41,7 +41,7 @@ export default function Onboarding() {
         <div className="m-onboard__right">
           <p className="m-onboard__rightH">What you don&rsquo;t do</p>
           <h3 className="m-onboard__claim">
-            From four OAuth clicks, <em>CHRM is fully configured</em> to run every deal end to
+            From four OAuth clicks, <em>2nd Closer is fully configured</em> to run every deal end to
             end.
           </h3>
           <p className="m-onboard__body">
@@ -50,7 +50,7 @@ export default function Onboarding() {
             Maintain it as your process changes. Hire a GTM engineer to own it.
           </p>
           <p className="m-onboard__body">
-            CHRM doesn&rsquo;t do that. You connect the four sources above. We read your CRM schema
+            2nd Closer doesn&rsquo;t do that. You connect the four sources above. We read your CRM schema
             and your calendar. The execution layer turns on. Calls are captured, fields are
             populated, follow-ups are sent, risks are flagged. From day one, without an
             automation diagram anywhere on the page.

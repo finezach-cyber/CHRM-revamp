@@ -1,13 +1,13 @@
 import type { Author, BlogPost } from "./types";
 
-// CHRM marketing — Blog post data
-// Editorial long-form, in CHRM's voice. Each post renders via BlogPost.jsx.
+// 2nd Closer marketing — Blog post data
+// Editorial long-form, in 2nd Closer's voice. Each post renders via BlogPost.jsx.
 
 // Default author metadata, used by every post in this file.
 export const AUTHORS: Record<string, Author> = {
   zach: {
     name: 'Zach Fine',
-    role: 'Founder, CHRM',
+    role: 'Founder, 2nd Closer',
     url: 'https://www.linkedin.com/in/finezach',
     avatar: '/photos/zach-fine.png',
   },
@@ -34,7 +34,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "When that data is structured into your CRM in real time, your QBR shifts from autopsy to surgery. You catch the persona mismatch the same week the campaign ships, not the same quarter the cohort closes.",
       { h: 'Why nobody captures it today.' },
       "Because capturing leading data requires the closer to log it during the conversation that produced it. The closer doesn&rsquo;t. The closer never has. The category has spent fifteen years building reminders and validation rules to convince the most expensive person in the room to do data entry. The closer still doesn&rsquo;t.",
-      "CHRM&rsquo;s position is that the data capture problem is solved by removing the closer from the loop, not by motivating them harder. The conversation already exists. The notetaker is already running. CHRM reads the transcript, populates the leading fields, and writes them to your CRM before the closer&rsquo;s next call begins.",
+      "2nd Closer&rsquo;s position is that the data capture problem is solved by removing the closer from the loop, not by motivating them harder. The conversation already exists. The notetaker is already running. 2nd Closer reads the transcript, populates the leading fields, and writes them to your CRM before the closer&rsquo;s next call begins.",
       { h: 'The collapse from six weeks to one day.' },
       "Once leading data is captured automatically, the lag between a pipeline problem starting and you seeing it collapses from six weeks to one day. The cohort that is going to close-lost in eight weeks because of a champion-altitude mismatch — you can see that pattern in the persona field tomorrow morning. You fix it in week two of the campaign, not in week ten.",
       "This is the largest unmeasured cost of CRM hygiene in B2B sales. Not the data entry hours. The decisions made on stale signal.",
@@ -50,7 +50,7 @@ export const BLOG_POSTS: BlogPost[] = [
     readTime: '6 min',
     author: 'Zach Fine, Founder',
     authorUrl: 'https://www.linkedin.com/in/finezach',
-    title: 'Why CHRM has no workflow builder.',
+    title: 'Why 2nd Closer has no workflow builder.',
     deck: 'Every other category of sales tool ships with a drag-and-drop workflow canvas. We don&rsquo;t. Here&rsquo;s why we never will.',
     body: [
       "A workflow canvas — the kind of node-based editor where you drag a trigger, connect it to an action, define the conditions, and test it — is the standard interface for sales automation. Outreach has one. HubSpot has one. Zapier is one.",
@@ -58,8 +58,8 @@ export const BLOG_POSTS: BlogPost[] = [
       { h: 'What workflow builders ask of you.' },
       "Every workflow node looks small in isolation. Drag a trigger. Drag an action. Connect them. The problem is that real go-to-market processes are not three nodes. They are forty nodes. They branch. They condition on external systems. They have edge cases. They have to be maintained as your product, your team, and your pricing change every quarter.",
       "Forty nodes that all need to keep working is a system. Systems need owners. Owners need to be paid. The job is the GTM engineer, and the math is roughly two senior engineering salaries to keep the duct tape stuck to a stack that was supposed to be off-the-shelf software.",
-      { h: 'What CHRM does instead.' },
-      "CHRM does not ask you to design the workflow. You sign into your CRM, your calendar, LinkedIn, and Apollo. We read your CRM schema. We know what fields to populate because they&rsquo;re already in your HubSpot or Pipedrive. We know what conversations matter because they&rsquo;re on your calendar.",
+      { h: 'What 2nd Closer does instead.' },
+      "2nd Closer does not ask you to design the workflow. You sign into your CRM, your calendar, LinkedIn, and Apollo. We read your CRM schema. We know what fields to populate because they&rsquo;re already in your HubSpot or Pipedrive. We know what conversations matter because they&rsquo;re on your calendar.",
       "There is no canvas. There is no node. There is no trigger to wire to an action. The execution layer is the product. It runs without an integration architect.",
       { h: 'The bet.' },
       "Our bet is that the workflow-canvas era ends inside the next three years, the same way custom CRM implementations ended inside the SaaS era twenty years ago. The companies that win will not be the ones with the best canvas. They will be the ones whose customers never had to open one.",
@@ -86,7 +86,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "Somebody else, in this case, is the GTM engineer you hired or the contractor you&rsquo;re paying. The stack has been re-fragmented by the abundance of APIs. Each integration is a maintenance liability with a six-month half-life.",
       { h: 'When integrations are the product&rsquo;s job.' },
       "The alternative is software where the integrations are the product&rsquo;s job, not yours. When the upstream API changes, the vendor absorbs it. When the workflow needs to change, the vendor ships it. The customer&rsquo;s job is to use the software, not to engineer it.",
-      "This is the bet CHRM is making. Not better AI. Not more workflow nodes. Software that does not require an Industrial Complex to make it run.",
+      "This is the bet 2nd Closer is making. Not better AI. Not more workflow nodes. Software that does not require an Industrial Complex to make it run.",
     ],
     related: ['why-no-workflow-nodes', 'live-in-a-day'],
   },
@@ -109,7 +109,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "The pattern doesn&rsquo;t care that you didn&rsquo;t see it. The pipeline still leaks.",
       { h: 'What a one-day loop looks like.' },
       "A one-day feedback loop means the structured signal from yesterday&rsquo;s calls is in your CRM this morning. The leading indicators — persona, intent, competitor, champion altitude — are visible the same day they were generated. The pattern is detectable before it becomes a cohort.",
-      "You don&rsquo;t need a faster team to operate a one-day loop. You need data that doesn&rsquo;t require humans to log it. That&rsquo;s what CHRM does.",
+      "You don&rsquo;t need a faster team to operate a one-day loop. You need data that doesn&rsquo;t require humans to log it. That&rsquo;s what 2nd Closer does.",
     ],
     related: ['leading-vs-lagging', 'series-a-cro-playbook'],
   },
@@ -117,7 +117,7 @@ export const BLOG_POSTS: BlogPost[] = [
   // ─────────────────────────────────────────────────────────────
   {
     slug: 'live-in-a-day',
-    category: 'How CHRM works',
+    category: 'How 2nd Closer works',
     date: '2026-03-17',
     readTime: '4 min',
     author: 'Zach Fine, Founder',
@@ -126,10 +126,10 @@ export const BLOG_POSTS: BlogPost[] = [
     deck: 'No implementation. No engineer. No quarter-long rollout. Here&rsquo;s the literal sequence.',
     body: [
       "Most enterprise software ships with an implementation timeline. A statement of work. A kickoff. A discovery phase. A test environment. A user acceptance period. A production rollout. The line on the contract is the licence. The line on the budget is the implementation. The implementation always costs more.",
-      "CHRM doesn&rsquo;t do that. The sequence is short enough to print on a postcard.",
+      "2nd Closer doesn&rsquo;t do that. The sequence is short enough to print on a postcard.",
       { h: 'The actual sequence.' },
-      "OAuth into your CRM. CHRM reads every pipeline, every stage, every custom field. Fifteen minutes.",
-      "Connect Google or Microsoft Calendar. CHRM&rsquo;s built-in notetaker now joins every booked call. Five minutes.",
+      "OAuth into your CRM. 2nd Closer reads every pipeline, every stage, every custom field. Fifteen minutes.",
+      "Connect Google or Microsoft Calendar. 2nd Closer&rsquo;s built-in notetaker now joins every booked call. Five minutes.",
       "Authenticate LinkedIn. Capture and warm-up outreach turn on. Five minutes.",
       "Connect Apollo. Enrichment activates. Five minutes.",
       "Then a 30-minute configuration call with us. We walk through your field map together. You don&rsquo;t need to write a brief. You don&rsquo;t need to teach us your process — we read it from your CRM.",
@@ -160,7 +160,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "Don&rsquo;t hire the RevOps lead first. Don&rsquo;t roll out six tools. Solve the data problem before you build the dashboards.",
       "CRM hygiene is the foundation of every downstream sales operations function. If the underlying data is thirty percent complete, the dashboards on top of it are storytelling. Get the CRM to ninety-five percent first. Then decide what dashboards you actually need.",
       { h: 'What this looks like in practice.' },
-      "CHRM is one option. The point isn&rsquo;t the vendor — the point is the sequence. Fix the data layer before you build the analytics layer. Fix the analytics layer before you build the playbook automation layer. Most Series A go-to-market teams do this in reverse, and the receipts are everywhere.",
+      "2nd Closer is one option. The point isn&rsquo;t the vendor — the point is the sequence. Fix the data layer before you build the analytics layer. Fix the analytics layer before you build the playbook automation layer. Most Series A go-to-market teams do this in reverse, and the receipts are everywhere.",
     ],
     related: ['leading-vs-lagging', 'six-week-feedback-loop'],
   },
@@ -208,21 +208,21 @@ export const BLOG_POSTS: BlogPost[] = [
 <tr><td>Stakeholders discovered</td><td>Every person named in any conversation, with an inferred role.</td><td>Calls, email, LinkedIn</td><td>Every stage</td></tr>
 <tr><td>Risk flags</td><td>Missing decision-maker, budget uncertainty, competitive threat, timeline drift, champion gone quiet.</td><td>Continuous</td><td>Every stage</td></tr>
 </tbody></table></div>
-<p><a class="dl" href="/downloads/chrm-field-map-template.csv" download>Download the field-map template (CSV, 16 fields, with definitions and examples)</a></p>
+<p><a class="dl" href="/downloads/2nd-closer-field-map-template.csv" download>Download the field-map template (CSV, 16 fields, with definitions and examples)</a></p>
 <p>Import it as a checklist, then create the properties in HubSpot (Settings &rarr; Properties &rarr; Deal) or Pipedrive (Settings &rarr; Data fields &rarr; Deals). Keep the definitions column; it is the part your AE will actually read.</p>
 <h3>3. Backfill the last twenty deals</h3>
 <p>Fill those fields for every deal you closed or lost in the last six months. It takes an afternoon and it is the single most valuable document your AE will get, because it is the process demonstrated on real deals rather than described. You will also see your own pattern: which stakeholder mix closes, which objection predicts a loss, how long &ldquo;confirmed budget&rdquo; takes to appear. That is your playbook. It was there the whole time.</p>
 <h3>4. Make the fields fill themselves before the AE starts</h3>
 <p>Here is the part most kits skip. You can define the fields and backfill them and your AE will still not fill them going forward, because no rep does. The category has spent fifteen years building reminders and validation rules and the average company still sits at thirty-five percent completion. The reason you were able to keep the process in your head is that you were on every call. The AE will be on every call too, and will remember about as much of it as you did: the parts that felt important, two days later.</p>
-<p>So the last step is to remove the human from the data-entry loop before the human arrives. CHRM reads the field map you just built, joins every call, and writes those fields from the transcript, with a citation to the line that produced each value. It sends the follow-up from the rep&rsquo;s inbox in five minutes, maps every stakeholder who gets mentioned, and flags the deal when the economic buyer still has not been in a conversation by Evaluation. Your AE inherits a process that runs, not a document that describes one.</p>
+<p>So the last step is to remove the human from the data-entry loop before the human arrives. 2nd Closer reads the field map you just built, joins every call, and writes those fields from the transcript, with a citation to the line that produced each value. It sends the follow-up from the rep&rsquo;s inbox in five minutes, maps every stakeholder who gets mentioned, and flags the deal when the economic buyer still has not been in a conversation by Evaluation. Your AE inherits a process that runs, not a document that describes one.</p>
 <div class="cta">
-<p><strong>Hire one AE, get two.</strong> CHRM is free while it&rsquo;s in public beta. Bring an API key from any LLM provider, connect HubSpot or Pipedrive, and it is live the morning after a 20-minute call.</p>
+<p><strong>Hire one AE, get two.</strong> 2nd Closer is free while it&rsquo;s in public beta. Bring an API key from any LLM provider, connect HubSpot or Pipedrive, and it is live the morning after a 20-minute call.</p>
 <a class="btn btn--primary" href="/beta">Join the free beta</a>
 </div>
 <h3>The first thirty days, once they start</h3>
 <ul>
 <li><strong>Week 1:</strong> the AE reads the twenty backfilled deals, not a deck. Shadow three of your calls; you shadow three of theirs.</li>
-<li><strong>Week 2:</strong> they run discovery alone. You review the fields CHRM filled, not their notes. The fields are the coaching surface: if &ldquo;decision process&rdquo; is empty after a second call, you know exactly which question they are not asking.</li>
+<li><strong>Week 2:</strong> they run discovery alone. You review the fields 2nd Closer filled, not their notes. The fields are the coaching surface: if &ldquo;decision process&rdquo; is empty after a second call, you know exactly which question they are not asking.</li>
 <li><strong>Weeks 3&ndash;4:</strong> you stop joining calls on request. Ad hoc founder involvement signals you do not trust them with serious deals, and it makes the pipeline depend on you again. Join only when the risk feed says the deal needs you.</li>
 <li><strong>Day 30:</strong> look at the risk feed and the field completion together. If completion is above ninety percent and the risks are being worked, the handoff has happened. If not, the fields will tell you which part of the process did not transfer.</li>
 </ul>
@@ -318,7 +318,7 @@ export const BLOG_POSTS: BlogPost[] = [
 
 <h3>The version that writes itself</h3>
 <p>Every template above depends on the same thing: remembering what the buyer said. The number they gave. The name they dropped. The document they asked for. The step you agreed. That is exactly what evaporates in the forty-eight hours after a call, which is why most follow-ups are late and generic, and why the good rep on your team is mostly just the one with the best memory.</p>
-<p>CHRM removes the memory from the loop. It sits on the call, and within five minutes of it ending a follow-up is drafted from the actual transcript: the three things they said, the document Maria asked for, the next step with a date, in your voice, staged in your inbox or sent from your address. When a new stakeholder is named, template five goes out to them too, and a LinkedIn connection is queued. When the deal goes quiet, the risk feed says so on Monday instead of at the end of the quarter. The templates are the manual. The product is the autopilot.</p>
+<p>2nd Closer removes the memory from the loop. It sits on the call, and within five minutes of it ending a follow-up is drafted from the actual transcript: the three things they said, the document Maria asked for, the next step with a date, in your voice, staged in your inbox or sent from your address. When a new stakeholder is named, template five goes out to them too, and a LinkedIn connection is queued. When the deal goes quiet, the risk feed says so on Monday instead of at the end of the quarter. The templates are the manual. The product is the autopilot.</p>
 <div class="cta">
 <p><strong>Free while it&rsquo;s in beta. Bring any LLM key.</strong> Works inside the HubSpot or Pipedrive you already run. Live the morning after a 20-minute call.</p>
 <a class="btn btn--primary" href="/beta">Join the free beta</a>
@@ -344,7 +344,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "It also has a failure mode so common that nobody counts it as a failure any more: the fields exist, and they are empty. Field completion across B2B CRMs sits around thirty-five percent, and MEDDPICC fields are the first ones reps skip because each one is a paragraph, not a checkbox. The forecast call then runs on the fields that are filled, which are the easy ones, which are not the ones that predict the outcome.",
       { html: `
 <h3>The field map</h3>
-<p>Eight properties on the deal object. Use these types; free text for everything except the two that are genuinely categorical. The definitions column is the part reps and CHRM both need: what counts as &ldquo;filled&rdquo; for your team.</p>
+<p>Eight properties on the deal object. Use these types; free text for everything except the two that are genuinely categorical. The definitions column is the part reps and 2nd Closer both need: what counts as &ldquo;filled&rdquo; for your team.</p>
 <div class="tw"><table>
 <thead><tr><th>Letter</th><th>Property</th><th>Type (HubSpot / Pipedrive)</th><th>Filled when</th><th>Example</th></tr></thead>
 <tbody>
@@ -357,7 +357,7 @@ export const BLOG_POSTS: BlogPost[] = [
 <tr><td>C</td><td>Champion</td><td>Contact association + strength picklist (weak / active / proven)</td><td>Someone inside is selling for you. Proven means they have done something you asked that cost them effort.</td><td>Priya Nair, proven (set up the CFO call)</td></tr>
 <tr><td>C</td><td>Competition</td><td>Picklist from your registered competitors + text</td><td>Any named alternative, including &ldquo;do nothing&rdquo;, &ldquo;build it&rdquo; and &ldquo;hire someone&rdquo;.</td><td>Clari, low threat; also considering a RevOps hire</td></tr>
 </tbody></table></div>
-<p><a class="dl" href="/downloads/chrm-field-map-template.csv" download>Download the CHRM field-map template (CSV) and add these eight rows in your language</a></p>
+<p><a class="dl" href="/downloads/2nd-closer-field-map-template.csv" download>Download the 2nd Closer field-map template (CSV) and add these eight rows in your language</a></p>
 
 <h3>Setting it up</h3>
 <p><strong>HubSpot:</strong> Settings &rarr; Properties &rarr; Deal properties &rarr; Create property. Group them under a &ldquo;Qualification&rdquo; property group so they sit together on the record and in the sidebar. Add them to the deal stage requirements only for the stage where they should be true: economic buyer and decision process by Evaluation, paper process by Proposal. Requiring all eight at Discovery is how you get reps typing &ldquo;TBD&rdquo;.</p>
@@ -377,18 +377,18 @@ export const BLOG_POSTS: BlogPost[] = [
 <h3>Why the fields stay empty</h3>
 <p>Because filling them is a writing task, done from memory, two days after the call, by the most expensive person on the team. Reminders, validation rules and weekly pipeline scrubs have been tried for fifteen years. Completion is still thirty-five percent. Salesforce-only tools now fill these fields from call transcripts, which is why Weflow and Scratchpad rank for this query. If you are on HubSpot or Pipedrive, that page has not existed. This is it.</p>
 
-<h3>How CHRM fills MEDDPICC from every call</h3>
-<p>You map the eight properties once, in a 30-minute call, and tell CHRM what a filled one looks like for your team (the definitions column above). From then on:</p>
+<h3>How 2nd Closer fills MEDDPICC from every call</h3>
+<p>You map the eight properties once, in a 30-minute call, and tell 2nd Closer what a filled one looks like for your team (the definitions column above). From then on:</p>
 <ul>
-<li><strong>Every call and email thread is read</strong> by CHRM&rsquo;s notetaker or the one you already use (Fireflies, Fathom, Otter, Gong).</li>
+<li><strong>Every call and email thread is read</strong> by 2nd Closer&rsquo;s notetaker or the one you already use (Fireflies, Fathom, Otter, Gong).</li>
 <li><strong>Each field is written with a citation</strong> to the line in the transcript that produced it. Click the value in HubSpot or Pipedrive, see the sentence. Auditable by the rep, the manager and procurement.</li>
 <li><strong>Empty over wrong.</strong> If the economic buyer has not been in a conversation, the field stays empty, and the risk feed says so. No hallucinated CFOs.</li>
-<li><strong>Stage advances are proposed, not forced.</strong> When decision process and economic buyer are both filled, CHRM proposes Discovery &rarr; Evaluation; a manager approves.</li>
+<li><strong>Stage advances are proposed, not forced.</strong> When decision process and economic buyer are both filled, 2nd Closer proposes Discovery &rarr; Evaluation; a manager approves.</li>
 <li><strong>The gaps become coaching.</strong> A rep whose deals never have a decision process filled is a rep who is not asking that question. You see it Monday, not at quarter end.</li>
 </ul>
 <p>Accuracy on well-structured calls runs 92&ndash;97%. Field completion goes from around thirty-one percent to roughly a hundred, because there is no longer a human in the data-entry loop.</p>
 <div class="cta">
-<p><strong>MEDDPICC that fills itself, on the HubSpot or Pipedrive you already run.</strong> Free while CHRM is in public beta. Bring an API key from any LLM provider. Live the morning after a 20-minute call.</p>
+<p><strong>MEDDPICC that fills itself, on the HubSpot or Pipedrive you already run.</strong> Free while 2nd Closer is in public beta. Bring an API key from any LLM provider. Live the morning after a 20-minute call.</p>
 <a class="btn btn--primary" href="/beta">Join the free beta</a>
 </div>
 ` },

@@ -1,4 +1,4 @@
-// Shared content data types for the CHRM marketing site.
+// Shared content data types for the 2nd Closer marketing site.
 
 export type ProseItem = string | { h: string } | { html: string };
 export type MetaPair = [string, string];

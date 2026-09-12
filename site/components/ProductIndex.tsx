@@ -1,4 +1,4 @@
-// CHRM — Product index page, grouped by Capture/Structure/Activate/Iterate.
+// 2nd Closer — Product index page, grouped by Capture/Structure/Activate/Iterate.
 // (The source's live "tweaks" panel is omitted; its default layout is baked in.)
 import Link from "next/link";
 import type { PageData } from "@/lib/types";
@@ -23,18 +23,18 @@ export default function ProductIndex() {
   return (
     <main className="idx-page" id="top">
       <p className="sp-crumbs">
-        <Link href="/">CHRM</Link>
+        <Link href="/">2nd Closer</Link>
         <span>/</span>
         <span style={{ color: "var(--ink)" }}>Product</span>
       </p>
 
       <header className="idx-hero">
-        <p className="idx-hero__eye">Product &middot; CHRM</p>
+        <p className="idx-hero__eye">Product &middot; 2nd Closer</p>
         <h1 className="idx-hero__h">
           Capture. Structure. Activate. <em>Iterate.</em>
         </h1>
         <p className="idx-hero__sub">
-          Twelve features, four steps. The full surface of CHRM, for the buyer who&rsquo;s
+          Twelve features, four steps. The full surface of 2nd Closer, for the buyer who&rsquo;s
           evaluating specific capabilities.
         </p>
       </header>

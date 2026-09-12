@@ -18,7 +18,7 @@ export async function generateMetadata({
   const page = getComparePage(slug);
   if (!page) return {};
   return {
-    title: { absolute: `${page.title} — CHRM` },
+    title: { absolute: `${page.title} — 2nd Closer` },
     description: plainText(page.sub),
     alternates: { canonical: `/compare/${slug}` },
   };

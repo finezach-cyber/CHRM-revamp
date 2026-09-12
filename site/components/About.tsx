@@ -1,9 +1,9 @@
-// CHRM About — design philosophy. Three editorial notes + a sign-off.
+// 2nd Closer About — design philosophy. Three editorial notes + a sign-off.
 export default function About() {
   return (
     <main className="a-page" id="top">
       <header className="a-hero">
-        <p className="a-hero__eye">About &middot; CHRM</p>
+        <p className="a-hero__eye">About &middot; 2nd Closer</p>
         <h1 className="a-hero__h">
           Stay human. <em>Let AI do the rest.</em>
         </h1>
@@ -43,7 +43,7 @@ export default function About() {
               zero in the places it can. Where it can&rsquo;t, it shouldn&rsquo;t be there at all.
             </p>
             <p>
-              CHRM is built around this. It does the work end to end. It writes to your CRM
+              2nd Closer is built around this. It does the work end to end. It writes to your CRM
               directly. It sends the follow-up directly. It flags the risk to the person who
               needs to act on it, not to a queue nobody opens. If a feature can&rsquo;t do its work
               without asking the human to do more work first, it isn&rsquo;t shipped.
@@ -104,7 +104,7 @@ export default function About() {
             </div>
 
             <p>
-              The CHRM product is a long argument that these two jobs deserve most of a working
+              The 2nd Closer product is a long argument that these two jobs deserve most of a working
               day. Right now they get the leftovers. The average closer spends two to four hours a
               day on admin and the people they meet feel it. We&rsquo;re building the layer that gives
               those hours back.
@@ -152,7 +152,7 @@ export default function About() {
             </blockquote>
 
             <p>
-              CHRM is built so that this job doesn&rsquo;t exist for our customers. You connect four
+              2nd Closer is built so that this job doesn&rsquo;t exist for our customers. You connect four
               things. We read your schema. We do the work. If an upstream API changes, we absorb
               it &mdash; you find out by reading our changelog, not by paying a contractor to fix it.
             </p>

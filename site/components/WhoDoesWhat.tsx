@@ -1,4 +1,4 @@
-// CHRM marketing — The split. What your closer keeps; what CHRM takes.
+// 2nd Closer marketing — The split. What your closer keeps; what 2nd Closer takes.
 import Link from "next/link";
 
 const KEEPS: [string, string][] = [
@@ -27,13 +27,13 @@ export default function WhoDoesWhat() {
   return (
     <section className="m-split" id="second-ae" data-screen-label="Who does what">
       <header className="sec-head">
-        <div className="t-eyebrow">A second AE</div>
+        <div className="t-eyebrow">Who does what</div>
         <h2 className="sec-head__h">
-          Your closer talks. <em>CHRM does the rest.</em>
+          You talk. <em>2nd Closer does the rest.</em>
         </h2>
         <p className="sec-head__sub">
           An account executive’s week is a few hours of conversation and thirty hours of
-          everything around it. CHRM takes the thirty. It is not a CRM. It works inside the one
+          everything around it. 2nd Closer takes the thirty. It is not a CRM. It works inside the one
           you already have.
         </p>
       </header>
@@ -51,7 +51,7 @@ export default function WhoDoesWhat() {
           </ul>
         </div>
         <div className="m-split__col m-split__col--chrm">
-          <p className="m-split__colH">What CHRM takes</p>
+          <p className="m-split__colH">What 2nd Closer takes</p>
           <ul className="m-split__list m-split__list--two">
             {TAKES.map(([t, d, href]) => (
               <li key={t}>

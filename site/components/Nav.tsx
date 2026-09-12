@@ -1,4 +1,4 @@
-// CHRM marketing — top navigation
+// 2nd Closer marketing — top navigation
 // Dropdowns under Product (grouped by the 4-step framework), Integrations and Compare. Pricing is a first-class link.
 import { Fragment } from "react";
 import Link from "next/link";
@@ -16,8 +16,8 @@ export default function Nav({ current }: { current?: string }) {
 
   return (
     <nav className="m-nav" aria-label="Primary">
-      <Link href="/" className="m-nav__brand" aria-label="CHRM — home">
-        <img src="/assets/logo-wordmark.svg" alt="CHRM" />
+      <Link href="/" className="m-nav__brand" aria-label="2nd Closer — home">
+        <img src="/assets/2nd-closer-wordmark-day.svg" alt="2nd Closer" />
       </Link>
       <div className="m-nav__links">
         <span className="m-nav__group">

@@ -1,4 +1,4 @@
-// CHRM marketing — Final CTA with a working lead form.
+// 2nd Closer marketing — Final CTA with a working lead form.
 import Link from "next/link";
 import LeadForm from "./LeadForm";
 import { BOOKING_URL, BETA } from "@/lib/site";
@@ -14,9 +14,9 @@ export default function DemoCTA() {
             Join the free beta. <em>Bring any LLM key.</em>
           </h2>
           <p className="m-demo__body">
-            CHRM is free while it’s in public beta. You bring an API key from whichever LLM provider you
+            2nd Closer is free while it’s in public beta. You bring an API key from whichever LLM provider you
             already use; that usage is the only cost, on your bill, under your control. We don’t do
-            self-serve onboarding: a 20-minute call lets us configure CHRM to your CRM fields, your
+            self-serve onboarding: a 20-minute call lets us configure 2nd Closer to your CRM fields, your
             deal stages and the way your team actually works. The next morning every booked call is
             captured and every field is filling.
           </p>

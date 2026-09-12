@@ -1,4 +1,4 @@
-// CHRM — Single blog post (author byline + avatar).
+// 2nd Closer — Single blog post (author byline + avatar).
 import Link from "next/link";
 import { BLOG_POSTS, AUTHORS, getBlogPost, hrefForBlog } from "@/lib/data";
 
@@ -22,7 +22,7 @@ export default function BlogPost({ slug }: { slug: string }) {
 
   const author =
     AUTHORS.zach || {
-      name: post.author || "CHRM",
+      name: post.author || "2nd Closer",
       role: "",
       url: post.authorUrl || "",
       avatar: "",
@@ -31,7 +31,7 @@ export default function BlogPost({ slug }: { slug: string }) {
   return (
     <main className="bp-page" id="top">
       <p className="sp-crumbs">
-        <Link href="/">CHRM</Link>
+        <Link href="/">2nd Closer</Link>
         <span>/</span>
         <Link href="/blog">Blog</Link>
         <span>/</span>

@@ -1,11 +1,11 @@
-// CHRM — Free public beta page. What you get, what you bring, why BYOK, what "beta" means, and the form.
+// 2nd Closer — Free public beta page. What you get, what you bring, why BYOK, what "beta" means, and the form.
 import Link from "next/link";
 import LeadForm from "./LeadForm";
 import AfterTheCall from "./AfterTheCall";
 import { BETA } from "@/lib/site";
 
 const GET: [string, string][] = [
-  ["Everything CHRM does", "CRM hygiene, follow-ups sent, sequences, committee mapping, LinkedIn warm-up, Apollo enrichment, risk detection, competitor handling, win/loss iteration. No feature gates."],
+  ["Everything 2nd Closer does", "CRM hygiene, follow-ups sent, sequences, committee mapping, LinkedIn warm-up, Apollo enrichment, risk detection, competitor handling, win/loss iteration. No feature gates."],
   ["The built-in notetaker", "Joins every booked call on Zoom, Meet and Teams. Or we ingest Fireflies, Fathom, Otter or Gong."],
   ["Configuration with us", "A 20-minute call to map your fields and stages. Live the next morning."],
   ["Unlimited manager, RevOps and leadership seats", "Only closers are seats. Everyone else reads for free."],
@@ -15,7 +15,7 @@ const GET: [string, string][] = [
 const BRING: [string, string][] = [
   ["Admin access to HubSpot or Pipedrive", "OAuth. We read your pipelines, stages and custom fields; we don’t store credentials."],
   ["A Google or Microsoft calendar", "So the notetaker knows which calls to join."],
-  ["An API key from any LLM provider", "Anthropic, OpenAI, Google or another. Create a key, set a spend cap if you like, paste it on the call. The provider bills you for what CHRM uses."],
+  ["An API key from any LLM provider", "Anthropic, OpenAI, Google or another. Create a key, set a spend cap if you like, paste it on the call. The provider bills you for what 2nd Closer uses."],
   ["Optional: LinkedIn and Apollo", "For warm-up outreach and enrichment. Five minutes each. Skip them and add later."],
   ["Thirty minutes", "Twenty on the call, ten to decide what a well-filled deal record looks like to your team."],
 ];
@@ -24,7 +24,7 @@ export default function BetaPage() {
   return (
     <main className="sp-page" id="top" data-screen-label="Beta">
       <p className="sp-crumbs">
-        <Link href="/">CHRM</Link>
+        <Link href="/">2nd Closer</Link>
         <span>/</span>
         <span style={{ color: "var(--ink)" }}>Free beta</span>
       </p>
@@ -36,12 +36,12 @@ export default function BetaPage() {
         </h1>
         <p className="sp-hero__sub">
           {BETA.line} Works with any provider. No seat cap, no end date announced, no card. A
-          20-minute call to configure it, then a second AE for every closer by the next morning.
+          20-minute call to configure it, then the after-call work handled for every rep by the next morning.
         </p>
       </header>
 
       <div className="sp-meta">
-        <div className="sp-meta__cell"><p className="sp-meta__k">CHRM during the beta</p><p className="sp-meta__v">Free</p></div>
+        <div className="sp-meta__cell"><p className="sp-meta__k">2nd Closer during the beta</p><p className="sp-meta__v">Free</p></div>
         <div className="sp-meta__cell"><p className="sp-meta__k">You bring</p><p className="sp-meta__v">Any LLM API key</p></div>
         <div className="sp-meta__cell"><p className="sp-meta__k">Setup</p><p className="sp-meta__v">20-min call · live next morning</p></div>
         <div className="sp-meta__cell"><p className="sp-meta__k">Limits</p><p className="sp-meta__v">None stated</p></div>
@@ -115,7 +115,7 @@ export default function BetaPage() {
           </div>
           <div>
             <dt>Can I leave?</dt>
-            <dd>Any time. Everything CHRM wrote lives in your CRM as ordinary fields and activities. Revoke the key and the OAuth grants and it stops.</dd>
+            <dd>Any time. Everything 2nd Closer wrote lives in your CRM as ordinary fields and activities. Revoke the key and the OAuth grants and it stops.</dd>
           </div>
           <div>
             <dt>Do I need an engineer?</dt>

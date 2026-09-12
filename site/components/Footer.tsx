@@ -1,4 +1,4 @@
-// CHRM marketing — Footer.
+// 2nd Closer marketing — Footer.
 import Link from "next/link";
 import { COMPARE_PAGES } from "@/lib/compare-pages";
 import { TAGLINE, CONTACT_EMAIL } from "@/lib/site";
@@ -8,9 +8,9 @@ export default function Footer() {
     <footer className="m-footer" data-screen-label="Footer">
       <div className="m-footer__inner">
         <div>
-          <img src="/assets/logo-wordmark.svg" alt="CHRM" className="m-footer__brand" />
+          <img src="/assets/2nd-closer-wordmark-day.svg" alt="2nd Closer" className="m-footer__brand" />
           <p className="m-footer__tag">{TAGLINE}</p>
-          <p className="m-footer__tag2">A second AE for every closer. Works with HubSpot &amp; Pipedrive.</p>
+          <p className="m-footer__tag2">The AI account executive for HubSpot &amp; Pipedrive. Formerly CHRM.</p>
         </div>
         <div className="m-footer__cols">
           <div className="m-footer__col">
@@ -62,8 +62,8 @@ export default function Footer() {
       </div>
       <div className="m-footer__rule"></div>
       <div className="m-footer__base">
-        <span>&copy; 2026 CHRM &middot; All rights reserved &middot; <Link href="/privacy">Privacy</Link> &middot; <Link href="/terms">Terms</Link></span>
-        <span>CHRM is not a CRM. It works inside yours. People shown on this site are illustrative.</span>
+        <span>&copy; 2026 2nd Closer &middot; All rights reserved &middot; <Link href="/privacy">Privacy</Link> &middot; <Link href="/terms">Terms</Link></span>
+        <span>2nd Closer is not a CRM. It works inside yours. People shown on this site are illustrative.</span>
       </div>
     </footer>
   );

@@ -1,4 +1,4 @@
-// CHRM marketing — Proof strip. Five numbers the buyer can hold onto.
+// 2nd Closer marketing — Proof strip. Five numbers the buyer can hold onto.
 
 const PROOF: [string, string][] = [
   ["31% → ~100%", "CRM field completion, from the industry baseline to every deal"],
