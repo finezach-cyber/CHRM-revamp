@@ -45,7 +45,7 @@ const STORIES: Story[] = [
         eye: "Where CHRM came in",
         h: "The risk was nothing. So I just tried it.",
         body: [
-          "What got me past the door was the offer. Twenty-minute demo. Thirty days free for up to five seats. No contract negotiation, no procurement form, no implementation timeline written on the whiteboard. If it didn't work I'd close the tab.",
+          "What got me past the door was the offer. Twenty-minute call. Free while it&rsquo;s in beta, on our own API key. No contract negotiation, no procurement form, no implementation timeline written on the whiteboard. If it didn't work I'd close the tab.",
           "I signed up on a Tuesday afternoon. Wednesday at 9am we had a twenty-minute call. By 9:45 CHRM&rsquo;s notetaker was joining every booked call on the calendar, every HubSpot deal had a CHRM record, and every Apollo prospect we had had a stakeholder map. There was nothing to roll out. There was nothing to ask the team to learn. Nobody knew CHRM existed until they noticed their CRMs were full.",
         ],
       },

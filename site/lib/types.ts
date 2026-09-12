@@ -1,6 +1,6 @@
 // Shared content data types for the CHRM marketing site.
 
-export type ProseItem = string | { h: string };
+export type ProseItem = string | { h: string } | { html: string };
 export type MetaPair = [string, string];
 export type Bullet = [string, string];
 export type Section = "product" | "platform" | "integrations";

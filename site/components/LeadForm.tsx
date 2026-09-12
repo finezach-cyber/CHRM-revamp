@@ -19,14 +19,15 @@ export default function LeadForm() {
       email: String(data.get("email") || ""),
       crm: String(data.get("crm") || ""),
       aes: String(data.get("aes") || ""),
+      provider: String(data.get("provider") || ""),
       notes: String(data.get("notes") || ""),
       page: typeof window !== "undefined" ? window.location.pathname : "",
     };
 
     if (!FORM_ENDPOINT) {
-      const subject = encodeURIComponent(`CHRM 20-min call · ${payload.crm} · ${payload.aes} AEs`);
+      const subject = encodeURIComponent(`CHRM beta · ${payload.crm} · ${payload.aes} AEs · ${payload.provider}`);
       const body = encodeURIComponent(
-        `Name: ${payload.name}\nWork email: ${payload.email}\nCRM: ${payload.crm}\nAEs: ${payload.aes}\n\n${payload.notes}`
+        `Name: ${payload.name}\nWork email: ${payload.email}\nCRM: ${payload.crm}\nAEs: ${payload.aes}\nLLM key: ${payload.provider}\n\n${payload.notes}`
       );
       window.location.href = `mailto:${CONTACT_EMAIL}?subject=${subject}&body=${body}`;
       setState("sent");
@@ -53,7 +54,7 @@ export default function LeadForm() {
       <div className="lf lf--done" role="status">
         <p className="lf__done-h">Got it.</p>
         <p className="lf__done-p">
-          We reply within one business day with a 20-minute slot. If you would rather skip the wait,
+          We reply within one business day with a 20-minute slot to set the beta up with you. If you would rather skip the wait,
           email <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>.
         </p>
       </div>
@@ -61,7 +62,7 @@ export default function LeadForm() {
   }
 
   return (
-    <form className="lf" onSubmit={onSubmit} aria-label="Book a 20-minute call">
+    <form className="lf" onSubmit={onSubmit} aria-label="Join the free beta">
       <div className="lf__row">
         <label className="lf__field">
           <span>Name</span>
@@ -94,15 +95,24 @@ export default function LeadForm() {
         </label>
       </div>
       <label className="lf__field">
+        <span>LLM key you’d bring</span>
+        <select name="provider" defaultValue="Anthropic">
+          <option>Anthropic</option>
+          <option>OpenAI</option>
+          <option>Google</option>
+          <option>Other / not sure yet</option>
+        </select>
+      </label>
+      <label className="lf__field">
         <span>Anything we should know (optional)</span>
         <textarea name="notes" rows={3} placeholder="Notetaker you use, fields you care about, what broke last time." />
       </label>
       <input type="text" name="company_website" tabIndex={-1} autoComplete="off" className="sr-only" aria-hidden="true" />
       <div className="lf__actions">
         <button type="submit" className="btn btn--primary" disabled={state === "sending"}>
-          {state === "sending" ? "Sending…" : "Request a 20-min call"}
+          {state === "sending" ? "Sending…" : "Join the free beta"}
         </button>
-        <span className="lf__fine">No commitment. First 30 days free for up to five AE seats.</span>
+        <span className="lf__fine">Free during the beta. We reply with a 20-minute slot to configure it with you.</span>
       </div>
       {state === "error" && (
         <p className="lf__error" role="alert">

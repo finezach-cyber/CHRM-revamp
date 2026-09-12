@@ -12,8 +12,14 @@ export const FORM_ENDPOINT = process.env.NEXT_PUBLIC_FORM_ENDPOINT || "";
 export const CONTACT_EMAIL = process.env.NEXT_PUBLIC_CONTACT_EMAIL || "hello@chrm.app";
 
 // Pricing is deliberately not published on the site; it is shared on the intro call.
-export const FREE_DAYS = 30;
-export const FREE_TRIAL_SEATS = 5;
+// CHRM is in a free public beta: bring your own LLM API key (any provider), configured with us on a 20-minute call.
+export const BETA = {
+  name: "Free public beta",
+  short: "Free public beta · bring any LLM key",
+  cta: "Join the free beta",
+  ctaSub: "A 20-minute call, then live the next morning",
+  line: "CHRM is free during the public beta. You bring an API key from any LLM provider; that usage is the only cost.",
+};
 
 // Cost anchors used in the alternatives section. Sources in docs/02.
 export const ANCHORS = {

@@ -49,8 +49,24 @@ export const FAQS: { q: string; a: string }[] = [
     a: "CHRM connects over OAuth and stores no credentials. Transcripts are processed to extract structured fields and then discarded; only the structured output is written to your CRM. A formal SOC 2 audit is ahead of us, not behind us. If your security team needs a review, ask on the intro call and we'll walk through exactly how we handle data.",
   },
   {
-    q: "How much does CHRM cost?",
-    a: "CHRM is priced per account-executive seat, and we share the number on the 20-minute intro call once we know your team size and CRM setup. Managers, RevOps and leadership seats don't bill. There is no platform fee, no credits and no implementation line. The first thirty days are free for up to five AE seats.",
+    q: "What does the beta cost?",
+    a: "Nothing. CHRM is free while it is in public beta. You bring an API key from whichever LLM provider you already use, and that provider bills you for the tokens CHRM uses on your behalf. There is no platform fee, no credits and no implementation line, and no stated limit on seats or duration.",
+  },
+  {
+    q: "Which API key do I need?",
+    a: "Any LLM provider works: Anthropic, OpenAI, Google, or another. Create a key in your provider's console, set a spend cap if you want one, and paste it during the configuration call. CHRM never sees your billing account, only the key you scope for it, and you can rotate or revoke it any time.",
+  },
+  {
+    q: "Why bring my own key?",
+    a: "Control and honesty. Your transcripts and CRM data go to the model provider you chose, under your own terms and data-retention settings, not through a reseller. You see exactly what the AI costs on your own invoice instead of a marked-up per-seat bundle. And it keeps the beta free, which is what a beta should be.",
+  },
+  {
+    q: "How much will the API usage cost me?",
+    a: "It depends on your provider, the model you choose and how many calls your team runs. Transcript processing, field extraction, follow-up drafting and risk checks all use tokens on your key. Teams in the beta find it a small fraction of what a seat licence would cost; we show you the estimate for your team on the call, and you can set a spend cap at the provider so there are no surprises.",
+  },
+  {
+    q: "What will CHRM cost after the beta?",
+    a: "Pricing will be per account-executive seat and we will share it on the call. Beta teams will hear first and get the beta terms honoured for a period we will announce before any change. Managers, RevOps and leadership seats will stay free.",
   },
   {
     q: "What size sales team does CHRM work best for?",

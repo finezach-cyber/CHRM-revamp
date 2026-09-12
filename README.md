@@ -8,8 +8,11 @@ Research, strategy and a drop-in redesign of [chrm.app](https://www.chrm.app) ar
 | `docs/02-competitive-landscape.md` | The 12 alternatives plus the DIY stack: pricing, CRM coverage, what they do after the call, where CHRM wins |
 | `docs/03-keyword-strategy.md` | Six keyword clusters, gap analysis, page map, 90-day roadmap. Volumes are estimate bands to validate in Ahrefs/Semrush. |
 | `docs/04-brand-and-website-redesign.md` | What changed on the site and why, conversion mechanics, config, launch checklist, measurement |
+| `docs/05-seed-series-a-positioning.md` | The problems that draw seed and Series A founders (validated), positioning by stage, the free BYOK beta as positioning, the collateral plan |
+| `docs/data/` | DataForSEO outputs: scored keywords, competitor rankings, founder cluster, generated tables |
+| `tools/dataforseo/validate.py` | Re-runnable keyword validation (credentials from env vars; cache is git-ignored) |
 | `brand/` | Refreshed logo (the H is the only coloured letter), favicon, tokens, guidelines |
-| `site/` | The Next.js 16 site from `finezach-cyber/chrm-website` with the redesign applied. Same stack, same content pages, new homepage, `/compare/*`, lead form, sitemap, structured data. |
+| `site/` | The Next.js 16 site from `finezach-cyber/chrm-website` with the redesign applied. Same stack, same content pages, new homepage, `/beta`, `/startups`, `/compare/*`, three pillar posts, lead form, sitemap, structured data. Free-beta offer; no pricing on the site. |
 
 ## Run the site
 

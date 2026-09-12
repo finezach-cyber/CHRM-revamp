@@ -2,7 +2,7 @@
 import Link from "next/link";
 import type { CmpCell, ComparePageData } from "@/lib/compare-pages";
 import { getComparePage } from "@/lib/compare-pages";
-import { BOOKING_URL } from "@/lib/site";
+import { BOOKING_URL, BETA } from "@/lib/site";
 
 function Cell({ c }: { c: CmpCell }) {
   const sym = c.kind === "yes" ? "✓" : c.kind === "no" ? "—" : c.kind === "shaky" ? "!" : "~";
@@ -91,7 +91,7 @@ export default function CompareDetail({ slug }: { slug: string }) {
         <p className="cd-verdict__eye">Our honest read</p>
         <p className="cd-verdict__p">{page.verdict}</p>
         <div className="cd-verdict__ctas">
-          <a href={BOOKING_URL} className="btn btn--primary">Book a 20-min call</a>
+          <a href={BOOKING_URL} className="btn btn--primary">{BETA.cta}</a>
           <Link href="/features" className="btn btn--ghost">See how it works</Link>
         </div>
       </section>

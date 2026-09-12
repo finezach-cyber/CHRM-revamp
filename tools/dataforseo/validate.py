@@ -95,6 +95,82 @@ RULES = [
 INTENT_W = {"commercial": 1.0, "transactional": 1.0, "navigational": 0.9, "informational": 0.5}
 
 
+# ---------------------------------------------------------------- founder / seed–Series A cluster
+FOUNDER_SEEDS = [
+    "founder led sales", "founder-led sales", "founder led sales playbook", "founder led sales to sales team",
+    "first sales hire", "first sales hire startup", "when to hire first sales rep", "when to hire your first ae",
+    "founding ae", "founding account executive", "hire first sales rep", "first ae hire", "hiring a founding ae",
+    "sales playbook", "sales playbook template", "sales playbook example", "startup sales playbook", "b2b sales playbook",
+    "startup sales process", "sales process for startups", "repeatable sales process", "sales process template",
+    "best crm for startups", "crm for startups", "startup crm", "hubspot for startups", "best crm for small startups",
+    "best crm for saas startups", "crm for early stage startups", "hubspot startup discount",
+    "sales forecast accuracy", "pipeline coverage", "pipeline coverage ratio", "sales pipeline review", "pipeline review template",
+    "board deck template", "series a board deck", "saas board deck", "series a metrics", "seed stage metrics", "series a sales metrics",
+    "sales hiring plan", "sales capacity planning", "sales capacity model", "ae ramp time", "sales ramp time", "quota attainment",
+    "one person sales team", "sales team of one", "how to scale a sales team", "scaling sales team startup", "building a sales team from scratch",
+    "sales ops for startups", "revops for startups", "startup revops", "sales stack for startups", "startup sales stack", "sales tools for startups",
+    "how to do sales as a founder", "founder sales", "technical founder sales", "sales for technical founders",
+    "first vp of sales", "when to hire vp of sales", "head of sales startup", "vp sales hire startup",
+    "sales follow up", "follow up after demo", "follow up email after demo", "demo follow up email",
+    "deal review template", "pipeline meeting", "weekly pipeline review", "sales forecast template",
+    "crm adoption", "sales reps not using crm", "salespeople hate crm", "crm data entry",
+    "founder led sales handoff", "transition from founder led sales", "scaling founder led sales",
+    "seed stage sales", "series a sales", "series a go to market", "gtm for startups", "go to market startup",
+]
+
+
+def stage_founder(dry):
+    """Volumes, KD, intent and SERP for the seed / Series A founder cluster."""
+    print("Stage: founder cluster")
+    out = call("dataforseo_labs/google/keyword_overview/live", [{
+        "keywords": sorted(set(FOUNDER_SEEDS)), "location_code": LOC, "language_code": LANG,
+    }], "founder_overview", dry)
+    found = {}
+    for r in results(out):
+        for it in r.get("items") or []:
+            found[it["keyword"]] = kw_fields(it)
+    missing = sorted(k for k in set(FOUNDER_SEEDS) if k not in found)
+    if missing:
+        out = call("keywords_data/google_ads/search_volume/live", [{
+            "keywords": missing, "location_code": LOC, "language_code": LANG,
+        }], "founder_ads", dry)
+        for r in results(out):
+            if r and r.get("keyword") is not None:
+                found[r["keyword"]] = {"volume": r.get("search_volume"), "cpc": r.get("cpc"), "kd": None, "intent": None, "ads": True}
+    if dry:
+        return
+    rows = []
+    for kw, f in found.items():
+        rows.append({"keyword": kw, "volume": f.get("volume") or 0, "kd": f.get("kd"), "cpc": f.get("cpc"), "intent": f.get("intent"), "serp_top10": ""})
+    rows.sort(key=lambda r: -r["volume"])
+    top = [r for r in rows if r["volume"] >= 200][:18]
+    for r in top:
+        out = call("serp/google/organic/live/regular", [{
+            "keyword": r["keyword"], "location_code": LOC, "language_code": LANG, "depth": 10, "device": "desktop",
+        }], "serp_" + hashlib.md5(r["keyword"].encode()).hexdigest()[:10], dry)
+        doms = []
+        for rr in results(out):
+            for it in rr.get("items") or []:
+                if it.get("type") == "organic" and it.get("domain"):
+                    doms.append(it["domain"])
+        r["serp_top10"] = ";".join(doms)
+    with open(DATA / "founder-keywords.csv", "w", newline="") as f:
+        w = csv.DictWriter(f, fieldnames=list(rows[0].keys())); w.writeheader(); w.writerows(rows)
+    fmt = lambda n: f"{int(n):,}" if n else "0"
+    t = md_table(["Keyword", "Vol/mo", "KD", "Intent", "Who ranks top 10"],
+                 [(r["keyword"], fmt(r["volume"]), r["kd"] if r["kd"] is not None else "", r["intent"] or "", r["serp_top10"][:120]) for r in rows if r["volume"] >= 50])
+    section = f"""
+
+## Seed / Series A founder cluster ({time.strftime('%d %b %Y')})
+_{len(rows)} terms; SERP checked for the top {len(top)}. Raw: `docs/data/founder-keywords.csv`._
+
+{t}
+"""
+    with open(DATA / "validated-keywords.md", "a") as f:
+        f.write(section)
+    print(f"  {len(rows)} founder keywords → docs/data/founder-keywords.csv")
+
+
 # ---------------------------------------------------------------- client
 def _auth():
     login, pw = os.environ.get("DATAFORSEO_LOGIN"), os.environ.get("DATAFORSEO_PASSWORD")
@@ -479,7 +555,9 @@ def main():
     expand = stage_expand(dry) if "expand" in stages else {}
     if "ads" in stages:
         seeds = {**stage_ads(dry, set(seeds)), **seeds}
-    if dry:
+    if "founder" in stages:
+        stage_founder(dry)
+    if dry or stages == ["founder"]:
         return
     U = build_universe(ranked, seeds, expand)
     for u in U.values():

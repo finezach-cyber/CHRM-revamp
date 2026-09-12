@@ -55,7 +55,7 @@ const COLS: Col[] = [
     href: "/setup",
     cells: [
       "Under one business day",
-      "A per-AE subscription, shared on the intro call. No platform fee, no implementation line.",
+      "Free during the public beta. You bring the LLM key; that usage is the only cost.",
       "CHRM. Upstream changes are absorbed by us.",
       "The whole job, by default.",
       "Kept. Read, respected, written back to.",

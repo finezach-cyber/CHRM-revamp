@@ -5,7 +5,7 @@ import Link from "next/link";
 import { groupedProduct } from "@/lib/steps";
 import { INTEGRATION_PAGES, hrefForPage } from "@/lib/data";
 import { COMPARE_PAGES } from "@/lib/compare-pages";
-import { BOOKING_URL } from "@/lib/site";
+import { BOOKING_URL, BETA } from "@/lib/site";
 
 export default function Nav({ current }: { current?: string }) {
   const groups = groupedProduct();
@@ -78,12 +78,13 @@ export default function Nav({ current }: { current?: string }) {
           </div>
         </span>
 
+        <Link href="/startups" className={cls("startups")} aria-current={aria("startups")}>For startups</Link>
         <Link href="/blog" className={cls("blog")} aria-current={aria("blog")}>Blog</Link>
         <Link href="/about" className={cls("about")} aria-current={aria("about")}>About</Link>
       </div>
       <div className="m-nav__ctas">
-        <Link href="/setup" className="m-nav__cta">Live in a day</Link>
-        <a href={BOOKING_URL} className="m-nav__cta--btn">Book a 20-min call</a>
+        <Link href="/beta" className="m-nav__cta">Free beta · BYOK</Link>
+        <a href={BOOKING_URL} className="m-nav__cta--btn">{BETA.cta}</a>
       </div>
     </nav>
   );

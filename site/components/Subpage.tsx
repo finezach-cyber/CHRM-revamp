@@ -48,8 +48,11 @@ function Prose({ items }: { items: ProseItem[] }) {
         if (typeof item === "string") {
           return <p key={i} dangerouslySetInnerHTML={{ __html: item }} />;
         }
-        if (item && item.h) {
+        if (item && "h" in item) {
           return <h3 key={i} dangerouslySetInnerHTML={{ __html: item.h }} />;
+        }
+        if (item && "html" in item) {
+          return <div key={i} className="sp-prose__html" dangerouslySetInnerHTML={{ __html: item.html }} />;
         }
         return null;
       })}

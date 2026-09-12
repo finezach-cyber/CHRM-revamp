@@ -1,0 +1,17 @@
+field_name,object,type,filled_from,definition_for_your_team,example_value,required_by_stage
+Champion,Deal,contact,call transcript + email threads,"The person inside the account who wants this to happen and will spend political capital on it. Not the same as the main contact.",Priya Nair (Head of RevOps),Discovery
+Economic buyer,Deal,contact,call transcript,"The person who can sign or kill the budget. If they have not been in a conversation, the field stays empty.",CFO (not yet met),Evaluation
+Budget signal,Deal,picklist: unconfirmed / discussed / confirmed / blocked,call transcript,"Confirmed only when the buyer states a number or an approved line. 'We have budget for tools like this' is discussed, not confirmed.",Confirmed for Q4,Evaluation
+Timeline,Deal,text,call transcript + email threads,"The buyer's stated decision or go-live date, in their words, with the source line.",Pilot by November; contract before fiscal year end,Discovery
+Decision criteria,Deal,text,call transcript,"What the buyer said they will judge on. Verbatim where possible.",SOC 2 report; HubSpot native; under 2 weeks to live,Evaluation
+Decision process,Deal,text,call transcript,"Who signs, in what order, and what the procurement or security steps are.",Security review then CFO sign-off then legal,Evaluation
+Top objection,Deal,text,call transcript,"The strongest reason they gave for not buying, and whether it was answered.",Worried about rep adoption; addressed with the no-change-to-workflow point,Discovery
+Competitor mentioned,Deal,picklist from your registered list,call transcript + email threads,"Any named alternative, including 'do nothing' and 'hire someone'.",Clari (low threat),Discovery
+Next step,Deal,text + date,call transcript,"The specific action both sides agreed to, with the date. Not 'follow up'.",Send SOC 2 to Maria by Thursday; 20-min CFO call next week,Every stage
+Stakeholders discovered,Contacts,list,call transcript + email threads + LinkedIn,"Every person named in any conversation, with an inferred role: champion, economic buyer, technical evaluator, blocker, end user.",Maria Chen (Head of Security, technical evaluator),Every stage
+Industry,Company,picklist from your taxonomy,Apollo + call transcript,"Your segments in your language, not a NAICS code.",Healthcare payer,Discovery
+ICP fit,Company,score 0-100,Apollo firmographics,"How closely this account matches the profile you defined.",82,Discovery
+Use case,Deal,text,call transcript,"What they are trying to do, in their words.",Stop losing renewals to late follow-ups,Discovery
+Risk flags,Deal,multi-picklist,continuous,"Missing decision-maker; budget uncertainty; competitive threat; timeline drift; champion disengagement. Each with severity and source line.",Budget unconfirmed past Evaluation (medium),Every stage
+Deal source,Deal,picklist,CRM history,"Inbound, outbound, referral, partner. Keep it honest; it feeds the win/loss analysis.",Referral,Lead
+Last meaningful touch,Deal,date,continuous,"The last two-way interaction, any channel. Not the last email you sent.",2026-09-10,Every stage

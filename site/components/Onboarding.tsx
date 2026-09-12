@@ -69,8 +69,8 @@ export default function Onboarding() {
               <span className="v">None</span>
             </div>
             <div>
-              <span className="k">First 30 days</span>
-              <span className="v">Free</span>
+              <span className="k">Public beta</span>
+              <span className="v">Free · BYOK</span>
             </div>
           </div>
         </div>

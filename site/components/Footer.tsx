@@ -47,6 +47,8 @@ export default function Footer() {
           <div className="m-footer__col">
             <p className="m-footer__col-h">Company</p>
             <ul>
+              <li><Link href="/beta">Free beta (BYOK)</Link></li>
+              <li><Link href="/startups">For startups</Link></li>
               <li><Link href="/about">About</Link></li>
               <li><Link href="/blog">Blog</Link></li>
               <li><Link href="/setup">Setup</Link></li>

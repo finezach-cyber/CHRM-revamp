@@ -76,8 +76,11 @@ export default function BlogPost({ slug }: { slug: string }) {
           if (typeof item === "string") {
             return <p key={i} dangerouslySetInnerHTML={{ __html: item }} />;
           }
-          if (item && item.h) {
+          if (item && "h" in item) {
             return <h2 key={i} dangerouslySetInnerHTML={{ __html: item.h }} />;
+          }
+          if (item && "html" in item) {
+            return <div key={i} className="bp-body__html" dangerouslySetInnerHTML={{ __html: item.html }} />;
           }
           return null;
         })}

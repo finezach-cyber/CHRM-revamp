@@ -1,7 +1,7 @@
 // CHRM marketing — Final CTA with a working lead form.
 import Link from "next/link";
 import LeadForm from "./LeadForm";
-import { BOOKING_URL, FREE_DAYS, FREE_TRIAL_SEATS } from "@/lib/site";
+import { BOOKING_URL, BETA } from "@/lib/site";
 
 export default function DemoCTA() {
   const hasBooking = BOOKING_URL !== "#demo";
@@ -9,18 +9,19 @@ export default function DemoCTA() {
     <section className="m-demo" id="demo" data-screen-label="Demo CTA">
       <div className="m-demo__grid">
         <div className="m-demo__copy">
-          <div className="t-eyebrow">Book a call</div>
+          <div className="t-eyebrow">{BETA.name}</div>
           <h2 className="m-demo__h">
-            Twenty minutes. <em>Then a second AE for every closer.</em>
+            Join the free beta. <em>Bring any LLM key.</em>
           </h2>
           <p className="m-demo__body">
-            We don’t do self-serve onboarding. A short call lets us configure CHRM to your CRM
-            fields, your deal stages, and the way your team actually works. By the next morning
-            every booked call is captured and every field is filling. If we’re not the right fit,
-            we’ll say so before the second call.
+            CHRM is free while it’s in public beta. You bring an API key from whichever LLM provider you
+            already use; that usage is the only cost, on your bill, under your control. We don’t do
+            self-serve onboarding: a 20-minute call lets us configure CHRM to your CRM fields, your
+            deal stages and the way your team actually works. The next morning every booked call is
+            captured and every field is filling.
           </p>
           <p className="m-demo__fine">
-            {`No commitment · first ${FREE_DAYS} days free for up to ${FREE_TRIAL_SEATS} AE seats · HubSpot & Pipedrive · live in under a day`}
+            {`Free during the beta · any LLM key · HubSpot & Pipedrive · live in under a day · no stated limits`}
           </p>
           {hasBooking && (
             <p className="m-demo__alt">
@@ -28,7 +29,7 @@ export default function DemoCTA() {
             </p>
           )}
           <p className="m-demo__alt">
-            Not ready? <Link href="/setup">See how setup works</Link> or{" "}
+            Not ready? <Link href="/beta">Read how the beta works</Link>, <Link href="/setup">see setup</Link> or{" "}
             <Link href="/features">read how it works</Link>.
           </p>
         </div>
