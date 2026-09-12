@@ -1,6 +1,6 @@
 // CHRM marketing — The three ways teams try to fix this, and what each one costs.
 import Link from "next/link";
-import { ANCHORS, PRICE_PER_AE_MONTH } from "@/lib/site";
+import { ANCHORS } from "@/lib/site";
 
 const fmt = (n: number) => "$" + Math.round(n).toLocaleString();
 
@@ -55,7 +55,7 @@ const COLS: Col[] = [
     href: "/setup",
     cells: [
       "Under one business day",
-      `${fmt(PRICE_PER_AE_MONTH)} per AE per month. Every other seat free.`,
+      "A per-AE subscription, shared on the intro call. No platform fee, no implementation line.",
       "CHRM. Upstream changes are absorbed by us.",
       "The whole job, by default.",
       "Kept. Read, respected, written back to.",

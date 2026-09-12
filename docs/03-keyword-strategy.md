@@ -103,5 +103,5 @@ Dropped from the plan after validation: "hubspot implementation cost" (10/mo), "
 ## 3.8 Measurement
 
 - Search Console impressions and clicks per row in the page map, weekly.
-- Conversion: demo-form submissions per organic landing page. Expected order: compare and pricing pages highest, methodology pages and the follow-up template page lowest per visit but highest in volume.
+- Conversion: demo-form submissions per organic landing page. Expected order: compare pages highest, methodology pages and the follow-up template page lowest per visit but highest in volume.
 - Re-run `python3 tools/dataforseo/validate.py` quarterly (cache cleared) to refresh the tables; cost is under $2.

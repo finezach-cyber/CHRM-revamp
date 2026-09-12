@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import PageShell from "@/components/PageShell";
-import { CONTACT_EMAIL, PRICE_PER_AE_MONTH } from "@/lib/site";
+import { CONTACT_EMAIL } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: { absolute: "Terms — CHRM" },
@@ -21,7 +21,7 @@ export default function Terms() {
         </header>
         <section className="sp-body">
           <div className="sp-prose">
-            <p>CHRM is billed at ${PRICE_PER_AE_MONTH.toLocaleString()} per account-executive seat per month. Manager, RevOps and leadership seats are free. Billing is monthly and can be cancelled at any time from the team management page.</p>
+            <p>CHRM is billed per account-executive seat at the rate agreed on your order. Manager, RevOps and leadership seats are free. Billing is monthly and can be cancelled at any time from the team management page.</p>
             <p>The first thirty days are free for up to five AE seats. No card is required to start.</p>
             <p>Your CRM remains your system of record. Everything CHRM writes is stored in your CRM as ordinary fields and activities and is yours to keep if you leave.</p>
             <p>Questions: <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>.</p>

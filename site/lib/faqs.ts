@@ -50,7 +50,7 @@ export const FAQS: { q: string; a: string }[] = [
   },
   {
     q: "How much does CHRM cost?",
-    a: "$1,000 per AE seat per month. Every other seat — managers, RevOps, leadership — is free. No platform fee, no credits, no implementation line. The first thirty days are free for up to five AE seats.",
+    a: "CHRM is priced per account-executive seat, and we share the number on the 20-minute intro call once we know your team size and CRM setup. Managers, RevOps and leadership seats don't bill. There is no platform fee, no credits and no implementation line. The first thirty days are free for up to five AE seats.",
   },
   {
     q: "What size sales team does CHRM work best for?",

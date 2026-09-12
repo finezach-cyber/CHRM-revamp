@@ -63,8 +63,6 @@ export default function Nav({ current }: { current?: string }) {
           </div>
         </span>
 
-        <Link href="/pricing" className={cls("pricing")} aria-current={aria("pricing")}>Pricing</Link>
-
         <span className="m-nav__group">
           <Link href="/compare" className={cls("compare")} aria-current={aria("compare")} aria-haspopup="true">
             Compare
@@ -84,7 +82,7 @@ export default function Nav({ current }: { current?: string }) {
         <Link href="/about" className={cls("about")} aria-current={aria("about")}>About</Link>
       </div>
       <div className="m-nav__ctas">
-        <Link href="/pricing" className="m-nav__cta">$1,000 / AE / mo</Link>
+        <Link href="/setup" className="m-nav__cta">Live in a day</Link>
         <a href={BOOKING_URL} className="m-nav__cta--btn">Book a 20-min call</a>
       </div>
     </nav>

@@ -28,7 +28,7 @@ export default function DemoCTA() {
             </p>
           )}
           <p className="m-demo__alt">
-            Not ready? <Link href="/pricing">See what it costs</Link> or{" "}
+            Not ready? <Link href="/setup">See how setup works</Link> or{" "}
             <Link href="/features">read how it works</Link>.
           </p>
         </div>

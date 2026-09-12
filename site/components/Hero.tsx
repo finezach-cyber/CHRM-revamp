@@ -1,7 +1,7 @@
 // CHRM marketing — Hero. The promise on the left; the proof (what happens after a call) on the right.
 import Link from "next/link";
 import AfterTheCall from "./AfterTheCall";
-import { BOOKING_URL, PRICE_PER_AE_MONTH, FREE_DAYS, FREE_TRIAL_SEATS } from "@/lib/site";
+import { BOOKING_URL, FREE_DAYS, FREE_TRIAL_SEATS } from "@/lib/site";
 
 export default function Hero() {
   return (
@@ -22,10 +22,10 @@ export default function Hero() {
           </p>
           <div className="m-hero__ctas">
             <a href={BOOKING_URL} className="btn btn--primary">Book a 20-min call</a>
-            <Link href="/pricing" className="btn btn--ghost">See pricing</Link>
+            <Link href="/features" className="btn btn--ghost">See how it works</Link>
           </div>
           <p className="m-hero__fine">
-            {`$${PRICE_PER_AE_MONTH.toLocaleString()} per AE per month · every other seat free · first ${FREE_DAYS} days free for up to ${FREE_TRIAL_SEATS} AEs · no migration, no engineer`}
+            {`Works with HubSpot & Pipedrive · no migration, no engineer · first ${FREE_DAYS} days free for up to ${FREE_TRIAL_SEATS} AEs`}
           </p>
         </div>
         <div className="m-hero__proof">

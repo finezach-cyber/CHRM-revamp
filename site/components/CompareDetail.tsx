@@ -92,7 +92,7 @@ export default function CompareDetail({ slug }: { slug: string }) {
         <p className="cd-verdict__p">{page.verdict}</p>
         <div className="cd-verdict__ctas">
           <a href={BOOKING_URL} className="btn btn--primary">Book a 20-min call</a>
-          <Link href="/pricing" className="btn btn--ghost">See pricing</Link>
+          <Link href="/features" className="btn btn--ghost">See how it works</Link>
         </div>
       </section>
 

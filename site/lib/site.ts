@@ -11,11 +11,11 @@ export const BOOKING_URL = process.env.NEXT_PUBLIC_BOOKING_URL || "#demo";
 export const FORM_ENDPOINT = process.env.NEXT_PUBLIC_FORM_ENDPOINT || "";
 export const CONTACT_EMAIL = process.env.NEXT_PUBLIC_CONTACT_EMAIL || "hello@chrm.app";
 
-export const PRICE_PER_AE_MONTH = 1000;
+// Pricing is deliberately not published on the site; it is shared on the intro call.
 export const FREE_DAYS = 30;
 export const FREE_TRIAL_SEATS = 5;
 
-// Cost anchors used on /pricing and in the alternatives section. Sources in docs/02.
+// Cost anchors used in the alternatives section. Sources in docs/02.
 export const ANCHORS = {
   secondAeOte: 120_000, // typical mid-market AE on-target earnings, USD
   gtmEngineerBase: 185_000, // midpoint of $132k–$241k (SyncGTM, DevCommX 2026)

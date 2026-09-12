@@ -22,7 +22,6 @@ export default function Footer() {
               <li><Link href="/product/follow-up-emails">Follow-up emails</Link></li>
               <li><Link href="/product/linkedin-outreach">LinkedIn outreach</Link></li>
               <li><Link href="/product/risk-detection">Risk detection</Link></li>
-              <li><Link href="/pricing">Pricing</Link></li>
             </ul>
           </div>
           <div className="m-footer__col">

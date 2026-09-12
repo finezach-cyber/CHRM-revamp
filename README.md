@@ -9,7 +9,7 @@ Research, strategy and a drop-in redesign of [chrm.app](https://www.chrm.app) ar
 | `docs/03-keyword-strategy.md` | Six keyword clusters, gap analysis, page map, 90-day roadmap. Volumes are estimate bands to validate in Ahrefs/Semrush. |
 | `docs/04-brand-and-website-redesign.md` | What changed on the site and why, conversion mechanics, config, launch checklist, measurement |
 | `brand/` | Refreshed logo (the H is the only coloured letter), favicon, tokens, guidelines |
-| `site/` | The Next.js 16 site from `finezach-cyber/chrm-website` with the redesign applied. Same stack, same content pages, new homepage, `/pricing`, `/compare/*`, lead form, sitemap, structured data. |
+| `site/` | The Next.js 16 site from `finezach-cyber/chrm-website` with the redesign applied. Same stack, same content pages, new homepage, `/compare/*`, lead form, sitemap, structured data. |
 
 ## Run the site
 

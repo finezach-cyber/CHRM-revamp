@@ -37,7 +37,7 @@ Rule: one accent per screen. If two things are blue, one of them is wrong. Green
 - Short declaratives. No exclamation marks. No "supercharge", "unlock", "seamless", "revolutionary".
 - Name the enemy precisely: the implementation industrial complex, the workflow canvas, the six-week feedback loop.
 - Be honest about what CHRM is not: not a CRM, not a notetaker, not prospecting, not SOC 2 yet.
-- Numbers over adjectives: 31% → ~100%, under five minutes, under one day, $1,000.
+- Numbers over adjectives: 31% → ~100%, under five minutes, under one day. No price on the site; it is shared on the call.
 - Illustrative stories are always labelled illustrative until real customers replace them.
 
 ## Imagery

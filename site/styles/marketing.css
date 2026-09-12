@@ -1857,22 +1857,6 @@ html, body { background:#FFFFFF; }
 .m-alts__note{margin:18px 0 0;font-size:12.5px;line-height:1.5;color:var(--fg-3);max-width:80ch}
 .m-alts__note a{color:var(--ink)}
 
-/* ---- Pricing teaser ------------------------------------------- */
-.m-price{padding:var(--sec-y) var(--gutter);max-width:var(--page-max);margin:0 auto;border-top:1px solid var(--rule)}
-.m-price__grid{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:clamp(32px,5vw,80px);align-items:start}
-.m-price__h{font-family:var(--font-display);font-weight:400;font-size:clamp(34px,4.2vw,58px);line-height:1.08;letter-spacing:-.018em;color:var(--ink);margin:14px 0 20px;text-wrap:balance}
-.m-price__h em{font-style:italic}
-.m-price__body{font-size:16px;line-height:1.65;color:var(--ink-2);max-width:52ch;margin:0 0 28px}
-.m-price__ctas{display:flex;gap:14px;flex-wrap:wrap}
-.m-price__anchors{margin:0;border-top:1px solid var(--ink)}
-.m-price__anchors > div{padding:18px 0;border-bottom:1px solid var(--rule)}
-.m-price__anchors dt{font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--fg-3);margin:0 0 6px}
-.m-price__anchors dd{margin:0;font-family:var(--font-display);font-size:clamp(24px,2.6vw,34px);line-height:1.05;color:var(--ink);letter-spacing:-.01em}
-.m-price__anchors dd span{font-family:var(--font-sans);font-size:13px;color:var(--fg-3);letter-spacing:0}
-.m-price__anchors > div:first-child dd{color:var(--accent)}
-.m-price__anchors-note{font-family:var(--font-display);font-style:italic;font-size:17px;color:var(--ink);border-bottom:0 !important}
-@media (max-width:880px){.m-price__grid{grid-template-columns:1fr}}
-
 /* ---- Compare detail + pricing page shared bits ---------------- */
 .cd-eyebrow{font-family:var(--font-sans);font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--accent);margin:0 0 16px}
 .cd-for{margin:0 0 clamp(32px,4vw,48px);padding:24px 0;border-top:1px solid var(--ink);border-bottom:1px solid var(--rule)}
@@ -1894,28 +1878,6 @@ html, body { background:#FFFFFF; }
 .cd-faq dd{margin:0;font-size:15px;line-height:1.6;color:var(--ink-2);max-width:70ch}
 .cd-sources{margin:32px 0 0;font-size:12.5px;line-height:1.6;color:var(--fg-3);max-width:90ch}
 .cd-sources a{color:var(--ink)}
-
-/* ---- Pricing page --------------------------------------------- */
-.pr-calc{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.3fr);gap:clamp(32px,5vw,72px);margin:clamp(40px,5vw,64px) 0;padding-top:clamp(32px,4vw,48px);border-top:1px solid var(--ink)}
-.pr-calc__h{font-family:var(--font-display);font-weight:400;font-size:clamp(30px,3.4vw,44px);line-height:1.1;letter-spacing:-.014em;color:var(--ink);margin:0 0 14px}
-.pr-calc__sub{font-size:15px;line-height:1.6;color:var(--ink-2);margin:0 0 28px;max-width:46ch}
-.pr-field{display:grid;grid-template-columns:1fr auto;gap:6px 12px;align-items:center;padding:16px 0;border-top:1px solid var(--rule)}
-.pr-field__k{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--fg-3)}
-.pr-field__v{font-family:var(--font-display);font-size:24px;color:var(--ink);text-align:right}
-.pr-field input[type=range]{grid-column:1 / -1;width:100%;accent-color:var(--accent)}
-.pr-calc__out{display:grid;grid-template-columns:1fr;gap:0;border-top:1px solid var(--ink)}
-.pr-out{display:grid;grid-template-columns:minmax(0,1fr) auto;grid-template-areas:"k v" "n n";gap:4px 20px;padding:18px 0;border-bottom:1px solid var(--rule);align-items:baseline}
-.pr-out__k{grid-area:k;font-size:14px;color:var(--ink);font-weight:500}
-.pr-out__v{grid-area:v;font-family:var(--font-display);font-size:clamp(26px,3vw,38px);line-height:1;color:var(--ink);letter-spacing:-.01em;white-space:nowrap}
-.pr-out__n{grid-area:n;font-size:12.5px;line-height:1.5;color:var(--fg-3);max-width:60ch}
-.pr-out--chrm{background:var(--accent-soft);padding-left:16px;padding-right:16px;margin:0 -16px}
-.pr-out--chrm .pr-out__v{color:var(--accent)}
-@media (max-width:880px){.pr-calc{grid-template-columns:1fr}}
-.pr-included{margin:clamp(40px,5vw,64px) 0 0}
-.pr-included__h{font-family:var(--font-display);font-weight:400;font-size:clamp(28px,3.4vw,44px);line-height:1.1;letter-spacing:-.014em;color:var(--ink);margin:0 0 24px}
-.pr-included__h em{font-style:italic}
-.pr-included__list{display:grid;grid-template-columns:1fr 1fr;column-gap:40px}
-@media (max-width:780px){.pr-included__list{grid-template-columns:1fr}}
 
 /* ---- Demo CTA with form -------------------------------------- */
 .m-demo__grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(32px,5vw,80px);max-width:var(--page-max);margin:0 auto;align-items:start}
