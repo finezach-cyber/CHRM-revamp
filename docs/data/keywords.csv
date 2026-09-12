@@ -1,0 +1,555 @@
+keyword,volume,kd,cpc,intent,tag,gap,peers_top10,notetakers_top10,crms_top10,content_top10,serp_top10_mix,serp_top10,sources,my_estimate,leverage
+ai powered meeting assistant,40500,53,2.490000009536743,commercial,notetaker,adjacent-owned,,avoma.com,,,,,ranked,,8375
+follow-up email after sales call,8100,21,,informational,post-call,unclaimed,,,,,"blog/other×6, crm-vendor×3",www.zendesk.com;www.highspot.com;www.liveagent.com;www.atlassian.com;www.salesforce.com;mailshake.com;www.hubspot.com;woodpecker.co;www.pipedrive.com,ranked,,4799
+meddpicc,12100,7,4.190000057220459,informational,deal-execution,adjacent-owned,,avoma.com,,,"blog/other×7, ugc×1",meddicc.com;meddpicc.net;www.reddit.com;meddpicc.net;www.weflow.ai;www.scratchpad.com;qwilr.com;meddicc.com,ranked,,4332
+follow up email after sales call,9900,,5.44,,post-call,unclaimed,,,,,"blog/other×6, crm-vendor×3",www.zendesk.com;www.highspot.com;www.liveagent.com;www.atlassian.com;www.salesforce.com;mailshake.com;www.hubspot.com;woodpecker.co;www.pipedrive.com,seed,,3712
+gtm engineer,3600,0,9.32,informational,decision-point,unclaimed,,,,,"adjacent-vendor×3, ugc×3, blog/other×2, agency×1",www.clay.com;www.reddit.com;www.apollo.io;pipeline.zoominfo.com;www.norwest.com;www.youtube.com;playbooks.hypergrowthpartners.com;www.cleanlist.ai;www.linkedin.com,seed,"2,000–5,000",2700
+meddic,4400,8,1.809999942779541,informational,deal-execution,unclaimed,,,,,"blog/other×6, crm-vendor×2",meddicc.com;www.salesforce.com;www.atlassian.com;www.highspot.com;meddicc.com;www.forcemanagement.com;meddic.academy;blog.hubspot.com,ranked,,2125
+challenger sales,2400,19,3.809999942779541,transactional,deal-execution,unclaimed,,,,,"blog/other×5, crm-vendor×2, ugc×2",www.amazon.com;challengerinc.com;www.salesforce.com;www.pipedrive.com;www.reddit.com;en.wikipedia.org;www.goodreads.com;www.highspot.com;www.youtube.com,ranked,,2041
+deal desk,1300,0,35.0,commercial,decision-point,unclaimed,,,,,"blog/other×5, ugc×1, crm-vendor×1, agency×1",www.reddit.com;www.salesforce.com;dealhub.io;www.thetradedesk.com;juro.com;www.zuora.com;www.anaplan.com;www.revopscoop.com,ranked,,1950
+ai sales agent,1300,15,60.08,commercial,ai-sales-agent,unclaimed,,,,,"blog/other×6, crm-vendor×1, ugc×1",www.salesforce.com;www.reddit.com;salescloser.ai;www.creatio.com;www.artisan.co;fin.ai;www.ibm.com;www.workato.com,seed,"3,000–8,000",1658
+artificial intelligence in sales,1600,31,49.86000061035156,commercial,ai-sales-agent,unclaimed,,,,,"blog/other×7, ugc×1, crm-vendor×1",www.ibm.com;www.highspot.com;business.linkedin.com;www.creatio.com;www.zendesk.com;www.gartner.com;www.ai-bees.io;esaweb.org;monday.com,ranked,,1656
+sales pipeline,1900,21,48.849998474121094,commercial,deal-execution,unclaimed,,,,,"blog/other×4, crm-vendor×2, ugc×2",www.salesforce.com;business.linkedin.com;www.ibm.com;www.pipedrive.com;www.atlassian.com;www.superoffice.com;business.adobe.com;www.youtube.com,ranked,,1576
+artificial intelligence sales,1600,19,49.86000061035156,commercial,ai-sales-agent,"notetaker-owned, execution-shaped",,avoma.com,,,"blog/other×6, crm-vendor×2",www.ibm.com;www.gartner.com;www.salesforce.com;www.highspot.com;www.creatio.com;www.zendesk.com;monday.com;gtmnow.com,ranked,,1555
+ai sales,1600,21,49.86000061035156,commercial,ai-sales-agent,"notetaker-owned, execution-shaped",,avoma.com,,,"blog/other×6, crm-vendor×1, ugc×1, adjacent-vendor×1",www.salesforce.com;www.dialpad.com;salesai.com;www.highspot.com;www.ibm.com;www.creatio.com;business.linkedin.com;pipeline.zoominfo.com;dealhub.io,ranked,,1517
+meddic sales methodology,1600,10,4.849999904632568,commercial,deal-execution,unclaimed,,,,,"blog/other×6, crm-vendor×2, ugc×1",meddicc.com;www.salesforce.com;www.atlassian.com;www.highspot.com;meddicc.com;www.youtube.com;www.forcemanagement.com;meddic.academy;www.pipedrive.com,ranked,,1512
+email follow up app,880,8,0.6700000166893005,transactional,post-call,unclaimed,,,,,"blog/other×8, ugc×1",www.followupthen.com;www.saleshandy.com;followup.cc;www.reddit.com;www.salesforge.ai;www.constantcontact.com;vocus.io;chromewebstore.google.com;instantly.ai,ranked,,1214
+sales force automation software,1000,11,70.86000061035156,commercial,crm-automation,unclaimed,,,,,"blog/other×5, crm-vendor×2, adjacent-vendor×1, ugc×1",www.salesforce.com;www.salesforce.com;www.gartner.com;www.microsoft.com;zapier.com;www.kixie.com;www.6sense.com;www.walkme.com;www.youtube.com,ranked,,1202
+ai sales tools,1000,21,52.599998474121094,commercial,ai-sales-agent,unclaimed,,,,,"blog/other×4, ugc×2, adjacent-vendor×2, crm-vendor×1",www.reddit.com;pipeline.zoominfo.com;www.salesforce.com;www.highspot.com;www.youtube.com;zapier.com;spotio.com;salescloser.ai;www.simular.ai,ranked,,1185
+ai powered crm,1300,34,55.56999969482422,commercial,ai-native-crm,unclaimed,,,,,"crm-vendor×3, blog/other×3, adjacent-vendor×1, ugc×1",www.hubspot.com;www.salesforce.com;www.creatio.com;www.ibm.com;www.larksuite.com;www.reddit.com;www.microsoft.com;monday.com,ranked,,1158
+stakeholder mapping,4400,,12.54,,deal-execution,unclaimed,,,,,"blog/other×7, ugc×1",simplystakeholders.com;www.6sigma.us;imagine.jhu.edu;miro.com;analysisfunction.civilservice.gov.uk;www.atlassian.com;www.luma-institute.com;www.youtube.com,seed,,1155
+sales operations,1600,8,12.220000267028809,informational,decision-point,unclaimed,,,,,"blog/other×6, crm-vendor×1, ugc×1",www.salesforce.com;www.reddit.com;dealhub.io;lucid.co;en.wikipedia.org;www.highspot.com;slack.com;www.coursera.org,ranked,,1104
+state call recording laws,5400,39,,informational,notetaker,unclaimed,,,,,,,ranked,,988
+ai crm,1900,26,48.96,informational,ai-native-crm,unclaimed,,,,,"crm-vendor×3, adjacent-vendor×2, blog/other×2",www.salesforce.com;www.hubspot.com;www.larksuite.com;www.creatio.com;www.ibm.com;www.cirrusinsight.com;monday.com,ranked;seed,"5,000–15,000",949
+icp sales,1000,3,70.20999908447266,navigational,deal-execution,unclaimed,,,,,"blog/other×4, adjacent-vendor×2, crm-vendor×1",www.salesforce.com;www.gong.io;www.mysalescoach.com;www.apollo.io;otter.ai;hginsights.com;memoryblue.com,ranked,,917
+ai meeting assistant,4400,53,18.90999984741211,commercial,notetaker,adjacent-owned,,avoma.com;fireflies.ai,,,,,ranked,,910
+sales icp,1000,7,70.20999908447266,navigational,deal-execution,unclaimed,,,,,"blog/other×5, adjacent-vendor×2, crm-vendor×1, ugc×1",www.salesforce.com;www.gong.io;superhumanprospecting.com;memoryblue.com;www.dock.us;www.apollo.io;revenuegrid.com;www.reddit.com;www.mysalescoach.com,ranked,,879
+meeting recorder,1900,0,15.25,transactional,notetaker,adjacent-owned,,tldv.io,,claap.io,,,ranked,,836
+sales force automation,720,14,21.45,commercial,crm-automation,unclaimed,,,,,"blog/other×4, crm-vendor×3, adjacent-vendor×1",www.salesforce.com;www.salesforce.com;www.gartner.com;www.kixie.com;www.oracle.com;help.salesforce.com;www.creatio.com;zapier.com,expand,,836
+b2b sales intelligence platform,2400,22,9.0600004196167,commercial,notetaker,adjacent-owned,,avoma.com,,,,,ranked,,824
+ai sales assistant,590,15,61.56,commercial,ai-sales-agent,unclaimed,,,,,"blog/other×5, adjacent-vendor×1, crm-vendor×1, ugc×1",zapier.com;www.pipedrive.com;www.salesforge.ai;www.nooks.ai;www.clari.com;skrapp.io;www.dialpad.com;business.linkedin.com,seed,"3,000–8,000",752
+hubspot integrations,880,33,19.59000015258789,navigational,crm-automation,unclaimed,,,,,"crm-vendor×5, blog/other×2",ecosystem.hubspot.com;ecosystem.hubspot.com;community.hubspot.com;www.smartbugmedia.com;www.hubspot.com;ecosystem.hubspot.com;www.psohub.com,ranked,,716
+ai powered sales platform,1000,31,32.95000076293945,commercial,ai-sales-agent,peer-owned,momentum.io,,,,,,ranked,,690
+sales intelligence platforms,1600,8,66.41999816894531,commercial,notetaker,adjacent-owned,,avoma.com,,,,,ranked,,648
+crm automation,590,23,57.67,commercial,crm-automation,unclaimed,,,,,"blog/other×5, crm-vendor×2",www.salesforce.com;www.ibm.com;www.automationanywhere.com;monday.com;www.affinity.co;www.celigo.com;www.zendesk.com,expand,,613
+what is revops,880,10,,informational,decision-point,unclaimed,,,,,"blog/other×4, ugc×2, crm-vendor×1, agency×1, adjacent-vendor×1",www.salesforce.com;www.reddit.com;www.revopscoop.com;www.salesloft.com;www.forbes.com;www.youtube.com;www.paddle.com;productive.io;learn.marsdd.com,ranked,,594
+revenue intelligence platform,1300,2,35.689998626708984,commercial,notetaker,adjacent-owned,,,,coffee.ai,,,ranked,,561
+sandler sales methodology,1000,0,4.699999809265137,informational,deal-execution,unclaimed,,,,,"blog/other×5, crm-vendor×1, ugc×1",sandler.com;www.salesforce.com;www.salesenablementcollective.com;fundraiseinsider.com;www.youtube.com;www.highspot.com;www.alpharun.com,ranked,,525
+what is revenue operations,720,5,22.709999084472656,informational,decision-point,unclaimed,,,,,"blog/other×4, crm-vendor×1, agency×1, adjacent-vendor×1",www.salesforce.com;www.forbes.com;www.revopscoop.com;www.salesloft.com;www.richardson.com;www.highspot.com;infuse.com,ranked,,513
+spiced sales methodology,720,0,7.050000190734863,commercial,deal-execution,peer-owned,momentum.io,avoma.com,,,,,ranked,,504
+bant sales,1000,7,19.8700008392334,informational,deal-execution,unclaimed,,,,,"blog/other×4, crm-vendor×2, adjacent-vendor×1",www.salesforce.com;www.highspot.com;www.pipedrive.com;www.ringcentral.com;www.mindtickle.com;pipeline.zoominfo.com;salesmotion.io,ranked,,488
+ai sales agents,1300,,49.94,,ai-sales-agent,unclaimed,,,,,"blog/other×6, ugc×1, crm-vendor×1",www.reddit.com;www.salesforce.com;salescloser.ai;www.creatio.com;fin.ai;salesai.com;www.workist.com;www.workato.com,seed,,488
+ai agents for sales,390,17,55.01,commercial,ai-sales-agent,unclaimed,,,,,,,seed,"3,000–8,000",486
+ai sales coach,390,0,41.290000915527344,commercial,ai-sales-agent,"notetaker-owned, execution-shaped",,avoma.com,,,,,ranked,,468
+meeting assistant,4400,53,11.529999732971191,informational,notetaker,adjacent-owned,,avoma.com;fireflies.ai,,,,,ranked,,455
+zoom meeting recording,2900,29,15.0600004196167,informational,notetaker,adjacent-owned,,grain.com,,,,,ranked,,453
+meeting recording,1900,23,15.25,informational,notetaker,unclaimed,,,,,,,ranked,,439
+sales automation tool,320,12,39.65999984741211,commercial,ai-sales-agent,unclaimed,,,,,,,ranked,,422
+ai native crm,480,15,36.82,commercial,ai-native-crm,adjacent-owned,,,attio.com;clarify.ai,,"blog/other×6, ugc×2, agency×1",www.reddit.com;www.clarify.ai;www.creatio.com;reevo.ai;ctomagazine.com;solutionsreview.com;www.coffee.ai;www.linkedin.com;www.nutshell.com,ranked;seed,"500–1,000",404
+ai powered sales tool,320,18,,commercial,ai-sales-agent,unclaimed,,,,,,,ranked,,394
+ai powered sales tools,320,18,,commercial,ai-sales-agent,unclaimed,,,,,,,ranked,,394
+call recording laws california,1300,3,,informational,notetaker,unclaimed,,,,,,,ranked,,378
+challenger sales model,390,8,20.219999313354492,commercial,deal-execution,unclaimed,,,,,,,ranked,,377
+california call recording laws,1300,4,,informational,notetaker,unclaimed,,,,,,,ranked,,374
+challenger sales techniques,1000,5,5.779999732971191,informational,deal-execution,adjacent-owned,,avoma.com,,,"blog/other×5, crm-vendor×2, ugc×1",challengerinc.com;www.salesforce.com;www.reddit.com;www.salesenablementcollective.com;www.coursera.org;www.avoma.com;www.highspot.com;www.pipedrive.com,ranked,,366
+how to download teams meeting recording,590,0,7.820000171661377,transactional,notetaker,unclaimed,,,,,,,ranked,,354
+sales pipeline management,480,33,43.5,commercial,deal-execution,unclaimed,,,,,"blog/other×5, ugc×3, crm-vendor×1",www.salesforce.com;www.coursera.org;www.reddit.com;www.outreach.ai;business.linkedin.com;www.superoffice.com;www.youtube.com;pipelinecrm.com;www.ibm.com,ranked,,338
+hubspot consultant,880,,88.02,,decision-point,unclaimed,,,,,"ugc×2, crm-vendor×2, blog/other×2, agency×2",www.reddit.com;www.hubspot.com;www.upwork.com;www.optimizeconsultingllc.com;conceptltd.com;www.linkedin.com;blog.revpartners.io;www.hubspot.com,seed,,330
+sales automation,480,24,24.850000381469727,commercial,crm-automation,peer-owned,momentum.io,,,,,,ranked,,328
+sales intelligence tools,590,8,54.220001220703125,commercial,notetaker,unclaimed,,,,,,,ranked,,326
+best ai sales tools,210,7,93.3499984741211,commercial,ai-sales-agent,unclaimed,,,,,,,ranked,,293
+mark for follow up,390,0,,informational,post-call,unclaimed,,,,,"blog/other×5, ugc×3, agency×1",www.spanishdict.com;www.cybercom-software.com;www.linkedin.com;www.youtube.com;jlssolutions.com;www.badgermapping.com;quizlet.com;www.facebook.com;col.quora.com,ranked,,292
+mark for follow-up,390,0,,informational,post-call,unclaimed,,,,,,,ranked,,292
+what is follow up,390,2,,informational,post-call,unclaimed,,,,,"blog/other×7, ugc×2",www.merriam-webster.com;www.grammarly.com;www.reddit.com;www.activecampaign.com;dictionary.cambridge.org;quillbot.com;www.gymglish.com;www.cdc.gov;www.youtube.com,ranked,,287
+what is follow-up,390,2,,informational,post-call,unclaimed,,,,,"blog/other×7, ugc×2",www.merriam-webster.com;www.grammarly.com;www.reddit.com;www.activecampaign.com;dictionary.cambridge.org;quillbot.com;www.cdc.gov;www.gymglish.com;www.youtube.com,ranked,,287
+sales intelligence and engagement platform,720,11,,commercial,notetaker,adjacent-owned,,avoma.com,,,,,ranked,,282
+sales ai software,260,28,35.290000915527344,commercial,ai-sales-agent,unclaimed,,,,,,,ranked,,281
+follow up sale,210,12,,commercial,post-call,unclaimed,,,,,,,ranked,,277
+meddic academy,320,12,2.130000114440918,navigational,deal-execution,unclaimed,,,,,,,ranked,,266
+ai for sales and marketing,320,31,64.5999984741211,commercial,ai-sales-agent,"notetaker-owned, execution-shaped",,avoma.com,,,,,ranked,,265
+b2b sales intelligence tools,590,0,,commercial,notetaker,adjacent-owned,,avoma.com,,,,,ranked,,260
+sales enablement tools,880,22,58.95000076293945,commercial,sales-generic,unclaimed,,,,,,,ranked,,257
+meeting recording app,720,41,12.020000457763672,transactional,notetaker,unclaimed,,,,,,,ranked,,255
+meeting notes app,880,55,12.170000076293945,transactional,notetaker,unclaimed,,,,,,,ranked,,238
+bant sales methodology,480,6,3.4000000953674316,informational,deal-execution,unclaimed,,,,,"blog/other×5, crm-vendor×3",www.highspot.com;www.salesforce.com;www.mindtickle.com;www.pipedrive.com;blog.hubspot.com;www.rox.com;www.ringcentral.com;salesmotion.io,ranked,,237
+best ai crm,210,18,66.97,commercial,ai-native-crm,unclaimed,,,,,,,seed,"5,000–15,000",232
+attio vs hubspot,170,0,31.08,commercial,competitor-alt,unclaimed,,,,,,,ranked;seed,"500–1,500",230
+what is meddpicc,590,0,1.7200000286102295,informational,deal-execution,adjacent-owned,,avoma.com,,,"blog/other×6, ugc×1, adjacent-vendor×1",meddicc.com;meddpicc.net;www.reddit.com;www.weflow.ai;zapier.com;www.demandfarm.com;meddpicc.net;otter.ai,ranked,,227
+hubspot partner,590,,28.59,,decision-point,unclaimed,,,,,"crm-vendor×4, blog/other×2, ugc×1",www.hubspot.com;ecosystem.hubspot.com;ecosystem.hubspot.com;knowledge.hubspot.com;www.reddit.com;cargas.com;www.blendb2b.com,seed,,221
+spin sales methodology,480,15,17.040000915527344,informational,deal-execution,unclaimed,,,,,"blog/other×5, ugc×2, crm-vendor×1",www.salesforce.com;www.salesenablementcollective.com;www.highspot.com;www.youtube.com;lucid.co;www.reddit.com;www.huthwaiteinternational.com;www.coursera.org,ranked,,214
+sales tool,720,21,16.520000457763672,commercial,sales-generic,unclaimed,,,,,,,ranked,,213
+teams meeting recording,390,2,17.700000762939453,navigational,notetaker,unclaimed,,,,,,,ranked,,206
+sales pipeline software,260,26,104.91000366210938,commercial,deal-execution,unclaimed,,,,,,,ranked,,202
+pipedrive integrations,170,2,32.12,navigational,crm-automation,unclaimed,,,,,,,expand,,202
+ai note taker for teams,590,23,26.43000030517578,transactional,notetaker,adjacent-owned,,tldv.io,,,,,ranked,,200
+download teams meeting recording,320,0,,transactional,notetaker,unclaimed,,,,,,,ranked,,192
+revenue intelligence,320,1,30.6,commercial,notetaker,unclaimed,,,,,,,ranked;seed,n/a,190
+what is bant,390,8,1.3899999856948853,informational,deal-execution,unclaimed,,,,,"blog/other×5, crm-vendor×2, adjacent-vendor×1",www.salesforce.com;www.highspot.com;mailchimp.com;www.pipedrive.com;www.mindtickle.com;www.indeed.com;pipeline.zoominfo.com;conquer.io,ranked,,188
+crm automation tools,210,34,,commercial,crm-automation,unclaimed,,,,,,,expand,,187
+call recording legal,1000,39,,informational,notetaker,unclaimed,,,,,,,ranked,,183
+phone call recording law,1000,39,,informational,notetaker,unclaimed,,,,,,,ranked,,183
+hubspot agency,480,,20.46,,decision-point,unclaimed,,,,,"crm-vendor×4, blog/other×3, agency×1, ugc×1",www.hubspot.com;ecosystem.hubspot.com;www.leanlabs.com;www.hubspot.com;ecosystem.hubspot.com;www.reddit.com;www.upwork.com;firstpagesage.com;huble.com,seed,,180
+sales automation in crm,260,24,,commercial,crm-automation,peer-owned,momentum.io,,,,,,ranked,,178
+virginia call recording law,590,0,,informational,notetaker,unclaimed,,,,,,,ranked,,177
+zoom meeting recorder software,480,9,4.400000095367432,transactional,notetaker,peer-owned,sybill.ai,,,,,,ranked,,175
+zoom meeting recording software,480,9,4.400000095367432,transactional,notetaker,peer-owned,sybill.ai,,,,,,ranked,,175
+automating sales process,170,4,,commercial,deal-execution,unclaimed,,,,,,,ranked,,171
+automated sales process,170,5,,commercial,deal-execution,unclaimed,,,,,,,ranked,,170
+forecasting sales software,480,6,109.02999877929688,commercial,sales-generic,unclaimed,,,,,,,ranked,,169
+best ai note taking app for meetings,480,22,11.720000267028809,commercial,notetaker,adjacent-owned,,tldv.io,,,,,ranked,,165
+ai for sales teams,210,35,83.52,commercial,ai-sales-agent,"notetaker-owned, execution-shaped",,avoma.com,,,,,ranked;seed,n/a,164
+zoom meeting transcription,590,8,7.369999885559082,informational,notetaker,unclaimed,,,,,,,ranked,,163
+spiced sales,210,0,2.0899999141693115,commercial,deal-execution,adjacent-owned,,avoma.com,,coffee.ai,,,ranked,,162
+sales pipeline stages,480,13,11.789999961853027,informational,deal-execution,adjacent-owned,,avoma.com,,,"crm-vendor×4, blog/other×2, ugc×1, adjacent-vendor×1",www.salesforce.com;business.linkedin.com;business.adobe.com;www.pipedrive.com;monday.com;www.cirrusinsight.com;blog.hubspot.com;www.captivateiq.com,ranked,,161
+what is deal desk,210,0,,informational,decision-point,unclaimed,,,,,,,ranked,,158
+pipeline management tools,260,22,193.6699981689453,commercial,deal-execution,adjacent-owned,,avoma.com,,,,,ranked,,156
+hubspot automation,210,39,31.21,navigational,crm-automation,unclaimed,,,,,,,seed,n/a,156
+automate sales process,170,15,,commercial,deal-execution,unclaimed,,,,,,,ranked,,152
+sales pipeline management software,260,24,46.36000061035156,commercial,deal-execution,adjacent-owned,,avoma.com,,,,,ranked,,152
+ai sales assistant software,110,8,28.84,commercial,ai-sales-agent,unclaimed,,,,,,,expand,,152
+crm sales pipeline,170,17,41.810001373291016,commercial,deal-execution,unclaimed,,,,,,,ranked,,148
+hubspot onboarding,390,,62.21,,decision-point,unclaimed,,,,,,,seed,,146
+ai meeting notes,1000,34,15.180000305175781,informational,notetaker,adjacent-owned,,tldv.io,,,,,ranked,,145
+gong competitors,320,0,80.48999786376953,informational,competitor-alt,peer-owned,sybill.ai,avoma.com,,,,,ranked,,144
+best ai sales agents,110,14,97.72,commercial,ai-sales-agent,unclaimed,,,,,,,expand,,142
+sales automation systems,110,5,87.80999755859375,commercial,crm-automation,unclaimed,,,,,,,ranked,,141
+sales intelligence,260,11,85.02999877929688,commercial,notetaker,unclaimed,,,,,,,ranked,,139
+deal desk software,90,0,29.969999313354492,commercial,decision-point,unclaimed,,,,,,,ranked,,135
+call recording laws,1000,39,,informational,notetaker,adjacent-owned,,avoma.com,,,,,ranked,,134
+phone call recording laws,1000,39,,informational,notetaker,adjacent-owned,,avoma.com,,,,,ranked,,134
+follow up on sales,210,15,,informational,post-call,unclaimed,,,,,,,ranked,,134
+a follow up,170,2,,informational,post-call,unclaimed,,,,,,,ranked,,125
+miller heiman sales process,320,0,3.3600001335144043,informational,deal-execution,adjacent-owned,,avoma.com,,,,,ranked,,123
+meddic framework,260,10,8.180000305175781,informational,deal-execution,unclaimed,,,,,,,ranked,,123
+spiced framework,320,0,,informational,deal-execution,adjacent-owned,,avoma.com,,,,,ranked,,123
+best ai for sales,90,9,41.31999969482422,commercial,ai-sales-agent,unclaimed,,,,,,,ranked,,123
+is phone call recording illegal,1000,46,,informational,notetaker,adjacent-owned,,avoma.com,,,,,ranked,,119
+call recording law,1000,46,,informational,notetaker,adjacent-owned,,avoma.com,,,,,ranked,,119
+call recording legality,1000,46,,informational,notetaker,adjacent-owned,,avoma.com,,,,,ranked,,119
+call recording legislation,1000,46,,informational,notetaker,adjacent-owned,,avoma.com,,,,,ranked,,119
+telephone call recording laws,1000,46,,informational,notetaker,adjacent-owned,,avoma.com,,,,,ranked,,119
+log calls in salesforce,110,0,,navigational,post-call,"notetaker-owned, execution-shaped",,grain.com,,,,,ranked,,119
+gtm engineer clay,90,12,,transactional,decision-point,unclaimed,,,,,,,expand,,119
+how to get zoom transcript after meeting,170,8,,informational,post-call,unclaimed,,,,,,,ranked,,117
+sales automation process,170,24,,commercial,crm-automation,peer-owned,momentum.io,,,,,,ranked,,116
+sandler sales process,110,0,4.619999885559082,commercial,deal-execution,unclaimed,,,,,,,ranked,,115
+salesforce crm automation,170,28,,commercial,crm-automation,peer-owned,momentum.io,,,,,,ranked,,110
+what is bant in sales,210,0,0.009999999776482582,informational,deal-execution,unclaimed,,,,,,,ranked,,110
+meeting recording software,210,13,29.739999771118164,commercial,notetaker,unclaimed,,,,,,,ranked,,110
+ai sales platform,210,48,57.58000183105469,commercial,ai-sales-agent,peer-owned,momentum.io,,,,,,ranked,,109
+funnel sales pipeline,110,7,,commercial,deal-execution,unclaimed,,,,,,,ranked,,107
+ai sales forecasting,90,2,98.6500015258789,commercial,ai-sales-agent,"notetaker-owned, execution-shaped",,avoma.com,,,,,ranked,,106
+what is meddic,210,4,,informational,deal-execution,unclaimed,,,,,,,ranked,,106
+follow up email generator,70,0,,commercial,post-call,unclaimed,,,,,,,ranked,,105
+follow-up email generator,70,0,,commercial,post-call,unclaimed,,,,,,,ranked,,105
+crm hygiene,140,0,35.57,informational,post-call,unclaimed,,,,,,,seed,"500–1,500",105
+what is a deal desk,140,3,,informational,decision-point,unclaimed,,,,,,,ranked,,102
+transcription software for meetings,260,37,24.1200008392334,commercial,notetaker,unclaimed,,,,,,,ranked,,98
+best ai sales assistant software,70,8,32.7,commercial,ai-sales-agent,unclaimed,,,,,,,expand,,97
+how to download a teams meeting recording,320,0,,informational,notetaker,unclaimed,,,,,,,ranked,,96
+ai-powered sales tool,320,20,,commercial,sales-generic,unclaimed,,,,,,,ranked,,96
+oregon call recording laws,320,0,,informational,notetaker,unclaimed,,,,,,,ranked,,96
+bant framework,260,5,15.960000038146973,informational,deal-execution,adjacent-owned,,avoma.com,,,,,ranked,,95
+gong alternatives,210,0,114.22,informational,competitor-alt,peer-owned,sybill.ai,avoma.com,,,,,ranked;seed,,94
+sandler sales system,90,0,7.03000020980835,commercial,deal-execution,unclaimed,,,,,,,ranked,,94
+sandler methodology,170,0,8.770000457763672,informational,deal-execution,unclaimed,,,,,,,ranked,,89
+b2b sales pipeline,90,6,53.06999969482422,commercial,deal-execution,unclaimed,,,,,,,ranked,,89
+how to use ai in sales,170,15,12.680000305175781,informational,ai-sales-agent,"notetaker-owned, execution-shaped",,avoma.com,,,,,ranked,,87
+using ai in sales,90,20,33.77000045776367,commercial,ai-sales-agent,"notetaker-owned, execution-shaped",,avoma.com,,,,,ranked,,86
+instantly hubspot integration,70,0,,navigational,crm-automation,unclaimed,,,,,,,ranked,,85
+sales pipeline vs funnel,170,6,21.06999969482422,informational,deal-execution,unclaimed,,,,,,,ranked,,84
+sales pipeline vs sales funnel,170,6,21.06999969482422,informational,deal-execution,unclaimed,,,,,,,ranked,,84
+plaud vs otter,170,0,7.289999961853027,informational,competitor-alt,adjacent-owned,,tldv.io,,,,,ranked,,84
+use ai in sales,90,22,33.77000045776367,commercial,ai-sales-agent,"notetaker-owned, execution-shaped",,avoma.com,,,,,ranked,,84
+sales pipeline management tools,140,23,102.05999755859375,commercial,deal-execution,adjacent-owned,,avoma.com,,,,,ranked,,83
+deal desk manager,110,0,,informational,decision-point,unclaimed,,,,,,,ranked,,82
+transcribe zoom recording to text free,140,2,8.25,transactional,notetaker,unclaimed,,,,,,,ranked,,82
+fathom vs granola,90,0,28.799999237060547,commercial,competitor-alt,peer-owned,sybill.ai,,,,,,ranked,,81
+meddpicc acronym,210,1,,informational,deal-execution,adjacent-owned,,tldv.io,,,,,ranked,,80
+ai notetaker for in person meetings,260,30,13.210000038146973,transactional,notetaker,adjacent-owned,,tldv.io,,,,,ranked,,80
+pipedrive automation,70,6,15.25,navigational,crm-automation,unclaimed,,,,,,,seed,n/a,80
+zoom meeting recording app,210,8,15.6899995803833,transactional,notetaker,peer-owned,sybill.ai,,,,,,ranked,,77
+ai for data entry,50,0,17.65999984741211,commercial,post-call,unclaimed,,,,,,,ranked,,75
+meddpicc methodology,210,9,0.9800000190734863,informational,deal-execution,adjacent-owned,,avoma.com;tldv.io,,,,,ranked,,74
+hubspot implementation partner,110,32,52.63999938964844,navigational,decision-point,adjacent-owned,,avoma.com,,,,,ranked,,74
+how to turn on transcription in zoom,260,5,,informational,notetaker,unclaimed,,,,,,,ranked,,74
+otter ai competitors,110,0,14.579999923706055,informational,competitor-alt,unclaimed,,,,,,,ranked,,74
+otter vs granola,110,0,6.869999885559082,informational,competitor-alt,unclaimed,,,,,,,ranked,,74
+notion meeting notes,390,16,7.659999847412109,informational,notetaker,adjacent-owned,,tldv.io,,,,,ranked,,72
+ai sales coaching tools,70,14,116.87000274658203,commercial,ai-sales-agent,"notetaker-owned, execution-shaped",,avoma.com,,,,,ranked,,72
+bant criteria,140,3,,informational,deal-execution,unclaimed,,,,,,,ranked,,71
+sales automation solutions,90,12,,commercial,crm-automation,peer-owned,momentum.io,,,,,,ranked,,71
+ai sales enablement tools,70,15,,commercial,ai-sales-agent,"notetaker-owned, execution-shaped",,avoma.com,,,,,ranked,,71
+does zoom transcribe meetings,260,9,17.309999465942383,informational,notetaker,unclaimed,,,,,,,ranked,,71
+gong alternative,210,,114.22,,competitor-alt,unclaimed,,,,,,,seed,,71
+crm note,140,0,5.170000076293945,informational,post-call,peer-owned,sybill.ai,,,,,,ranked,,70
+crm notes,140,0,5.170000076293945,informational,post-call,peer-owned,sybill.ai,,,,,,ranked,,70
+bant qualification,210,5,21.280000686645508,informational,deal-execution,peer-owned,sybill.ai,,,,,,ranked,,70
+meddic sales training,140,5,6.970000267028809,informational,deal-execution,unclaimed,,,,,,,ranked,,70
+sales ops software,70,2,,commercial,decision-point,peer-owned,momentum.io,,,,,,ranked,,69
+how to transcribe a zoom meeting,260,11,8.9399995803833,informational,notetaker,unclaimed,,,,,,,ranked,,69
+attio alternatives,70,0,21.29,commercial,competitor-alt,adjacent-owned,,,,coffee.ai,,,ranked;seed,"500–1,500",69
+sales pipeline b2b,90,0,53.06999969482422,commercial,deal-execution,adjacent-owned,,,,coffee.ai,,,ranked,,69
+sales playbook sample,140,8,12.430000305175781,informational,deal-execution,unclaimed,,,,,,,ranked,,68
+sales operations software,70,3,,commercial,decision-point,peer-owned,momentum.io,,,,,,ranked,,68
+miller heiman sales methodology,170,0,8.920000076293945,informational,deal-execution,adjacent-owned,,avoma.com,,,,,ranked,,65
+win loss analysis,170,0,51.66999816894531,informational,deal-execution,adjacent-owned,,avoma.com,,,,,ranked,,65
+how to transcribe zoom meetings,320,7,10.300000190734863,informational,notetaker,adjacent-owned,,grain.com,,,,,ranked,,65
+hubspot implementation,170,,28.93,,decision-point,unclaimed,,,,,,,seed,,64
+deal tracking software,90,0,163.0399932861328,commercial,deal-execution,peer-owned,oliv.ai,,,,,,ranked,,63
+sales automation salesforce,70,34,,commercial,crm-automation,unclaimed,,,,,,,ranked,,62
+how to use ai for sales,110,6,34.290000915527344,informational,ai-sales-agent,"notetaker-owned, execution-shaped",,avoma.com,,,,,ranked,,62
+sales intelligence software,170,19,129.19000244140625,commercial,notetaker,adjacent-owned,,avoma.com,,,,,ranked,,61
+call summaries,140,15,32.9900016784668,informational,post-call,peer-owned,sybill.ai,,,,,,ranked,,60
+ai account executive,40,0,8.79,commercial,ai-sales-agent,unclaimed,,,,,,,seed,200–600,60
+free ai meeting notes taker,480,72,15.699999809265137,transactional,notetaker,adjacent-owned,,tldv.io,,,,,ranked,,59
+record teams call,110,0,32.459999084472656,navigational,notetaker,unclaimed,,,,,,,ranked,,59
+can i get a zoom transcript after meeting ends,40,1,11.109999656677246,transactional,post-call,unclaimed,,,,,,,ranked,,59
+sandler method of selling,110,0,5.440000057220459,informational,deal-execution,unclaimed,,,,,,,ranked,,58
+what is sales automation,110,22,,informational,crm-automation,unclaimed,,,,,,,ranked,,58
+sales productivity tools,210,0,2.4100000858306885,commercial,sales-generic,adjacent-owned,,avoma.com,,,,,ranked,,58
+bant questions,110,0,,informational,deal-execution,unclaimed,,,,,,,ranked,,58
+ai sales forecasting software,40,5,,commercial,ai-sales-agent,unclaimed,,,,,,,ranked,,57
+can you record google meet calls,260,1,,informational,notetaker,adjacent-owned,,tldv.io,,,,,ranked,,57
+google meeting notes,140,24,13.029999732971191,navigational,notetaker,unclaimed,,,,,,,ranked,,57
+meddpicc training,110,1,6.269999980926514,informational,deal-execution,unclaimed,,,,,,,ranked,,57
+sales funnel vs sales pipeline,170,6,21.06999969482422,informational,deal-execution,peer-owned,sybill.ai,,,,,,ranked,,56
+salesforce sales agent,50,25,27.450000762939453,commercial,ai-sales-agent,unclaimed,,,,,,,ranked,,56
+data entry automation tools,40,7,,commercial,post-call,unclaimed,,,,,,,ranked,,56
+crm implementation cost,40,7,,commercial,decision-point,unclaimed,,,,,,,seed,"500–1,000",56
+meeting assistant software,590,79,9.739999771118164,commercial,notetaker,adjacent-owned,,fireflies.ai;tldv.io,,,,,ranked,,55
+ai meeting note taker for teams,140,11,23.260000228881836,transactional,notetaker,adjacent-owned,,tldv.io,,,,,ranked,,55
+data entry salesforce,40,8,37.52000045776367,commercial,post-call,unclaimed,,,,,,,ranked,,55
+fireflies vs otter,110,0,34.689998626708984,informational,competitor-alt,adjacent-owned,,avoma.com,,,,,ranked,,54
+salesforce deal desk,40,0,,navigational,decision-point,unclaimed,,,,,,,ranked,,54
+deal desk salesforce,40,0,,navigational,decision-point,unclaimed,,,,,,,ranked,,54
+fathom vs fireflies,110,0,54.5,informational,competitor-alt,adjacent-owned,,fireflies.ai,,,,,ranked,,54
+fireflies alternatives,110,0,40.21,informational,competitor-alt,adjacent-owned,,tldv.io,,,,,ranked;seed,"2,000–6,000",54
+using ai for sales,50,10,39.099998474121094,commercial,ai-sales-agent,"notetaker-owned, execution-shaped",,avoma.com,,,,,ranked,,54
+pipeline review,140,0,,informational,deal-execution,adjacent-owned,,avoma.com,,,,,ranked,,54
+meddic vs challenger,70,0,,commercial,deal-execution,adjacent-owned,,,,claap.io,,,ranked,,54
+call recording laws by state,260,32,,informational,notetaker,unclaimed,,,,,,,ranked,,53
+meeting summary sample,70,0,,informational,post-call,unclaimed,,,,,,,ranked,,52
+sample of meeting summary,70,0,,informational,post-call,unclaimed,,,,,,,ranked,,52
+spiced sales framework,50,0,53.65999984741211,commercial,deal-execution,unclaimed,,,,,,,ranked,,52
+how to record google meet calls,260,9,14.390000343322754,informational,notetaker,adjacent-owned,,tldv.io,,,,,ranked,,52
+revops consultant,140,,13.1,,decision-point,unclaimed,,,,,,,seed,,52
+bant methodology,140,6,0.25,informational,deal-execution,adjacent-owned,,avoma.com,,,,,ranked,,51
+sales tech stack,140,2,,commercial,sales-generic,unclaimed,,,,,,,ranked,,51
+revops tools,70,3,49.56999969482422,informational,decision-point,unclaimed,,,,,,,ranked,,51
+how to record google meet call,260,11,14.390000343322754,informational,notetaker,adjacent-owned,,grain.com;tldv.io,,,,,ranked,,51
+granola vs fireflies,110,0,41.380001068115234,informational,competitor-alt,peer-owned,sybill.ai,fireflies.ai,,,,,ranked,,50
+sales operations tools,50,0,,commercial,decision-point,peer-owned,momentum.io,,,,,,ranked,,50
+ai tools for meeting notes,170,33,13.130000114440918,commercial,notetaker,adjacent-owned,,tldv.io,,,,,ranked,,50
+attio vs salesforce,50,0,10.949999809265137,commercial,competitor-alt,adjacent-owned,,,attio.com,coffee.ai,,,ranked,,50
+autonomous crm,50,0,162.13999938964844,commercial,ai-native-crm,adjacent-owned,,,clarify.ai,,,,ranked,,50
+command of the message sales methodology,70,0,18.969999313354492,commercial,deal-execution,peer-owned,oliv.ai,,,,,,ranked,,49
+agentforce alternatives,40,0,13.550000190734863,navigational,competitor-alt,unclaimed,,,,,,,ranked,,49
+spiced methodology,140,0,8.949999809265137,informational,deal-execution,peer-owned,momentum.io,avoma.com,,,,,ranked,,49
+lemlist hubspot integration,40,0,15.479999542236328,navigational,crm-automation,unclaimed,,,,,,,ranked,,49
+ai sales copilot,50,5,81.35,transactional,ai-sales-agent,peer-owned,goairspeed.com,,,,,,ranked;seed,n/a,48
+ai note taker for microsoft teams,110,0,19.450000762939453,transactional,notetaker,adjacent-owned,,tldv.io,,,,,ranked,,48
+meddpicc vs meddic,90,0,,informational,deal-execution,unclaimed,,,,,,,ranked,,47
+ai notetaker for meetings,260,59,27.709999084472656,transactional,notetaker,adjacent-owned,,tldv.io,,,,,ranked,,47
+outreach sales tool,210,19,39.54999923706055,commercial,sales-generic,adjacent-owned,,avoma.com,,,,,ranked,,47
+transcribe zoom recording,170,7,10.84000015258789,informational,notetaker,unclaimed,,,,,,,ranked,,47
+how to get zoom recording after meeting,70,11,,informational,post-call,unclaimed,,,,,,,ranked,,47
+how to enable transcription in zoom,170,8,,informational,notetaker,unclaimed,,,,,,,ranked,,47
+zoom meeting recording location,90,3,0.05000000074505806,navigational,notetaker,unclaimed,,,,,,,ranked,,47
+what is the best ai for sales,70,13,17.209999084472656,informational,ai-sales-agent,unclaimed,,,,,,,ranked,,46
+follow up and follow through,90,0,,informational,post-call,peer-owned,sybill.ai,,,,,,ranked,,45
+follow up follow through,90,0,,informational,post-call,peer-owned,sybill.ai,,,,,,ranked,,45
+otter ai vs fireflies,90,0,18.610000610351562,informational,competitor-alt,adjacent-owned,,avoma.com,,,,,ranked,,45
+otter vs fireflies,90,0,58.52000045776367,informational,competitor-alt,adjacent-owned,,avoma.com,,,,,ranked,,45
+ai sales forecasting tools,40,6,,commercial,ai-sales-agent,"notetaker-owned, execution-shaped",,avoma.com,,,,,ranked,,45
+ai data entry software,30,0,36.83000183105469,commercial,post-call,unclaimed,,,,,,,ranked,,45
+follow up through,90,2,,informational,post-call,peer-owned,sybill.ai,,,,,,ranked,,44
+is call recording legal,320,39,,informational,notetaker,adjacent-owned,,avoma.com,,,,,ranked,,43
+best ai sales assistant,30,4,,commercial,ai-sales-agent,unclaimed,,,,,,,expand,,43
+spiced framework sales,40,0,0.9300000071525574,commercial,deal-execution,unclaimed,,,,,,,ranked,,42
+b2b sales software,170,0,26.270000457763672,commercial,sales-generic,peer-owned,momentum.io,,,,,,ranked,,42
+salesforce sales automation,70,34,,commercial,crm-automation,peer-owned,momentum.io,,,,,,ranked,,42
+ai sales systems,50,15,110.88999938964844,commercial,ai-sales-agent,peer-owned,momentum.io,,,,,,ranked,,42
+follow-up prospect,70,0,,informational,post-call,"notetaker-owned, execution-shaped",,avoma.com,,,,,ranked,,42
+prospect follow up,70,0,,informational,post-call,"notetaker-owned, execution-shaped",,avoma.com,,,,,ranked,,42
+follow up with prospects,70,0,,informational,post-call,"notetaker-owned, execution-shaped",,avoma.com,,,,,ranked,,42
+what is meddic sales methodology,110,1,0.7699999809265137,informational,deal-execution,adjacent-owned,,avoma.com,,,,,ranked,,42
+how to log calls in salesforce,70,0,,informational,post-call,"notetaker-owned, execution-shaped",,grain.com,,,,,ranked,,42
+how to access team meeting recording,140,0,,informational,notetaker,unclaimed,,,,,,,ranked,,42
+sales intelligence solution,70,0,,commercial,notetaker,unclaimed,,,,,,,ranked,,42
+google meeting recording,210,12,18.1200008392334,informational,notetaker,adjacent-owned,,tldv.io,,,,,ranked,,41
+what is meddpicc sales methodology,110,4,2.3600001335144043,informational,deal-execution,adjacent-owned,,avoma.com,,,,,ranked,,41
+ai sales call practice,30,8,28.16,commercial,ai-sales-agent,unclaimed,,,,,,,expand,,41
+granola vs fathom,90,0,27.149999618530273,informational,competitor-alt,peer-owned,sybill.ai,,,,,,ranked,,40
+clari competitors,50,0,44.459999084472656,navigational,competitor-alt,peer-owned,sybill.ai,,,,,,ranked,,40
+follow up ai,30,10,21.229999542236328,commercial,post-call,unclaimed,,,,,,,ranked,,40
+follow-up ai,30,10,21.229999542236328,commercial,post-call,unclaimed,,,,,,,ranked,,40
+fathom ai alternatives,40,0,,commercial,competitor-alt,adjacent-owned,,avoma.com;tldv.io,,,,,ranked,,40
+what is challenger sales,70,25,0.25999999046325684,commercial,deal-execution,adjacent-owned,,avoma.com,,,,,ranked,,40
+ai agents for sales teams,30,13,,commercial,ai-sales-agent,unclaimed,,,,,,,ranked,,39
+krisp.ai alternatives,40,2,,commercial,competitor-alt,adjacent-owned,,tldv.io,,,,,ranked,,39
+read ai vs otter ai,90,5,8.15999984741211,informational,competitor-alt,peer-owned,sybill.ai,tldv.io,,,,,ranked,,38
+force management sales methodology,110,0,,informational,deal-execution,peer-owned,oliv.ai,,,,,,ranked,,38
+how to transcribe on zoom,140,9,,informational,notetaker,unclaimed,,,,,,,ranked,,38
+how to transcribe a zoom recording,140,9,9.0600004196167,informational,notetaker,unclaimed,,,,,,,ranked,,38
+bant selling,70,0,1.7300000190734863,informational,deal-execution,unclaimed,,,,,,,ranked,,37
+meddic vs meddpicc,70,0,,informational,deal-execution,unclaimed,,,,,,,ranked,,37
+real time ai meeting assistant,170,51,17.010000228881836,commercial,notetaker,adjacent-owned,,avoma.com;fireflies.ai,,,,,ranked,,37
+live ai meeting assistant,170,51,19.420000076293945,commercial,notetaker,adjacent-owned,,avoma.com;fireflies.ai,,,,,ranked,,37
+record google meet call,170,2,30.56999969482422,informational,notetaker,adjacent-owned,,tldv.io,,,,,ranked,,37
+sales team coach,140,4,,commercial,sales-generic,adjacent-owned,,avoma.com,,,,,ranked,,37
+sales pipeline report,70,0,172.5,informational,deal-execution,unclaimed,,,,,,,ranked,,37
+meddpicc stands for,70,0,,informational,deal-execution,unclaimed,,,,,,,ranked,,37
+download meeting recording from teams,90,0,,transactional,notetaker,peer-owned,sybill.ai,,,,,,ranked,,36
+agentforce competitors,30,0,,navigational,competitor-alt,unclaimed,,,,,,,ranked,,36
+gong.io competitors,30,0,35.66999816894531,navigational,competitor-alt,unclaimed,,,,,,,ranked,,36
+ai sales system,50,28,110.88999938964844,commercial,ai-sales-agent,peer-owned,momentum.io,,,,,,ranked,,36
+winning by design spiced framework,70,3,12.880000114440918,informational,deal-execution,unclaimed,,,,,,,ranked,,36
+best sales ai tools,40,11,43.86000061035156,commercial,ai-sales-agent,peer-owned,momentum.io,,,,,,ranked,,36
+sales pipeline reports,70,2,172.5,informational,deal-execution,unclaimed,,,,,,,ranked,,36
+attio competitors,40,0,31.06999969482422,navigational,competitor-alt,adjacent-owned,,,,coffee.ai,,,ranked,,36
+lead forensics hubspot integration,30,0,,navigational,crm-automation,unclaimed,,,,,,,ranked,,36
+leadfeeder hubspot integration,30,0,,navigational,crm-automation,unclaimed,,,,,,,ranked,,36
+meddic training,70,4,9.920000076293945,informational,deal-execution,unclaimed,,,,,,,ranked,,35
+what is sandler sales training,70,5,11.359999656677246,informational,deal-execution,unclaimed,,,,,,,ranked,,35
+what is the sandler sales method,70,5,,informational,deal-execution,unclaimed,,,,,,,ranked,,35
+sales automation technologies,30,13,67.23999786376953,commercial,crm-automation,unclaimed,,,,,,,ranked,,35
+fireflies vs fathom,70,0,54.029998779296875,informational,competitor-alt,adjacent-owned,,fireflies.ai,,,,,ranked,,35
+krisp alternatives,70,0,5.849999904632568,informational,competitor-alt,adjacent-owned,,tldv.io,,,,,ranked,,35
+krisp.ai alternative,40,2,,navigational,competitor-alt,adjacent-owned,,tldv.io,,,,,ranked,,35
+otter ai vs fireflies ai,70,0,75.62000274658203,informational,competitor-alt,adjacent-owned,,avoma.com;tldv.io,,,,,ranked,,35
+deal pipeline management,40,16,90.36000061035156,commercial,deal-execution,unclaimed,,,,,,,ranked,,35
+revenue intelligence software,90,6,31.850000381469727,commercial,notetaker,peer-owned,oliv.ai,,,,,,ranked,,34
+otter free alternatives,50,0,,informational,competitor-alt,unclaimed,,,,,,,ranked,,34
+slack crm integration,30,6,23.770000457763672,navigational,crm-automation,unclaimed,,,,,,,ranked,,34
+pipedrive ai sales assistant,30,24,,commercial,ai-sales-agent,unclaimed,,,,,,,expand;ranked,,34
+ai sales agent call,30,24,149.56,commercial,ai-sales-agent,unclaimed,,,,,,,expand,,34
+how to save teams meeting recording,110,0,,informational,notetaker,unclaimed,,,,,,,ranked,,33
+sales force automation tools,40,7,44.0,commercial,crm-automation,peer-owned,momentum.io,,,,,,ranked,,33
+sales automation technology,30,18,67.23999786376953,commercial,crm-automation,unclaimed,,,,,,,ranked,,33
+crm integration with slack,30,10,23.770000457763672,navigational,crm-automation,unclaimed,,,,,,,ranked,,33
+ai tools for data entry,30,0,40.0,commercial,post-call,adjacent-owned,,,,coffee.ai,,,ranked,,33
+ai tool for data entry,30,0,40.0,commercial,post-call,adjacent-owned,,,,coffee.ai,,,ranked,,33
+ai follow up email generator,30,0,46.439998626708984,commercial,post-call,adjacent-owned,,,,claap.io,,,ranked,,33
+can you record zoom meetings for free,170,7,8.770000457763672,informational,notetaker,peer-owned,sybill.ai,,,,,,ranked,,32
+fireflies ai vs otter ai,70,0,27.149999618530273,informational,competitor-alt,peer-owned,sybill.ai,avoma.com;tldv.io,,,,,ranked,,32
+fireflies vs granola,70,0,83.1500015258789,informational,competitor-alt,peer-owned,sybill.ai,fireflies.ai,,,,,ranked,,32
+sales follow up process,50,14,,informational,post-call,unclaimed,,,,,,,ranked,,32
+ai powered sales,30,29,,commercial,ai-sales-agent,unclaimed,,,,,,,ranked,,32
+ai sales crm,30,30,311.6099853515625,commercial,ai-sales-agent,unclaimed,,,,,,,ranked,,32
+free ai note taker for teams,90,20,23.190000534057617,transactional,notetaker,adjacent-owned,,tldv.io,,,,,ranked,,32
+record teams calls,110,4,32.459999084472656,informational,notetaker,unclaimed,,,,,,,ranked,,32
+crm data entry software,30,29,,commercial,post-call,unclaimed,,,,,,,ranked,,32
+meddic vs bant,90,0,,informational,deal-execution,peer-owned,sybill.ai,,,,,,ranked,,31
+meddic framework sales,30,0,2.990000009536743,commercial,deal-execution,unclaimed,,,,,,,ranked,,31
+meddic meddpicc sales methodology,30,1,,commercial,deal-execution,unclaimed,,,,,,,ranked,,31
+ai note taker that doesn't join meetings,90,22,20.700000762939453,transactional,notetaker,adjacent-owned,,tldv.io,,,,,ranked,,31
+what is challenger sales methodology,90,11,9.600000381469727,informational,deal-execution,adjacent-owned,,avoma.com,,,,,ranked,,31
+transcribe zoom meetings,110,5,16.90999984741211,informational,notetaker,unclaimed,,,,,,,ranked,,31
+transcription zoom,110,7,7.300000190734863,informational,notetaker,unclaimed,,,,,,,ranked,,31
+ai sales agents with the highest roi,30,0,39.58000183105469,commercial,ai-sales-agent,peer-owned,oliv.ai,,,,,,ranked,,30
+meddic sales strategy,30,6,,commercial,deal-execution,unclaimed,,,,,,,ranked,,30
+top ai sales tools,40,24,68.20999908447266,commercial,ai-sales-agent,peer-owned,momentum.io,,,,,,ranked,,30
+what is a deal desk analyst,40,0,,informational,decision-point,unclaimed,,,,,,,ranked,,30
+read.ai alternatives,70,14,16.8700008392334,informational,competitor-alt,adjacent-owned,,tldv.io,,,,,ranked,,30
+how to transcribe zoom recording,110,9,7.659999847412109,informational,notetaker,unclaimed,,,,,,,ranked,,30
+sales pipeline visualization,40,1,,commercial,deal-execution,adjacent-owned,,,,coffee.ai,,,ranked,,30
+attio alternative,90,,28.74,,competitor-alt,unclaimed,,,,,,,seed,"500–1,500",30
+how to record google meet meeting,140,6,6.960000038146973,informational,notetaker,adjacent-owned,,tldv.io,,,,,ranked,,29
+transcribe meeting,140,32,14.020000457763672,informational,notetaker,unclaimed,,,,,,,ranked,,29
+can zoom transcribe a meeting,140,31,5.170000076293945,informational,notetaker,unclaimed,,,,,,,ranked,,29
+how to transcribe zoom recordings,110,11,7.659999847412109,informational,notetaker,unclaimed,,,,,,,ranked,,29
+avoma alternatives,30,0,,commercial,competitor-alt,peer-owned,sybill.ai,avoma.com,,coffee.ai,,,ranked,,27
+sales operations org structure,20,0,,navigational,decision-point,unclaimed,,,,,,,ranked,,27
+sales operations organizational structure,20,0,,navigational,decision-point,unclaimed,,,,,,,ranked,,27
+sales operations department structure,20,0,,navigational,decision-point,unclaimed,,,,,,,ranked,,27
+sales operations organization structure,20,0,,navigational,decision-point,unclaimed,,,,,,,ranked,,27
+tactiq alternatives,30,0,18.420000076293945,navigational,competitor-alt,adjacent-owned,,tldv.io,,,,,ranked,,27
+zoominfo sales intelligence,170,27,,informational,notetaker,adjacent-owned,,avoma.com,,,,,ranked,,27
+meddic questions,70,0,,informational,deal-execution,adjacent-owned,,,,coffee.ai,,,ranked,,27
+attio vs pipedrive,40,0,10.289999961853027,informational,competitor-alt,unclaimed,,,,,,,ranked,,27
+revenue intelligence tools,50,13,81.54000091552734,commercial,notetaker,unclaimed,,,,,,,ranked,,26
+revenue intelligence tool,50,15,81.54000091552734,commercial,notetaker,unclaimed,,,,,,,ranked,,26
+bant sales process,50,0,19.049999237060547,informational,deal-execution,unclaimed,,,,,,,ranked,,26
+sales force automation system,30,37,,commercial,crm-automation,unclaimed,,,,,,,ranked,,26
+sales force automation systems,30,37,,commercial,crm-automation,unclaimed,,,,,,,ranked,,26
+build a sales team,70,0,,commercial,sales-generic,unclaimed,,,,,,,ranked,,26
+meddic stands for,50,0,0.5,informational,deal-execution,unclaimed,,,,,,,ranked,,26
+buying committee,50,0,,informational,deal-execution,unclaimed,,,,,,,seed,"1,000–3,000",26
+fathom alternatives,50,0,18.9,informational,competitor-alt,adjacent-owned,,avoma.com;tldv.io,,,,,ranked;seed,"2,000–6,000",25
+can you transcribe a zoom meeting after recording,90,7,10.65999984741211,informational,notetaker,unclaimed,,,,,,,ranked,,25
+transcription in zoom,90,6,5.550000190734863,informational,notetaker,unclaimed,,,,,,,ranked,,25
+transcribe zoom meeting,90,9,9.369999885559082,informational,notetaker,unclaimed,,,,,,,ranked,,25
+gong engage vs outreach,30,0,32.689998626708984,navigational,competitor-alt,peer-owned,oliv.ai;sybill.ai,,,,,,ranked,,24
+sales intelligence solutions,70,21,,commercial,notetaker,adjacent-owned,,avoma.com,,,,,ranked,,24
+how to have zoom transcribe a meeting,90,12,,informational,notetaker,unclaimed,,,,,,,ranked,,24
+transcription on zoom,90,12,11.039999961853027,informational,notetaker,unclaimed,,,,,,,ranked,,24
+what's the best rated sales automation system,20,16,,commercial,crm-automation,unclaimed,,,,,,,ranked,,23
+google meet video call recording,110,6,,informational,notetaker,adjacent-owned,,tldv.io,,,,,ranked,,23
+ai meeting notes notion,70,16,9.640000343322754,navigational,notetaker,adjacent-owned,,tldv.io,,,,,ranked,,23
+best ai meeting assistant,110,3,16.790000915527344,informational,notetaker,adjacent-owned,,avoma.com,,,,,ranked,,23
+b2b sales pipeline stages,50,12,,informational,deal-execution,unclaimed,,,,,,,ranked,,23
+conversation intelligence hubspot,50,14,,navigational,notetaker,unclaimed,,,,,,,ranked,,23
+free ai crm,30,42,52.09000015258789,commercial,ai-native-crm,unclaimed,,,,,,,ranked,,23
+chorus competitors,50,0,,informational,competitor-alt,peer-owned,sybill.ai,avoma.com,,,,,ranked,,22
+gong vs outreach,50,0,58.81999969482422,informational,competitor-alt,peer-owned,sybill.ai,,,,,,ranked,,22
+clari vs gong,50,0,80.63999938964844,informational,competitor-alt,peer-owned,oliv.ai,,,,,,ranked,,22
+gong vs chorus,50,0,56.959999084472656,informational,competitor-alt,peer-owned,oliv.ai,avoma.com,,claap.io,,,ranked,,22
+deal desk specialist,30,0,,informational,decision-point,unclaimed,,,,,,,ranked,,22
+how to access zoom recordings after meeting,40,9,,informational,post-call,"notetaker-owned, execution-shaped",,grain.com,,,,,ranked,,22
+how to access zoom recording after meeting,40,9,,informational,post-call,"notetaker-owned, execution-shaped",,grain.com,,,,,ranked,,22
+best copilot prompts for meeting notes,50,0,,commercial,notetaker,adjacent-owned,,,,claap.io,,,ranked,,22
+fractional revops,30,0,25.02,informational,decision-point,unclaimed,,,,,,,seed,"500–1,500",22
+sandler training price,40,1,13.899999618530273,informational,deal-execution,unclaimed,,,,,,,ranked,,21
+sandler sales technique,40,0,,informational,deal-execution,unclaimed,,,,,,,ranked,,21
+sandler sales techniques,40,0,,informational,deal-execution,unclaimed,,,,,,,ranked,,21
+what is sandler sales methodology,40,0,,informational,deal-execution,unclaimed,,,,,,,ranked,,21
+winning by design spiced,40,2,18.770000457763672,informational,deal-execution,unclaimed,,,,,,,ranked,,21
+ai meeting notes free,140,31,11.430000305175781,informational,notetaker,adjacent-owned,,tldv.io,,,,,ranked,,21
+ai meeting note taker for in person meetings,70,33,15.119999885559082,transactional,notetaker,adjacent-owned,,tldv.io,,,,,ranked,,21
+free ai note taker for meetings,70,32,11.279999732971191,commercial,notetaker,adjacent-owned,,tldv.io,,,,,ranked,,21
+google meet meeting notes,70,24,19.969999313354492,navigational,notetaker,adjacent-owned,,grain.com,,,,,ranked,,21
+meddic or meddpicc,40,1,,informational,deal-execution,unclaimed,,,,,,,ranked,,21
+how to become a gtm engineer,30,5,10.83,informational,decision-point,unclaimed,,,,,,,expand,,21
+follow through and follow up,40,0,,informational,post-call,peer-owned,sybill.ai,,,,,,ranked,,20
+teams download meeting recording,50,0,,transactional,notetaker,peer-owned,sybill.ai,,,,,,ranked,,20
+download a teams meeting recording,50,0,,transactional,notetaker,peer-owned,sybill.ai,,,,,,ranked,,20
+salesloft vs gong,30,0,,informational,competitor-alt,unclaimed,,,,,,,ranked,,20
+meddic sales approach,20,6,1.100000023841858,commercial,deal-execution,unclaimed,,,,,,,ranked,,20
+krisp ai alternative,40,0,,informational,competitor-alt,adjacent-owned,,tldv.io,,,,,ranked,,20
+fireflies vs otter ai,40,0,50.279998779296875,informational,competitor-alt,adjacent-owned,,avoma.com,,,,,ranked,,20
+fathom vs otter ai,40,0,,informational,competitor-alt,adjacent-owned,,avoma.com,,,,,ranked,,20
+otter.ai vs fathom,40,0,10.380000114440918,informational,competitor-alt,adjacent-owned,,avoma.com,,,,,ranked,,20
+otter competitors,30,0,18.770000457763672,informational,competitor-alt,unclaimed,,,,,,,ranked,,20
+monaco ai crm,40,0,0.1599999964237213,informational,ai-native-crm,adjacent-owned,,,,coffee.ai,,,ranked,,20
+attio vs folk,40,0,24.93000030517578,informational,competitor-alt,adjacent-owned,,,,coffee.ai,,,ranked,,20
+bant sales method,40,8,,informational,deal-execution,unclaimed,,,,,,,ranked,,19
+bant method,40,11,,informational,deal-execution,unclaimed,,,,,,,ranked,,19
+b2b sales coach,70,0,15.399999618530273,commercial,sales-generic,adjacent-owned,,avoma.com,,,,,ranked,,19
+kpi b2b sales,50,0,,commercial,sales-generic,unclaimed,,,,,,,ranked,,19
+fathom vs phantom,30,8,,informational,competitor-alt,unclaimed,,,,,,,ranked,,19
+krisp ai alternatives,40,3,,informational,competitor-alt,adjacent-owned,,tldv.io,,,,,ranked,,19
+can you record google meet meeting,90,5,,informational,notetaker,adjacent-owned,,grain.com,,,,,ranked,,19
+outreach vs gong,40,0,23.149999618530273,informational,competitor-alt,peer-owned,sybill.ai,,,,,,ranked,,18
+gong vs clari,40,0,86.66999816894531,informational,competitor-alt,peer-owned,oliv.ai;sybill.ai,,,,,,ranked,,18
+otter vs fathom,40,0,75.19000244140625,informational,competitor-alt,peer-owned,sybill.ai,avoma.com,,,,,ranked,,18
+gong vs salesloft,40,0,,informational,competitor-alt,peer-owned,oliv.ai,,,,,,ranked,,18
+sales productivity platform,50,2,,commercial,sales-generic,unclaimed,,,,,,,ranked,,18
+b2b sales coaching,70,0,15.399999618530273,commercial,sales-generic,peer-owned,momentum.io,avoma.com,,,,,ranked,,18
+conversation intelligence platform for sales,50,20,,commercial,notetaker,adjacent-owned,,avoma.com,,,,,ranked,,18
+otter ai vs read ai,40,7,,informational,competitor-alt,peer-owned,sybill.ai,,,,,,ranked,,17
+revenue intelligence company,30,8,,commercial,notetaker,unclaimed,,,,,,,ranked,,17
+best ai tools for sales teams,50,8,,commercial,sales-generic,unclaimed,,,,,,,ranked,,17
+live meeting assistant,110,30,54.470001220703125,informational,notetaker,adjacent-owned,,fireflies.ai,,,,,ranked,,17
+can you record google meet calls for free,40,6,,commercial,notetaker,adjacent-owned,,grain.com;tldv.io,,claap.io,,,ranked,,17
+notion meeting notes ai,50,16,,navigational,notetaker,adjacent-owned,,tldv.io,,,,,ranked,,17
+agentforce alternative,50,,,,competitor-alt,unclaimed,,,,,,,seed,200–600,17
+what is sandler training,30,0,,informational,deal-execution,unclaimed,,,,,,,ranked,,16
+sandler training methods,30,0,4.970000267028809,informational,deal-execution,unclaimed,,,,,,,ranked,,16
+sales methodologies meddic,30,0,0.4099999964237213,informational,deal-execution,unclaimed,,,,,,,ranked,,16
+ai meeting notes for notion,50,28,,transactional,notetaker,adjacent-owned,,tldv.io,,,,,ranked,,16
+auto record zoom meetings,40,10,,transactional,notetaker,adjacent-owned,,grain.com,,,,,ranked,,16
+bant vs meddpicc,30,0,,informational,deal-execution,unclaimed,,,,,,,ranked,,16
+meddic vs meddic,30,0,,informational,deal-execution,unclaimed,,,,,,,ranked,,16
+meddic qualification,30,0,,informational,deal-execution,unclaimed,,,,,,,ranked,,16
+crm sales tools,70,42,86.47000122070312,commercial,sales-generic,unclaimed,,,,,,,ranked,,15
+fireflies.ai vs fathom,30,0,30.1299991607666,informational,competitor-alt,adjacent-owned,,fireflies.ai,,,,,ranked,,15
+free ai meeting assistant,170,59,14.229999542236328,informational,notetaker,adjacent-owned,,fireflies.ai,,,,,ranked,,15
+read ai vs fireflies ai,30,0,34.290000915527344,informational,competitor-alt,adjacent-owned,,fireflies.ai,,,,,ranked,,15
+tactiq alternative,30,0,18.420000076293945,informational,competitor-alt,adjacent-owned,,tldv.io,,,,,ranked,,15
+tldv alternative,30,0,,informational,competitor-alt,adjacent-owned,,tldv.io,,,,,ranked,,15
+sales call recording,70,0,147.1699981689453,informational,notetaker,adjacent-owned,,avoma.com,,,,,ranked,,15
+transcribe google meet,70,4,27.209999084472656,informational,notetaker,adjacent-owned,,grain.com,,,,,ranked,,15
+automatically record zoom meetings,40,16,,transactional,notetaker,adjacent-owned,,grain.com,,,,,ranked,,15
+how to record and transcribe a zoom meeting,70,30,6.190000057220459,informational,notetaker,unclaimed,,,,,,,ranked,,15
+attio vs affinity,30,0,37.27000045776367,informational,competitor-alt,adjacent-owned,,,clarify.ai,coffee.ai,,,ranked,,15
+folk vs attio,30,0,37.29999923706055,informational,competitor-alt,adjacent-owned,,,,coffee.ai,,,ranked,,15
+revops as a service,40,,25.29,,decision-point,unclaimed,,,,,,,seed,,15
+champ sales methodology,40,0,218.7100067138672,informational,deal-execution,peer-owned,sybill.ai,,,,,,ranked,,14
+fireflies ai vs otter,30,0,20.1299991607666,informational,competitor-alt,peer-owned,sybill.ai,avoma.com,,,,,ranked,,14
+granola ai vs fireflies,30,0,50.099998474121094,informational,competitor-alt,peer-owned,sybill.ai,,,,,,ranked,,14
+clari alternatives,30,0,,informational,competitor-alt,peer-owned,sybill.ai,avoma.com,,,,,ranked,,14
+chorus vs gong,30,0,13.550000190734863,informational,competitor-alt,peer-owned,oliv.ai,avoma.com,,claap.io,,,ranked,,14
+crm sales tool,70,46,86.47000122070312,commercial,sales-generic,unclaimed,,,,,,,ranked,,14
+what is bant sales methodology,30,8,53.70000076293945,informational,deal-execution,unclaimed,,,,,,,ranked,,14
+spiced selling,20,0,,transactional,deal-execution,peer-owned,momentum.io,,,,,,ranked,,14
+what is meddic sales,30,13,,informational,deal-execution,unclaimed,,,,,,,ranked,,14
+ai tools for sales teams,50,24,,commercial,sales-generic,unclaimed,,,,,,,ranked,,14
+read ai vs fireflies,30,5,10.270000457763672,informational,competitor-alt,adjacent-owned,,fireflies.ai,,,,,ranked,,14
+read.ai vs copilot,30,6,,informational,competitor-alt,adjacent-owned,,tldv.io,,,,,ranked,,14
+free meeting recorder,70,8,14.0600004196167,informational,notetaker,adjacent-owned,,tldv.io,,,,,ranked,,14
+read ai vs fathom,30,7,12.569999694824219,informational,competitor-alt,adjacent-owned,,tldv.io,,,,,ranked,,14
+how to transcribe in zoom,70,10,4.389999866485596,informational,notetaker,adjacent-owned,,grain.com,,,,,ranked,,14
+how to transcribe zoom meeting,70,6,32.060001373291016,informational,notetaker,adjacent-owned,,grain.com,,,,,ranked,,14
+sales enablement crm,40,8,21.899999618530273,commercial,sales-generic,unclaimed,,,,,,,ranked,,14
+meeting recording tool,30,28,19.239999771118164,transactional,notetaker,unclaimed,,,,,,,ranked,,13
+spiced winning by design,40,4,8.949999809265137,informational,deal-execution,peer-owned,momentum.io,,,,,,ranked,,13
+how are businesses using ai for sales and marketing,30,27,46.599998474121094,informational,ai-sales-agent,"notetaker-owned, execution-shaped",,avoma.com,,,,,ranked,,13
+attention call recording,70,12,28.059999465942383,informational,notetaker,peer-owned,attention.tech,,,,,,ranked,,12
+online meeting recorder,30,12,18.399999618530273,transactional,notetaker,adjacent-owned,,tldv.io,,,,,ranked,,12
+conversation intelligence for sales teams,30,7,,commercial,notetaker,adjacent-owned,,avoma.com,,,,,ranked,,12
+will zoom transcribe meetings,30,12,6.779999732971191,transactional,notetaker,adjacent-owned,,grain.com,,,,,ranked,,12
+how to enable transcription on zoom,40,4,6.619999885559082,informational,notetaker,unclaimed,,,,,,,ranked,,12
+metrics in meddpicc,30,0,,informational,deal-execution,adjacent-owned,,,,coffee.ai,,,ranked,,12
+outsourced inside sales team,50,0,,navigational,sales-generic,peer-owned,sybill.ai,,,,,,ranked,,11
+top sales intelligence tools,30,14,,commercial,notetaker,adjacent-owned,,avoma.com,,,,,ranked,,11
+how to add notetaker to google meet,40,8,33.439998626708984,informational,notetaker,unclaimed,,,,,,,ranked,,11
+can you transcribe a zoom meeting,40,5,12.75,informational,notetaker,unclaimed,,,,,,,ranked,,11
+how do i transcribe a zoom meeting,40,9,7.449999809265137,informational,notetaker,unclaimed,,,,,,,ranked,,11
+sales process vs methodology,30,0,,informational,deal-execution,peer-owned,sybill.ai,,,,,,ranked,,10
+sales methodology vs sales process,30,0,,informational,deal-execution,peer-owned,sybill.ai,,,,,,ranked,,10
+sales process vs sales methodology,30,0,,informational,deal-execution,peer-owned,sybill.ai,,,,,,ranked,,10
+what is spiced sales methodology,30,0,8.569999694824219,informational,deal-execution,peer-owned,momentum.io,,,,,,ranked,,10
+meddic sales methodology pdf,20,0,15.699999809265137,informational,deal-execution,unclaimed,,,,,,,ranked,,10
+otter vs fireflies ai,20,4,,informational,competitor-alt,adjacent-owned,,avoma.com,,,,,ranked,,10
+best sales intelligence software for small business,30,28,,commercial,notetaker,adjacent-owned,,avoma.com,,,,,ranked,,10
+google meeting transcription,50,11,21.719999313354492,informational,notetaker,adjacent-owned,,grain.com,,,,,ranked,,10
+sales qualification bant,20,1,0.7400000095367432,informational,deal-execution,unclaimed,,,,,,,ranked,,10
+tldv alternatives,30,,28.8,,competitor-alt,unclaimed,,,,,,,seed,"2,000–6,000",10
+can i record zoom meetings for free,50,12,,informational,notetaker,peer-owned,sybill.ai,,,,,,ranked,,9
+how to transcribe google meet,40,0,9.40999984741211,informational,notetaker,adjacent-owned,,grain.com,,,,,ranked,,9
+transcribe zoom call,30,4,5.809999942779541,informational,notetaker,unclaimed,,,,,,,ranked,,9
+meeting transcription zoom,30,0,5.960000038146973,informational,notetaker,unclaimed,,,,,,,ranked,,9
+how to manage a remote sales team,40,0,,informational,sales-generic,unclaimed,,,,,,,ranked,,8
+tl dv ai meeting assistant,40,12,,informational,notetaker,adjacent-owned,,tldv.io,,,,,ranked,,8
+what is miller heiman sales methodology,20,0,,informational,deal-execution,adjacent-owned,,avoma.com,,,,,ranked,,8
+virtual meeting assistant,30,38,4.720000267028809,commercial,notetaker,adjacent-owned,,avoma.com,,,,,ranked,,8
+can i record google meet call,40,6,,informational,notetaker,adjacent-owned,,grain.com,,,,,ranked,,8
+how to automatically record zoom meetings,40,14,,informational,notetaker,adjacent-owned,,grain.com,,,,,ranked,,8
+how to transcribe a recorded zoom meeting,30,7,6.840000152587891,informational,notetaker,unclaimed,,,,,,,ranked,,8
+ai follow up email,20,,12.95,,post-call,unclaimed,,,,,,,seed,,8
+zoom call recording software,20,18,,transactional,notetaker,peer-owned,sybill.ai,,,,,,ranked,,7
+zoom meeting recorder free,20,9,20.540000915527344,navigational,notetaker,peer-owned,sybill.ai,,,,,,ranked,,7
+what is command of the message sales methodology,20,0,,informational,deal-execution,peer-owned,oliv.ai,,,,,,ranked,,7
+google meet call recording,40,19,42.939998626708984,informational,notetaker,adjacent-owned,,grain.com,,,,,ranked,,7
+how to transcribe a google meet,30,0,10.210000038146973,informational,notetaker,adjacent-owned,,grain.com,,,,,ranked,,7
+zoom meeting transcription free,20,9,18.93000030517578,navigational,notetaker,adjacent-owned,,grain.com,,,,,ranked,,7
+ai crm automation,20,,,,ai-native-crm,unclaimed,,,,,,,seed,n/a,7
+zoom meeting recorder download,20,21,,navigational,notetaker,peer-owned,sybill.ai,,,,,,ranked,,6
+winning by design sales methodology,20,15,,informational,deal-execution,peer-owned,oliv.ai,,,,,,ranked,,6
+smart goals for sales team,30,0,,informational,sales-generic,unclaimed,,,,,,,ranked,,6
+goals for sales teams,30,0,,informational,sales-generic,unclaimed,,,,,,,ranked,,6
+online meeting recording,30,13,18.399999618530273,informational,notetaker,adjacent-owned,,tldv.io,,,,,ranked,,6
+how do you transcribe a zoom meeting,30,6,0.009999999776482582,informational,notetaker,adjacent-owned,,grain.com,,,,,ranked,,6
+transcribe zoom calls,30,13,5.809999942779541,informational,notetaker,adjacent-owned,,grain.com,,,,,ranked,,6
+audio transcription zoom,30,9,5.570000171661377,informational,notetaker,adjacent-owned,,grain.com,,,,,ranked,,6
+how to get zoom meeting recording,30,11,,informational,notetaker,adjacent-owned,,grain.com,,,,,ranked,,6
+how to insert meeting notes in google doc,30,7,,informational,notetaker,adjacent-owned,,grain.com,,,,,ranked,,6
+how to transcribe zoom,30,6,1.25,informational,notetaker,adjacent-owned,,grain.com,,,,,ranked,,6
+zoom meeting transcription software,20,5,,informational,notetaker,unclaimed,,,,,,,ranked,,6
+b2b sales funnel stages,40,0,,informational,sales-generic,peer-owned,sybill.ai,,,,,,ranked,,5
+goals for sales team,30,7,,informational,sales-generic,unclaimed,,,,,,,ranked,,5
+sales team goals,30,3,,informational,sales-generic,unclaimed,,,,,,,ranked,,5
+sales tools io,20,32,30.959999084472656,commercial,sales-generic,unclaimed,,,,,,,ranked,,5
+is call recording legal in us,40,39,,informational,notetaker,adjacent-owned,,avoma.com,,,,,ranked,,5
+where does zoom meeting recording save,20,10,,informational,notetaker,unclaimed,,,,,,,ranked,,5
+how to transcribe zoom meetings for free,20,11,,informational,notetaker,unclaimed,,,,,,,ranked,,5
+sales team development,20,0,,informational,sales-generic,unclaimed,,,,,,,ranked,,4
+bot free ai meeting assistant,70,75,,informational,notetaker,adjacent-owned,,fireflies.ai,,,,,ranked,,4
+where can i find my zoom meeting recording,20,12,,informational,notetaker,adjacent-owned,,grain.com,,,,,ranked,,4
+organize meeting notes,20,0,,informational,notetaker,adjacent-owned,,grain.com,,,,,ranked,,4
+where is my zoom meeting recording,20,4,,informational,notetaker,adjacent-owned,,grain.com,,,,,ranked,,4
+where to find zoom meeting recording,20,18,,informational,notetaker,adjacent-owned,,grain.com,,,,,ranked,,4
+where did my zoom meeting recording go,20,5,,informational,notetaker,adjacent-owned,,grain.com,,,,,ranked,,4
+where is zoom meeting recording saved,20,10,,informational,notetaker,adjacent-owned,,grain.com,,,,,ranked,,4
+zoom transcribe meetings,20,9,3.440000057220459,informational,notetaker,adjacent-owned,,grain.com,,,,,ranked,,4

@@ -70,6 +70,7 @@ export const BLOG_POSTS: BlogPost[] = [
   // ─────────────────────────────────────────────────────────────
   {
     slug: 'gtm-engineer-anti-pattern',
+    seoTitle: 'GTM engineer: what the role costs, and why you may not need one',
     category: 'Design philosophy',
     date: '2026-04-14',
     readTime: '8 min',

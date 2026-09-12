@@ -9,6 +9,8 @@ export interface PageData {
   slug: string;
   section: Section;
   category: string;
+  /** Optional search-intent <title>; falls back to category */
+  seoTitle?: string;
   h: string;
   sub: string;
   meta?: MetaPair[];
@@ -27,6 +29,8 @@ export interface BlogPost {
   author?: string;
   authorUrl?: string;
   title: string;
+  /** Optional search-intent <title>; falls back to title */
+  seoTitle?: string;
   deck: string;
   body: ProseItem[];
   related?: string[];

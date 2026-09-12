@@ -17,7 +17,7 @@ export async function generateMetadata({
   const post = getBlogPost(slug);
   if (!post) return {};
   return {
-    title: { absolute: `${plainText(post.title)} — CHRM` },
+    title: { absolute: `${post.seoTitle || plainText(post.title)} — CHRM` },
     description: plainText(post.deck),
     alternates: { canonical: `/blog/${slug}` },
     openGraph: { type: "article", title: plainText(post.title), description: plainText(post.deck) },

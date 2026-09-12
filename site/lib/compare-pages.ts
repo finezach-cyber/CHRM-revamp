@@ -40,7 +40,7 @@ export const COMPARE_PAGES: ComparePageData[] = [
   {
     slug: "ai-native-crms",
     short: "AI-native CRMs",
-    title: "Attio alternative that works with HubSpot or Pipedrive",
+    title: "AI CRM without switching CRMs: what Attio promises, on HubSpot or Pipedrive",
     h: "Want what Attio promises, <em>without switching CRMs?</em>",
     sub: "AI-native CRMs like Attio, Day.ai and Clarify sell a clean vision: the CRM that fills itself and works the deal for you. Then you read the migration guide. CHRM gives you the AI part on the HubSpot or Pipedrive you already run.",
     eyebrow: "For teams evaluating Attio, Day.ai or Clarify",

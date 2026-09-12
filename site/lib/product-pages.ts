@@ -106,6 +106,7 @@ export const PRODUCT_PAGES: PageData[] = [
     slug: 'follow-up-emails',
     section: 'product',
     category: 'AI-drafted follow-up emails',
+    seoTitle: 'Follow-up email after every sales call, written and sent in five minutes',
     h: 'The follow-up writes itself. <em>In your voice.</em>',
     sub: 'Drafted from the actual deal — transcripts, prior threads, open risks — and ready before your rep opens their next tab.',
     meta: [
@@ -169,8 +170,9 @@ export const PRODUCT_PAGES: PageData[] = [
   {
     slug: 'stakeholder-mapping',
     section: 'product',
-    category: 'Buying-committee discovery & stakeholder mapping',
-    h: 'The committee chart, <em>kept current automatically.</em>',
+    category: 'Stakeholder mapping & buying-committee discovery',
+    seoTitle: 'Stakeholder mapping for sales, kept current automatically',
+    h: 'Stakeholder mapping, <em>kept current automatically.</em>',
     sub: 'Every name mentioned in every conversation, mapped to a role and an influence score, and written back to the deal record.',
     meta: [
       ['Discovery', 'From transcripts + threads'],
@@ -202,6 +204,7 @@ export const PRODUCT_PAGES: PageData[] = [
     slug: 'linkedin-outreach',
     section: 'product',
     category: 'LinkedIn warm-up outreach',
+    seoTitle: 'LinkedIn automation for the buying committee, safe by construction',
     h: 'Relationships built <em>in parallel to the deal.</em>',
     sub: 'CHRM identifies every stakeholder, opens LinkedIn connections, and runs warm-up sequences alongside your closer&rsquo;s active outreach. The moat feature.',
     meta: [

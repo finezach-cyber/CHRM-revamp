@@ -10,6 +10,7 @@ export const INTEGRATION_PAGES: PageData[] = [
     slug: 'hubspot',
     section: 'integrations',
     category: 'HubSpot integration',
+    seoTitle: 'HubSpot integration for sales execution: CRM automation without workflows',
     h: 'CHRM <em>for HubSpot.</em>',
     sub: 'Native OAuth, two-way real-time sync, custom-field mapping per pipeline. CHRM reads your HubSpot, writes back to it, and stays out of its way.',
     meta: [
@@ -44,6 +45,7 @@ export const INTEGRATION_PAGES: PageData[] = [
     slug: 'pipedrive',
     section: 'integrations',
     category: 'Pipedrive integration',
+    seoTitle: 'Pipedrive AI: the execution layer that fills, follows up and flags inside Pipedrive',
     h: 'CHRM <em>for Pipedrive.</em>',
     sub: 'Native OAuth, webhook-driven real-time sync, custom-field mapping per pipeline. CHRM operates inside your Pipedrive without rewriting it.',
     meta: [
