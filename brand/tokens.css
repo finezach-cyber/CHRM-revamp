@@ -1,0 +1,10 @@
+/* CHRM brand tokens — 2026-09 refresh.
+   Editorial base (paper + ink) with one working accent (CHRM blue).
+   Green and amber are semantic only: "done" and "at risk". Never decorative. */
+:root{
+  --paper:#FAFAF7; --paper-pure:#FFFFFF; --ink:#0A0A0A; --ink-2:#2A2A28; --ink-3:#6B6B66; --ink-4:#73736D;
+  --rule:#E5E4DE; --rule-strong:#C9C7BF; --tint:#F2F1EC;
+  --accent:#2B4BE8; --accent-hover:#1F3AC4; --accent-soft:#E8ECFF; --accent-ink:#FFFFFF;
+  --done:#1E7B4E; --done-soft:#E4F3EA; --risk:#8A5A00; --risk-soft:#FBF0DC; --negative:#B3261E;
+  --font-display:'Instrument Serif',Georgia,serif; --font-sans:'Instrument Sans','Helvetica Neue',Arial,sans-serif; --font-mono:'JetBrains Mono',ui-monospace,Menlo,monospace;
+}

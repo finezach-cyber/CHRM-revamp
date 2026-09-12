@@ -17,8 +17,7 @@ export default function PricingTeaser() {
           </h2>
           <p className="m-price__body">
             Managers, RevOps and leadership seats don’t bill. No platform fee, no credits, no
-            implementation line. The first {FREE_DAYS} days are free for up to {FREE_TRIAL_SEATS} AE
-            seats.
+            implementation line. The first {FREE_DAYS} days are free for up to {FREE_TRIAL_SEATS} AE seats.
           </p>
           <div className="m-price__ctas">
             <Link href="/pricing" className="btn btn--primary">See the full comparison</Link>

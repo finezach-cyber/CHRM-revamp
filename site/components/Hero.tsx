@@ -25,8 +25,7 @@ export default function Hero() {
             <Link href="/pricing" className="btn btn--ghost">See pricing</Link>
           </div>
           <p className="m-hero__fine">
-            ${PRICE_PER_AE_MONTH.toLocaleString()} per AE per month &middot; every other seat free &middot;
-            first {FREE_DAYS} days free for up to {FREE_TRIAL_SEATS} AEs &middot; no migration, no engineer
+            {`$${PRICE_PER_AE_MONTH.toLocaleString()} per AE per month · every other seat free · first ${FREE_DAYS} days free for up to ${FREE_TRIAL_SEATS} AEs · no migration, no engineer`}
           </p>
         </div>
         <div className="m-hero__proof">

@@ -80,12 +80,6 @@ export default function AfterTheCall({ compact = false }: { compact?: boolean })
   const [reduced, setReduced] = useState(false);
 
   useEffect(() => {
-    const mq = window.matchMedia("(prefers-reduced-motion: reduce)");
-    if (mq.matches) {
-      setReduced(true);
-      setShown(ROWS.length);
-      return;
-    }
     let i = 0;
     let timer: number;
     const tick = () => {
@@ -101,7 +95,16 @@ export default function AfterTheCall({ compact = false }: { compact?: boolean })
         }, HOLD_MS);
       }
     };
-    timer = window.setTimeout(tick, 600);
+    // Decide inside a callback (not synchronously in the effect body) so React can batch.
+    timer = window.setTimeout(() => {
+      const mq = window.matchMedia("(prefers-reduced-motion: reduce)");
+      if (mq.matches) {
+        setReduced(true);
+        setShown(ROWS.length);
+        return;
+      }
+      tick();
+    }, 400);
     return () => window.clearTimeout(timer);
   }, []);
 

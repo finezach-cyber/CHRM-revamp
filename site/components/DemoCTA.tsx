@@ -20,8 +20,7 @@ export default function DemoCTA() {
             we’ll say so before the second call.
           </p>
           <p className="m-demo__fine">
-            No commitment &middot; first {FREE_DAYS} days free for up to {FREE_TRIAL_SEATS} AE seats &middot;
-            HubSpot &amp; Pipedrive &middot; live in under a day
+            {`No commitment · first ${FREE_DAYS} days free for up to ${FREE_TRIAL_SEATS} AE seats · HubSpot & Pipedrive · live in under a day`}
           </p>
           {hasBooking && (
             <p className="m-demo__alt">
