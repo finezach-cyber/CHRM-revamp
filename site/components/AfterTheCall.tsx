@@ -76,8 +76,8 @@ const STEP_MS = 1100;
 const HOLD_MS = 5200;
 
 export default function AfterTheCall({ compact = false }: { compact?: boolean }) {
-  const [shown, setShown] = useState(0);
-  const [reduced, setReduced] = useState(false);
+  // Server HTML carries every row; the reveal only runs on the client when motion is allowed.
+  const [shown, setShown] = useState(ROWS.length);
 
   useEffect(() => {
     let i = 0;
@@ -98,12 +98,9 @@ export default function AfterTheCall({ compact = false }: { compact?: boolean })
     // Decide inside a callback (not synchronously in the effect body) so React can batch.
     timer = window.setTimeout(() => {
       const mq = window.matchMedia("(prefers-reduced-motion: reduce)");
-      if (mq.matches) {
-        setReduced(true);
-        setShown(ROWS.length);
-        return;
-      }
-      tick();
+      if (mq.matches) return;
+      setShown(0);
+      timer = window.setTimeout(tick, 500);
     }, 400);
     return () => window.clearTimeout(timer);
   }, []);
@@ -117,12 +114,11 @@ export default function AfterTheCall({ compact = false }: { compact?: boolean })
           <span className="atc__dot" /> live
         </span>
       </div>
-      <ol className="atc__list" aria-live={reduced ? undefined : "polite"}>
+      <ol className="atc__list">
         {ROWS.map((r, i) => (
           <li
             key={r.t}
             className={"atc__row atc__row--" + r.kind + (i < shown ? " atc__row--in" : "")}
-            aria-hidden={i >= shown}
           >
             <span className="atc__t">{r.t}</span>
             <span className="atc__chip">{r.label}</span>

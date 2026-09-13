@@ -10,7 +10,7 @@ export const PLATFORM_PAGES: PageData[] = [
     slug: 'workspace',
     section: 'platform',
     category: 'Deals workspace',
-    seoTitle: 'A sales pipeline that fills itself: the 2nd Closer workspace',
+    seoTitle: 'A sales pipeline that fills itself',
     h: 'What reps <em>actually look at all day.</em>',
     sub: 'A tour of the main app: pipeline, deal detail, risk feed, inline insights. The screen your team opens before coffee.',
     meta: [

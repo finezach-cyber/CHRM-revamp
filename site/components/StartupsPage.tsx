@@ -2,6 +2,7 @@
 import Link from "next/link";
 import AfterTheCall from "./AfterTheCall";
 import { BOOKING_URL, BETA } from "@/lib/site";
+import Sources from "./Sources";
 
 export default function StartupsPage() {
   return (
@@ -23,6 +24,20 @@ export default function StartupsPage() {
           after the call. 2nd Closer does that work, on the CRM you already have, free while it’s in beta.
         </p>
       </header>
+
+      <section className="sp-answer" aria-labelledby="answer-h">
+        <h2 className="sp-answer__h" id="answer-h">How does a startup run sales without a second AE?</h2>
+        <p className="sp-answer__p">
+          2nd Closer gives a seed or Series A team the after-call work of an account executive without the hire.
+          A first AE costs roughly $200k to $280k fully loaded in year one, takes about 5.7 months to ramp, and
+          40 to 60 percent miss their first-year quota; around 68 percent of founders fail the founder-led-to-AE
+          handoff on the first attempt because the process lived in their head. 2nd Closer sits on every call the
+          founder or the first AEs run, writes the fields in HubSpot or Pipedrive with a citation on each value,
+          sends the follow-up from the rep&rsquo;s address in under five minutes, maps and enriches the buying
+          committee, flags risk, and turns the fields the founder cared about into the playbook a hire inherits.
+          It is free during the public beta with your own LLM key, and live the morning after a 20-minute call.
+        </p>
+      </section>
 
       <div className="st-facts" aria-label="Why this stage is hard">
         <div><span className="big">68%</span><span className="lbl">of founders fail the founder-led to AE handoff the first time</span><span className="src">Forum VC</span></div>
@@ -90,6 +105,15 @@ export default function StartupsPage() {
           </figure>
         </div>
       </section>
+
+      <Sources
+        items={[
+          ["Founder-led sales handoff failure rate, Forum Ventures", "https://www.forumvc.com/"],
+          ["AE ramp time and quota attainment, Bridge Group 2026", "https://blog.bridgegroupinc.com/"],
+          ["Fully loaded cost of a first AE, Bain Capital Ventures", "https://baincapitalventures.com/insights/"],
+          ["CRM data decay, Sopro citing Gartner", "https://sopro.io/resources/blog/crm-data-decay/"],
+        ]}
+      />
 
       <section className="cd-verdict">
         <p className="cd-verdict__eye">Which CRM should a startup pick?</p>

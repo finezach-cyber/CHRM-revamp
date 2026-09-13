@@ -182,23 +182,16 @@ const CATEGORIES: Category[] = [
   },
 ];
 
+const WORD = { yes: "Yes", no: "No", shaky: "Caveat", partial: "Partial" } as const;
+const SYM = { yes: "✓", no: "—", shaky: "!", partial: "~" } as const;
+
 function Cell({ status }: { status?: Status }) {
-  if (!status) {
-    return (
-      <td className="cmp-cell cmp-cell--no">
-        <span className="cmp-mark cmp-mark--no" aria-label="No">&mdash;</span>
-      </td>
-    );
-  }
-  const cls = "cmp-cell cmp-cell--" + status.kind;
-  const sym =
-    status.kind === "yes" ? "✓" : status.kind === "no" ? "—" : status.kind === "shaky" ? "!" : "~";
-  const ariaLabel =
-    status.kind === "yes" ? "Yes" : status.kind === "no" ? "No" : status.kind === "shaky" ? "Caveat" : "Partial";
+  const s: Status = status || { kind: "no", note: "Not supported" };
   return (
-    <td className={cls}>
-      <span className={"cmp-mark cmp-mark--" + status.kind} aria-label={ariaLabel}>{sym}</span>
-      {status.note && <span className="cmp-note">{status.note}</span>}
+    <td className={"cmp-cell cmp-cell--" + s.kind}>
+      <span className="sr-only">{WORD[s.kind]}. </span>
+      <span className={"cmp-mark cmp-mark--" + s.kind} aria-hidden="true">{SYM[s.kind]}</span>
+      {s.note && <span className="cmp-note"> {s.note}</span>}
     </td>
   );
 }
@@ -262,7 +255,7 @@ export default function Compare({ headed = true }: { headed?: boolean }) {
           <p>{current.framing}</p>
         </div>
 
-        <div className="cmp-legend">
+        <div className="cmp-legend" aria-hidden="true">
           <span className="cmp-legend__item"><span className="cmp-mark cmp-mark--yes">✓</span> Native &middot; built-in</span>
           <span className="cmp-legend__item"><span className="cmp-mark cmp-mark--partial">~</span> Partial</span>
           <span className="cmp-legend__item"><span className="cmp-mark cmp-mark--shaky">!</span> Possible with engineer + brittle integrations</span>
@@ -271,6 +264,7 @@ export default function Compare({ headed = true }: { headed?: boolean }) {
 
         <div className="cmp-tableWrap">
           <table className="cmp-table">
+            <caption className="sr-only">2nd Closer versus {current.label}, twelve capabilities. Yes means native and built in; Partial means part of the job; Caveat means possible with an engineer and brittle integrations; No means not supported.</caption>
             <thead>
               <tr>
                 <th scope="col" className="cmp-th cmp-th--cap">Capability</th>

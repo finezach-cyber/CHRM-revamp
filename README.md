@@ -10,6 +10,7 @@ Research, strategy and a drop-in redesign of [2ndcloser.ai](https://www.2ndclose
 | `docs/04-brand-and-website-redesign.md` | What changed on the site and why, conversion mechanics, config, launch checklist, measurement |
 | `docs/05-seed-series-a-positioning.md` | The problems that draw seed and Series A founders (validated), positioning by stage, the free BYOK beta as positioning, the collateral plan |
 | `docs/06-naming.md` | The rename to 2nd Closer: every name tested with volumes, SERP owners and domain status, the positioning risk, copy rules and the launch checklist |
+| `docs/07-geo.md` | The generative-engine audit, what was changed for each finding, the measured result, and the off-site checklist |
 | `docs/data/` | DataForSEO outputs: scored keywords, competitor rankings, founder cluster, generated tables |
 | `tools/dataforseo/validate.py` | Re-runnable keyword validation (credentials from env vars; cache is git-ignored) |
 | `brand/` | Refreshed logo (the H is the only coloured letter), favicon, tokens, guidelines |

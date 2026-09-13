@@ -5,7 +5,7 @@ import Features from "@/components/Features";
 export const metadata: Metadata = {
   title: { absolute: "2nd Closer features — Capture, Structure, Activate, Iterate" },
   description:
-    "The four steps behind 2nd Closer: capture every conversation, structure it into your CRM, activate follow-ups and outreach, and iterate the playbook from real outcomes.",
+    "Capture, structure, activate, iterate: the four steps 2nd Closer runs after every sales call, inside the HubSpot or Pipedrive you already use.",
   alternates: { canonical: "/features" },
 };
 

@@ -40,6 +40,21 @@ export default function BetaPage() {
         </p>
       </header>
 
+      <section className="sp-answer" aria-labelledby="answer-h">
+        <h2 className="sp-answer__h" id="answer-h">What does bring-your-own-key mean in the 2nd Closer beta?</h2>
+        <p className="sp-answer__p">
+          2nd Closer is free during its public beta, and the only cost is the LLM usage it generates on an API key
+          you bring from any provider: Anthropic, OpenAI, Google or another. You create the key, set a spend cap if
+          you want one, and paste it on the 20-minute configuration call; the provider bills you directly for what
+          2nd Closer uses, and you can see every request on your own dashboard. There are no seat caps, no feature
+          gates and no stated limits: every closer on the team gets the full product, and manager, RevOps and
+          leadership seats are free. What you bring is admin access to HubSpot or Pipedrive, a Google or Microsoft
+          calendar, and optionally LinkedIn and Apollo. What you get by the next morning is every booked call
+          captured, every mapped field filled with a citation, and every follow-up staged. Pricing after the beta
+          is shared on the call.
+        </p>
+      </section>
+
       <div className="sp-meta">
         <div className="sp-meta__cell"><p className="sp-meta__k">2nd Closer during the beta</p><p className="sp-meta__v">Free</p></div>
         <div className="sp-meta__cell"><p className="sp-meta__k">You bring</p><p className="sp-meta__v">Any LLM API key</p></div>

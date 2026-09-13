@@ -1,4 +1,5 @@
-// 2nd Closer marketing — Proof strip. Five numbers the buyer can hold onto.
+// 2nd Closer marketing — Proof strip. Five numbers the buyer can hold onto, with where they come from.
+import Sources from "./Sources";
 
 const PROOF: [string, string][] = [
   ["31% → ~100%", "CRM field completion, from the industry baseline to every deal"],
@@ -19,6 +20,14 @@ export default function ProofStrip() {
           </li>
         ))}
       </ul>
+      <Sources
+        className="m-proof__sources"
+        items={[
+          ["CRM data completeness and decay, Sopro citing Gartner", "https://sopro.io/resources/blog/crm-data-decay/"],
+          ["Field-completion baseline and accuracy: measured on beta pipelines, shown on the configuration call", "/beta"],
+        ]}
+        note="31% is the typical required-field completion on a HubSpot or Pipedrive pipeline before 2nd Closer connects; 92–97% is field accuracy on well-structured calls, with an empty value preferred to a wrong one"
+      />
     </section>
   );
 }

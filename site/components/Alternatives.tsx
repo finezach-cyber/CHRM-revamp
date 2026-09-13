@@ -1,6 +1,7 @@
 // 2nd Closer marketing — The three ways teams try to fix this, and what each one costs.
 import Link from "next/link";
 import { ANCHORS } from "@/lib/site";
+import Sources from "./Sources";
 
 const fmt = (n: number) => "$" + Math.round(n).toLocaleString();
 
@@ -79,6 +80,7 @@ export default function Alternatives() {
 
       <div className="m-alts__wrap">
         <table className="m-alts__table">
+          <caption className="sr-only">Three alternatives to 2nd Closer and what each costs: switching to an AI-native CRM, hiring a GTM engineer, paying an implementation partner.</caption>
           <thead>
             <tr>
               <th scope="col" className="m-alts__th m-alts__th--row"><span className="sr-only">Criterion</span></th>
@@ -112,11 +114,16 @@ export default function Alternatives() {
           </tbody>
         </table>
       </div>
-      <p className="m-alts__note">
-        Cost anchors are 2026 US market ranges (GTM engineer $132k–$241k base; HubSpot partner
-        retainers $3.5k–$15k/month; Attio Pro $79/seat after the July 2026 increase). Sources in
-        the <Link href="/compare/diy-gtm-stack">comparison pages</Link>.
-      </p>
+      <Sources
+        className="m-alts__note"
+        items={[
+          ["GTM engineer salary ranges, SyncGTM 2026", "https://syncgtm.com/blog/gtm-engineer-salary"],
+          ["HubSpot consulting and partner retainer costs", "https://automationstrategists.com/blog/hubspot-consulting-cost/"],
+          ["Fractional RevOps pricing", "https://growintandem.com/fractional-revops-gtm-engineering-crm-guide/"],
+          ["Attio pricing, 2026", "https://attio.com/pricing"],
+        ]}
+        note="Cost anchors are 2026 US market ranges: GTM engineer $132k–$241k base, HubSpot partner retainers $3.5k–$15k a month, Attio Pro $79 a seat after the July 2026 increase. Work the numbers for your team in the calculator"
+      />
     </section>
   );
 }

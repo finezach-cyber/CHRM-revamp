@@ -5,7 +5,7 @@ import ProductIndex from "@/components/ProductIndex";
 export const metadata: Metadata = {
   title: { absolute: "2nd Closer product — every feature, by stage" },
   description:
-    "Every 2nd Closer feature in one place, sorted by Capture, Structure, Activate, and Iterate: risk detection, cited summaries, CRM hygiene, follow-ups, sequences, and more.",
+    "Every 2nd Closer feature by stage: CRM hygiene, follow-up emails, sequences, stakeholder maps, LinkedIn outreach, risk detection and win/loss iteration.",
   alternates: { canonical: "/product" },
 };
 

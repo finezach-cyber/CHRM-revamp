@@ -36,5 +36,8 @@ export const ANCHORS = {
 export const TAGLINE = "Stay human. Let AI do the rest.";
 export const CATEGORY_LINE = "The execution layer for CRM.";
 export const PROMISE = "Silent on the call. Everything after it, done.";
+/** ≤155 characters, for <meta name="description">, Open Graph and Twitter. DESCRIPTION below is the longer schema.org text. */
+export const META_DESCRIPTION =
+  "2nd Closer is an AI account executive for HubSpot and Pipedrive teams. Silent on the call, then it updates the CRM, sends the follow-up and flags risk.";
 export const DESCRIPTION =
   "2nd Closer is an AI account executive for sales teams on HubSpot or Pipedrive. It sits silently on every call, then does the after-call work: updates the CRM, sends the follow-up, works the buying committee on LinkedIn, enriches every contact, and flags the deals that are slipping. No migration, no engineer. Live in a day.";

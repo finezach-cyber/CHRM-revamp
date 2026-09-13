@@ -70,7 +70,7 @@ export const BLOG_POSTS: BlogPost[] = [
   // ─────────────────────────────────────────────────────────────
   {
     slug: 'gtm-engineer-anti-pattern',
-    seoTitle: 'GTM engineer: what the role costs, and why you may not need one',
+    seoTitle: 'GTM engineer cost, and whether you need one',
     category: 'Design philosophy',
     date: '2026-04-14',
     readTime: '8 min',
@@ -94,6 +94,7 @@ export const BLOG_POSTS: BlogPost[] = [
   // ─────────────────────────────────────────────────────────────
   {
     slug: 'six-week-feedback-loop',
+    seoTitle: 'The six-week feedback loop killing your deals',
     category: 'For revenue leaders',
     date: '2026-03-31',
     readTime: '5 min',
@@ -117,6 +118,7 @@ export const BLOG_POSTS: BlogPost[] = [
   // ─────────────────────────────────────────────────────────────
   {
     slug: 'live-in-a-day',
+    seoTitle: 'What live in under a day actually means',
     category: 'How 2nd Closer works',
     date: '2026-03-17',
     readTime: '4 min',
@@ -143,6 +145,7 @@ export const BLOG_POSTS: BlogPost[] = [
   // ─────────────────────────────────────────────────────────────
   {
     slug: 'series-a-cro-playbook',
+    seoTitle: 'The Series A CRO playbook is broken. A fix.',
     category: 'For revenue leaders',
     date: '2026-03-03',
     readTime: '9 min',
@@ -167,7 +170,7 @@ export const BLOG_POSTS: BlogPost[] = [
   // ─────────────────────────────────────────────────────────────
   {
     slug: 'first-ae-handoff-kit',
-    seoTitle: 'The first-AE handoff kit: founder-led sales to a hire who can run it',
+    seoTitle: 'The first-AE handoff kit for founder-led sales',
     category: 'For founders',
     date: '2026-09-12',
     readTime: '9 min',
@@ -235,7 +238,7 @@ export const BLOG_POSTS: BlogPost[] = [
   // ─────────────────────────────────────────────────────────────
   {
     slug: 'follow-up-email-after-sales-call',
-    seoTitle: 'Follow-up email after a sales call: 7 templates that get replies, and one that writes itself',
+    seoTitle: 'Follow-up email after a sales call: 7 templates',
     category: 'Templates',
     date: '2026-09-12',
     readTime: '10 min',
@@ -331,7 +334,7 @@ export const BLOG_POSTS: BlogPost[] = [
   // ─────────────────────────────────────────────────────────────
   {
     slug: 'meddpicc-in-hubspot-auto-filled',
-    seoTitle: 'MEDDPICC in HubSpot and Pipedrive: the field map, and how to fill it from every call',
+    seoTitle: 'MEDDPICC in HubSpot and Pipedrive, auto-filled',
     category: 'Playbook',
     date: '2026-09-12',
     readTime: '11 min',

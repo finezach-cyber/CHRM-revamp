@@ -3,6 +3,7 @@ import PageShell from "@/components/PageShell";
 import Hero from "@/components/Hero";
 import ProofStrip from "@/components/ProofStrip";
 import WhoDoesWhat from "@/components/WhoDoesWhat";
+import Architecture from "@/components/Architecture";
 import FeaturesTeaser from "@/components/FeaturesTeaser";
 import Alternatives from "@/components/Alternatives";
 import Onboarding from "@/components/Onboarding";
@@ -22,6 +23,7 @@ export default function Home() {
         <Hero />
         <ProofStrip />
         <WhoDoesWhat />
+        <Architecture />
         <FeaturesTeaser />
         <Alternatives />
         <Onboarding />

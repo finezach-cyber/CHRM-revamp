@@ -39,6 +39,21 @@ export default function IntegrationsIndex() {
         </p>
       </header>
 
+      <section className="sp-answer" aria-labelledby="answer-h">
+        <h2 className="sp-answer__h" id="answer-h">Which tools does 2nd Closer connect to?</h2>
+        <p className="sp-answer__p">
+          2nd Closer connects to seven tools over OAuth, and four of them are the whole setup: HubSpot or
+          Pipedrive as the CRM (about fifteen minutes, schema read automatically), a Google or Microsoft calendar
+          so the notetaker joins every booked call, LinkedIn for capture and warm-up outreach, and Apollo for
+          enrichment of every contact named in a conversation. Gmail and Outlook give two-way email capture and
+          let follow-ups go out from the rep&rsquo;s own address; Fireflies (and Fathom or Otter) feed existing
+          transcripts in so nothing is re-recorded. Every integration is read-then-write: the CRM stays the system
+          of record, activities are logged where a rep would have logged them, and credentials are never stored
+          because access is by revocable OAuth token. Connect the four on the configuration call and the other
+          three whenever they are useful; each takes about five minutes.
+        </p>
+      </section>
+
       <section className="idx-section">
         <header className="idx-section__head">
           <div className="idx-section__num">Section 01</div>

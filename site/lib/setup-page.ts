@@ -3,6 +3,15 @@ import type { PageData } from "./types";
 // 2nd Closer marketing — Setup page
 // "Live in a day" — four sign-ins onboarding walk-through.
 
+export const SETUP_STEPS: { name: string; text: string }[] = [
+  { name: "Connect your CRM", text: "OAuth into HubSpot or Pipedrive. 2nd Closer reads every pipeline, stage and custom field; you do not configure a schema. About fifteen minutes." },
+  { name: "Connect your calendar", text: "Connect Google or Microsoft. The built-in notetaker joins every booked call; Fireflies, Fathom or Otter output is ingested if you already use one. Five minutes." },
+  { name: "Connect LinkedIn", text: "Authenticate LinkedIn for capture, warm-up sequences and CRM mirroring. Safety defaults are on; nothing risky runs without explicit approval. Five minutes." },
+  { name: "Connect Apollo", text: "Connect Apollo so every contact discovered in a conversation is enriched automatically and existing records are backfilled overnight. Five minutes." },
+  { name: "Take the configuration call", text: "A 30-minute call to walk through the field map: which CRM fields 2nd Closer populates, what a populated one looks like for your team, which fields to leave alone. No brief, no engineer." },
+  { name: "Day one", text: "By the next morning every booked call is captured, every mapped field is populating and every follow-up is staged for the rep." },
+];
+
 export const SETUP_PAGE: PageData = {
   slug: 'setup',
   section: 'platform',

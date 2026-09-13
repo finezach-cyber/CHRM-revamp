@@ -42,6 +42,7 @@ export default function Footer() {
               {COMPARE_PAGES.map((p) => (
                 <li key={p.slug}><Link href={"/compare/" + p.slug}>{p.short}</Link></li>
               ))}
+              <li><Link href="/calculator">Cost calculator</Link></li>
             </ul>
           </div>
           <div className="m-footer__col">
@@ -53,7 +54,7 @@ export default function Footer() {
               <li><Link href="/blog">Blog</Link></li>
               <li><Link href="/setup">Setup</Link></li>
               <li><Link href="/#stories">Stories</Link></li>
-              <li><Link href="/#faq">FAQ</Link></li>
+              <li><Link href="/faq">FAQ</Link></li>
               <li><a href="https://www.linkedin.com/company/chrm-app">LinkedIn</a></li>
               <li><a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a></li>
             </ul>

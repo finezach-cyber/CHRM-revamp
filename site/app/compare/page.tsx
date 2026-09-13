@@ -5,7 +5,7 @@ import ComparePage from "@/components/ComparePage";
 export const metadata: Metadata = {
   title: { absolute: "What 2nd Closer is, and isn’t — 2nd Closer" },
   description:
-    "How 2nd Closer differs from AI-native CRMs, notetakers, conversation intelligence like Gong, and lead-gen tools. Where we fit, where we don’t, and why the difference matters.",
+    "2nd Closer is not a CRM, a notetaker or a workflow builder. How it compares with AI-native CRMs, notetakers, agent suites and a DIY GTM stack.",
   alternates: { canonical: "/compare" },
 };
 

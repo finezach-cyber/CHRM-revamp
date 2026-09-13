@@ -28,6 +28,10 @@ export interface ComparePageData {
   faqs: [string, string][];
   related: string[];
   sources?: [string, string][];
+  answer?: { q: string; a: string };
+  updated?: string;
+  /** Extra framing paragraphs (HTML allowed), rendered after the framing block */
+  more?: string[];
 }
 
 const Y = (note?: string): CmpCell => ({ kind: "yes", note });
@@ -35,12 +39,15 @@ const N = (note?: string): CmpCell => ({ kind: "no", note });
 const P = (note: string): CmpCell => ({ kind: "partial", note });
 const S = (note: string): CmpCell => ({ kind: "shaky", note });
 
-export const COMPARE_PAGES: ComparePageData[] = [
+import { COMPARE_EXTRAS } from "./compare-extras";
+import { COMPARE_DEPTH } from "./page-depth";
+
+const RAW_COMPARE_PAGES: ComparePageData[] = [
   // ───────────────────────────────────────────────────────────────
   {
     slug: "ai-native-crms",
     short: "AI-native CRMs",
-    title: "AI CRM without switching CRMs: what Attio promises, on HubSpot or Pipedrive",
+    title: "Attio-style AI CRM, without switching CRMs",
     h: "Want what Attio promises, <em>without switching CRMs?</em>",
     sub: "AI-native CRMs like Attio, Day.ai and Clarify sell a clean vision: the CRM that fills itself and works the deal for you. Then you read the migration guide. 2nd Closer gives you the AI part on the HubSpot or Pipedrive you already run.",
     eyebrow: "For teams evaluating Attio, Day.ai or Clarify",
@@ -86,7 +93,7 @@ export const COMPARE_PAGES: ComparePageData[] = [
   {
     slug: "diy-gtm-stack",
     short: "DIY GTM stack",
-    title: "GTM engineer or HubSpot implementation partner vs 2nd Closer",
+    title: "GTM engineer or HubSpot partner vs 2nd Closer",
     h: "The $100k, six-month way. <em>And the other way.</em>",
     sub: "A GTM engineer with Clay, n8n and Zapier. Or a partner agency on a retainer. Both can get your CRM working. Both cost more than 2nd Closer for the whole team, and both leave you owning the wiring.",
     eyebrow: "For founders about to hire or sign a retainer",
@@ -131,7 +138,7 @@ export const COMPARE_PAGES: ComparePageData[] = [
   {
     slug: "momentum",
     short: "Momentum.io",
-    title: "Momentum.io alternative for HubSpot and Pipedrive teams",
+    title: "Momentum.io alternative for HubSpot teams",
     h: "Momentum is Salesforce now. <em>Here’s where HubSpot teams go.</em>",
     sub: "Salesforce closed its acquisition of Momentum.io on 2 March 2026 to feed Agentforce. If you ran Momentum on HubSpot, the execution layer you bought is heading somewhere you are not.",
     eyebrow: "For Momentum customers on HubSpot or Pipedrive",
@@ -170,7 +177,7 @@ export const COMPARE_PAGES: ComparePageData[] = [
   {
     slug: "hubspot-breeze",
     short: "HubSpot Breeze",
-    title: "HubSpot Breeze and Smart Deal Progression vs 2nd Closer",
+    title: "HubSpot Breeze vs 2nd Closer: suggest vs execute",
     h: "Your CRM’s AI suggests. <em>2nd Closer executes.</em>",
     sub: "HubSpot’s Meeting Notetaker and Smart Deal Progression read a call and suggest stage, amount and close-date updates for a rep to approve. On Sales Hub Professional and above. In English. On Google Meet.",
     eyebrow: "For HubSpot teams weighing Breeze",
@@ -211,7 +218,7 @@ export const COMPARE_PAGES: ComparePageData[] = [
   {
     slug: "sybill",
     short: "Sybill",
-    title: "Sybill alternative: CRM autofill plus the rest of the job",
+    title: "Sybill alternative: autofill plus the whole job",
     h: "Sybill fills the fields. <em>2nd Closer does the job.</em>",
     sub: "Sybill is a strong AI sales assistant: notes, CRM autofill on its Business tier, follow-up drafts. 2nd Closer starts where the draft ends.",
     eyebrow: "For teams comparing AI sales assistants",
@@ -286,7 +293,7 @@ export const COMPARE_PAGES: ComparePageData[] = [
   {
     slug: "oliv",
     short: "Oliv.ai",
-    title: "Oliv.ai alternative: one second AE instead of a menu of agents",
+    title: "Oliv.ai alternative: one second AE, not a menu",
     h: "Modular agents, <em>or one second AE.</em>",
     sub: "Oliv sells agents by the module: CRM manager, deal driver, re-activator, recaps. 2nd Closer is one execution layer that does the whole after-call job by default, on your schema, without assembly.",
     eyebrow: "For teams comparing agent platforms on HubSpot or Pipedrive",
@@ -354,6 +361,8 @@ export const COMPARE_PAGES: ComparePageData[] = [
     sources: [["Fathom on the HubSpot marketplace", "https://ecosystem.hubspot.com/marketplace/listing/ai-notetaker-by-fathom"]],
   },
 ];
+
+export const COMPARE_PAGES: ComparePageData[] = RAW_COMPARE_PAGES.map((p) => ({ ...p, ...COMPARE_EXTRAS[p.slug], more: COMPARE_DEPTH[p.slug] }));
 
 const BY_SLUG: Record<string, ComparePageData> = {};
 COMPARE_PAGES.forEach((p) => (BY_SLUG[p.slug] = p));

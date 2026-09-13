@@ -3,9 +3,9 @@ import PageShell from "@/components/PageShell";
 import StartupsPage from "@/components/StartupsPage";
 
 export const metadata: Metadata = {
-  title: { absolute: "Sales for startups: a second AE for seed and Series A teams on HubSpot or Pipedrive" },
+  title: { absolute: "Sales for startups on HubSpot or Pipedrive — 2nd Closer" },
   description:
-    "Founder-led at seed, first AEs at Series A. 2nd Closer does the after-call work on the CRM you already have: follow-ups sent, fields filled, committee mapped, risk flagged. Free during the public beta, bring your own LLM key.",
+    "A second AE for seed and Series A teams: follow-ups sent, fields filled, committee mapped, risk flagged, on the CRM you already have. Free during the beta.",
   alternates: { canonical: "/startups" },
 };
 

@@ -187,6 +187,20 @@ export default function Features() {
         </p>
       </header>
 
+      <section className="sp-answer f-answer" aria-labelledby="answer-h">
+        <h2 className="sp-answer__h" id="answer-h">How does 2nd Closer work?</h2>
+        <p className="sp-answer__p">
+          2nd Closer works in four steps that repeat after every conversation. It captures the call with its built-in
+          notetaker (or ingests Fathom, Fireflies or Otter) and pulls the email and LinkedIn threads for the same deal
+          into one timeline. It structures what was said into the fields your CRM already has, writing each value to
+          HubSpot or Pipedrive with a citation to the line it came from; on well-structured calls that is 92 to 97
+          percent accurate, and a value it cannot find is left empty. It activates: the follow-up goes out from the
+          rep&rsquo;s address in under five minutes, every stakeholder named is added and enriched, LinkedIn warm-up
+          starts, and risk is flagged with a source line. It iterates: win/loss analysis proposes changes to the
+          process, tests them on live deals, and a manager approves what ships. The four steps below show each one.
+        </p>
+      </section>
+
       <StepIndex />
 
       {FEATURE_STEPS.map((s) => (

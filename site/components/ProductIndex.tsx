@@ -3,7 +3,10 @@
 import Link from "next/link";
 import type { PageData } from "@/lib/types";
 import { groupedProduct } from "@/lib/steps";
-import { PLATFORM_PAGES, hrefForPage } from "@/lib/data";
+import { PLATFORM_PAGES, PRODUCT_PAGES, hrefForPage } from "@/lib/data";
+import { itemList } from "@/lib/jsonld";
+import Crumbs from "./Crumbs";
+import JsonLd from "./JsonLd";
 
 function Card({ page, i }: { page: PageData; i: number }) {
   return (
@@ -22,22 +25,33 @@ export default function ProductIndex() {
 
   return (
     <main className="idx-page" id="top">
-      <p className="sp-crumbs">
-        <Link href="/">2nd Closer</Link>
-        <span>/</span>
-        <span style={{ color: "var(--ink)" }}>Product</span>
-      </p>
+      <Crumbs items={[{ name: "Product", href: "/product" }]} />
 
       <header className="idx-hero">
         <p className="idx-hero__eye">Product &middot; 2nd Closer</p>
         <h1 className="idx-hero__h">
-          Capture. Structure. Activate. <em>Iterate.</em>
+          Every feature, <em>by stage.</em>
         </h1>
         <p className="idx-hero__sub">
           Twelve features, four steps. The full surface of 2nd Closer, for the buyer who&rsquo;s
           evaluating specific capabilities.
         </p>
       </header>
+
+      <section className="sp-answer" aria-labelledby="answer-h">
+        <h2 className="sp-answer__h" id="answer-h">What does 2nd Closer do after a sales call?</h2>
+        <p className="sp-answer__p">
+          2nd Closer runs the same four steps after every conversation. Capture: the built-in notetaker or your
+          existing one records the call, and email and LinkedIn threads join the same deal timeline. Structure:
+          the mapped fields in HubSpot or Pipedrive are written with a citation on every value, at 92 to 97
+          percent accuracy on well-structured calls and never guessed. Activate: the follow-up is drafted in the
+          rep&rsquo;s voice and sent from their address in under five minutes, the buying committee is mapped and
+          enriched through Apollo, LinkedIn warm-up starts for the people the rep has not reached, and deal risk
+          is flagged across five categories with a source line. Iterate: win/loss analysis proposes process
+          changes, tests them on live deals, and a manager approves what ships. Twelve features, one job; the
+          pages below take each one in turn.
+        </p>
+      </section>
 
       <nav className="idx-stepnav" aria-label="Step index">
         {groups.map((g) => (
@@ -68,6 +82,7 @@ export default function ProductIndex() {
         </section>
       ))}
 
+      <JsonLd data={itemList("2nd Closer features", [...PRODUCT_PAGES, ...PLATFORM_PAGES].map((p) => ({ name: p.category, href: hrefForPage(p.slug) })))} />
       {platform.length > 0 && (
         <section className="idx-section" id="platform">
           <header className="idx-section__head">

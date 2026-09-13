@@ -4,6 +4,10 @@ export type ProseItem = string | { h: string } | { html: string };
 export type MetaPair = [string, string];
 export type Bullet = [string, string];
 export type Section = "product" | "platform" | "integrations";
+export type QA = { q: string; a: string };
+export type SourceLink = [string, string];
+/** A question-form heading plus a self-contained 134–167 word passage that answers it. Rendered first, in the page's own words. */
+export type Answer = { q: string; a: string };
 
 export interface PageData {
   slug: string;
@@ -19,6 +23,11 @@ export interface PageData {
   shotLabel?: string;
   shotHint?: string;
   related?: string[];
+  answer?: Answer;
+  faqs?: QA[];
+  sources?: SourceLink[];
+  /** ISO date of the last substantive revision */
+  updated?: string;
 }
 
 export interface BlogPost {
@@ -34,6 +43,12 @@ export interface BlogPost {
   deck: string;
   body: ProseItem[];
   related?: string[];
+  /** ISO date of the last substantive revision, shown as "Updated" when it differs from date */
+  updated?: string;
+  /** 1200×630 cover, also used as the OG image */
+  cover?: string;
+  faqs?: QA[];
+  sources?: SourceLink[];
 }
 
 export interface Author {

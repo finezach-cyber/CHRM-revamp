@@ -106,7 +106,7 @@ export const PRODUCT_PAGES: PageData[] = [
     slug: 'follow-up-emails',
     section: 'product',
     category: 'AI-drafted follow-up emails',
-    seoTitle: 'Follow-up email after every sales call, written and sent in five minutes',
+    seoTitle: 'Follow-up email after a sales call, in 5 min',
     h: 'The follow-up writes itself. <em>In your voice.</em>',
     sub: 'Drafted from the actual deal — transcripts, prior threads, open risks — and ready before your rep opens their next tab.',
     meta: [
@@ -171,7 +171,7 @@ export const PRODUCT_PAGES: PageData[] = [
     slug: 'stakeholder-mapping',
     section: 'product',
     category: 'Stakeholder mapping & buying-committee discovery',
-    seoTitle: 'Stakeholder mapping for sales, kept current automatically',
+    seoTitle: 'Stakeholder mapping for sales, kept current',
     h: 'Stakeholder mapping, <em>kept current automatically.</em>',
     sub: 'Every name mentioned in every conversation, mapped to a role and an influence score, and written back to the deal record.',
     meta: [
@@ -204,7 +204,7 @@ export const PRODUCT_PAGES: PageData[] = [
     slug: 'linkedin-outreach',
     section: 'product',
     category: 'LinkedIn warm-up outreach',
-    seoTitle: 'LinkedIn automation for the buying committee, safe by construction',
+    seoTitle: 'LinkedIn automation for the buying committee',
     h: 'Relationships built <em>in parallel to the deal.</em>',
     sub: '2nd Closer identifies every stakeholder, opens LinkedIn connections, and runs warm-up sequences alongside your closer&rsquo;s active outreach. The moat feature.',
     meta: [

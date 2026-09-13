@@ -1,13 +1,50 @@
 // Central data access + routing helpers (clean URLs).
-import type { PageData, BlogPost } from "./types";
-import { PRODUCT_PAGES } from "./product-pages";
-import { PLATFORM_PAGES } from "./platform-pages";
-import { INTEGRATION_PAGES } from "./integration-pages";
-import { SETUP_PAGE } from "./setup-page";
-import { BLOG_POSTS } from "./blog-posts";
+import type { PageData, BlogPost, ProseItem } from "./types";
+import { PRODUCT_PAGES as RAW_PRODUCT } from "./product-pages";
+import { PLATFORM_PAGES as RAW_PLATFORM } from "./platform-pages";
+import { INTEGRATION_PAGES as RAW_INTEGRATIONS } from "./integration-pages";
+import { SETUP_PAGE as RAW_SETUP } from "./setup-page";
+import { BLOG_POSTS as RAW_POSTS } from "./blog-posts";
+import { PAGE_EXTRAS, HEADING_REWRITES } from "./page-extras";
+import { BLOG_EXTRAS } from "./blog-extras";
+import { PAGE_DEPTH, PAGE_DEPTH_2 } from "./page-depth";
+import { SITE_UPDATED } from "./dates";
 
-export { PRODUCT_PAGES, PLATFORM_PAGES, INTEGRATION_PAGES, SETUP_PAGE, BLOG_POSTS };
 export { AUTHORS } from "./blog-posts";
+
+// The GEO layer (question headings, answer block, page FAQ, sources, depth) is merged here so the
+// original page entries stay readable and the extras live in one file.
+function withExtras(page: PageData): PageData {
+  const extra = PAGE_EXTRAS[page.slug];
+  const prose: ProseItem[] = (page.prose || []).map((item) =>
+    typeof item === "object" && item && "h" in item && HEADING_REWRITES[item.h] ? { h: HEADING_REWRITES[item.h] } : item,
+  );
+  return {
+    ...page,
+    prose: [...prose, ...(extra?.more || []), ...(PAGE_DEPTH[page.slug] ? [PAGE_DEPTH[page.slug]] : []), ...(PAGE_DEPTH_2[page.slug] ? [PAGE_DEPTH_2[page.slug]] : [])],
+    answer: extra?.answer,
+    faqs: extra?.faqs,
+    sources: extra?.sources,
+    updated: page.updated || SITE_UPDATED,
+  };
+}
+
+function withBlogExtras(post: BlogPost): BlogPost {
+  const extra = BLOG_EXTRAS[post.slug];
+  return {
+    ...post,
+    updated: post.updated || extra?.updated,
+    cover: post.cover || `/assets/covers/${post.slug}.png`,
+    faqs: post.faqs || extra?.faqs,
+    sources: post.sources || extra?.sources,
+  };
+}
+
+export const PRODUCT_PAGES: PageData[] = RAW_PRODUCT.map(withExtras);
+export const PLATFORM_PAGES: PageData[] = RAW_PLATFORM.map(withExtras);
+export const INTEGRATION_PAGES: PageData[] = RAW_INTEGRATIONS.map(withExtras);
+export const SETUP_PAGE: PageData = withExtras(RAW_SETUP);
+export const BLOG_POSTS: BlogPost[] = RAW_POSTS.map(withBlogExtras);
 
 // Flat lookup of every feature/integration/platform/setup page by slug.
 const ALL_PAGES: PageData[] = [
@@ -73,6 +110,22 @@ const ENTITIES: Record<string, string> = {
   "&rarr;": "→",
   "&nbsp;": " ",
 };
+/** Meta descriptions: whole sentences up to 160 characters, never a mid-word cut. */
+export function clampDescription(text: string, max = 158): string {
+  const t = text.replace(/\s+/g, " ").trim();
+  if (t.length <= max) return t;
+  const sentences = t.match(/[^.!?]+[.!?]+/g) || [t];
+  let out = "";
+  for (const s of sentences) {
+    if ((out + s).trim().length > max) break;
+    out = (out + s).trim() + " ";
+  }
+  out = out.trim();
+  if (out.length >= 60) return out;
+  const cut = t.slice(0, max - 1);
+  return cut.slice(0, cut.lastIndexOf(" ")) + "…";
+}
+
 export function plainText(html: string): string {
   let out = html.replace(/<[^>]*>/g, "");
   for (const [k, v] of Object.entries(ENTITIES)) out = out.split(k).join(v);

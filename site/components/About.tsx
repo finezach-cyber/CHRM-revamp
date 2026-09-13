@@ -13,6 +13,20 @@ export default function About() {
         </p>
       </header>
 
+      <section className="sp-answer a-answer" aria-labelledby="answer-h">
+        <h2 className="sp-answer__h" id="answer-h">Who is behind 2nd Closer, and why the name?</h2>
+        <p className="sp-answer__p">
+          2nd Closer was founded by Zach Fine and was called CHRM until September 2026. The company builds an AI
+          account executive for sales teams on HubSpot or Pipedrive, on one belief: a person on a sales team should
+          spend their time on the two things software will never do, building trust and providing direction, and a
+          machine should do the execution around them. The name comes from the ring. A boxer&rsquo;s second never
+          throws a punch; the second does everything else so the fighter can. 2nd Closer never speaks on a call and
+          never negotiates. It updates the CRM, sends the follow-up, maps the committee, flags the risk, and learns
+          from every deal, in the five minutes after the closer hangs up. The three notes below are the argument for
+          building it that way, and the free public beta is the offer to test it on your own pipeline.
+        </p>
+      </section>
+
       <section className="a-section" data-screen-label="01 Work surface">
         <header className="a-section__head">
           <div className="a-section__num">Note 01</div>

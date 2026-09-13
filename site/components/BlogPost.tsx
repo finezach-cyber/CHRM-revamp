@@ -1,11 +1,17 @@
-// 2nd Closer — Single blog post (author byline + avatar).
+// 2nd Closer — Single blog post (author byline + avatar, dated in machine-readable form, BlogPosting schema).
 import Link from "next/link";
-import { BLOG_POSTS, AUTHORS, getBlogPost, hrefForBlog } from "@/lib/data";
+import { BLOG_POSTS, AUTHORS, getBlogPost, hrefForBlog, plainText } from "@/lib/data";
+import { fmtDate } from "@/lib/dates";
+import { blogPosting } from "@/lib/jsonld";
+import Crumbs from "./Crumbs";
+import JsonLd from "./JsonLd";
+import Sources from "./Sources";
 
-function fmt(iso: string): string {
-  if (!iso) return "";
-  const d = new Date(iso + "T00:00:00");
-  return d.toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric" });
+function wordCount(post: { deck: string; body: unknown[] }): number {
+  const text = [post.deck, ...post.body.map((b) => (typeof b === "string" ? b : (b as { h?: string; html?: string }).h || (b as { html?: string }).html || ""))]
+    .map(plainText)
+    .join(" ");
+  return text.split(/\s+/).filter(Boolean).length;
 }
 
 export default function BlogPost({ slug }: { slug: string }) {
@@ -19,24 +25,14 @@ export default function BlogPost({ slug }: { slug: string }) {
   }
 
   const related = (post.related || []).map((s) => BLOG_POSTS.find((p) => p.slug === s)).filter(Boolean) as typeof BLOG_POSTS;
-
-  const author =
-    AUTHORS.zach || {
-      name: post.author || "2nd Closer",
-      role: "",
-      url: post.authorUrl || "",
-      avatar: "",
-    };
+  const author = AUTHORS.zach;
+  const path = hrefForBlog(post.slug);
+  const updated = post.updated && post.updated !== post.date ? post.updated : null;
+  const title = plainText(post.title);
 
   return (
     <main className="bp-page" id="top">
-      <p className="sp-crumbs">
-        <Link href="/">2nd Closer</Link>
-        <span>/</span>
-        <Link href="/blog">Blog</Link>
-        <span>/</span>
-        <span style={{ color: "var(--ink)" }}>{post.category}</span>
-      </p>
+      <Crumbs items={[{ name: "Blog", href: "/blog" }, { name: post.category, href: path }]} />
 
       <header className="bp-hero">
         <p className="bp-hero__cat">{post.category}</p>
@@ -44,31 +40,32 @@ export default function BlogPost({ slug }: { slug: string }) {
         <p className="bp-hero__deck" dangerouslySetInnerHTML={{ __html: post.deck }} />
 
         <div className="bp-byline">
-          {author.avatar && (
-            <a className="bp-byline__pic" href={author.url || "#"} target="_blank" rel="noopener noreferrer" aria-label={author.name}>
-              <img src={author.avatar} alt={author.name} />
-            </a>
-          )}
+          <a className="bp-byline__pic" href={author.url} target="_blank" rel="noopener noreferrer" aria-label={author.name}>
+            <img src={author.avatar} alt={author.name} />
+          </a>
           <div className="bp-byline__meta">
             <div className="bp-byline__name">
-              {author.url ? (
-                <a href={author.url} target="_blank" rel="noopener noreferrer">{author.name}</a>
-              ) : (
-                author.name
-              )}
-              {author.role && <span className="bp-byline__role"> &middot; {author.role}</span>}
+              <a href={author.url} target="_blank" rel="noopener noreferrer">{author.name}</a>
+              <span className="bp-byline__role"> &middot; {author.role}</span>
             </div>
             <div className="bp-byline__date">
-              {fmt(post.date)} &middot; {post.readTime}
+              <time dateTime={post.date}>{fmtDate(post.date)}</time> &middot; {post.readTime}
+              {updated && (
+                <>
+                  {" "}&middot; Updated <time dateTime={updated}>{fmtDate(updated)}</time>
+                </>
+              )}
             </div>
           </div>
         </div>
       </header>
 
       <figure className="bp-cover">
-        <div className="bp-cover__body">
-          <span>Article cover &mdash; placeholder</span>
-        </div>
+        {post.cover ? (
+          <img className="bp-cover__img" src={post.cover} alt={`${title} — 2nd Closer`} width={1200} height={630} />
+        ) : (
+          <div className="bp-cover__body"><span>{post.category}</span></div>
+        )}
       </figure>
 
       <article className="bp-body">
@@ -86,35 +83,27 @@ export default function BlogPost({ slug }: { slug: string }) {
         })}
       </article>
 
-      {author.name && (
-        <aside className="bp-author">
-          {author.avatar && (
-            <a className="bp-author__pic" href={author.url || "#"} target="_blank" rel="noopener noreferrer" aria-label={author.name}>
-              <img src={author.avatar} alt={author.name} />
-            </a>
-          )}
-          <div>
-            <p className="bp-author__eye">Written by</p>
-            <p className="bp-author__name">
-              {author.url ? (
-                <a href={author.url} target="_blank" rel="noopener noreferrer">{author.name}</a>
-              ) : (
-                author.name
-              )}
-            </p>
-            {author.role && <p className="bp-author__role">{author.role}</p>}
-            {author.url && (
-              <p className="bp-author__link">
-                <a href={author.url} target="_blank" rel="noopener noreferrer">Connect on LinkedIn &rarr;</a>
-              </p>
-            )}
-          </div>
-        </aside>
-      )}
+      <Sources items={post.sources} className="bp-sources" />
+
+      <aside className="bp-author">
+        <a className="bp-author__pic" href={author.url} target="_blank" rel="noopener noreferrer" aria-label={author.name}>
+          <img src={author.avatar} alt={author.name} />
+        </a>
+        <div>
+          <p className="bp-author__eye">Written by</p>
+          <p className="bp-author__name">
+            <a href={author.url} target="_blank" rel="noopener noreferrer">{author.name}</a>
+          </p>
+          <p className="bp-author__role">{author.role}</p>
+          <p className="bp-author__link">
+            <a href={author.url} target="_blank" rel="noopener noreferrer">Connect on LinkedIn &rarr;</a>
+          </p>
+        </div>
+      </aside>
 
       {related.length > 0 && (
-        <section className="bp-related">
-          <p className="bp-related__h">Keep reading</p>
+        <section className="bp-related" aria-labelledby="related-h">
+          <h2 className="bp-related__h" id="related-h">Keep reading</h2>
           <div className="bp-related__grid">
             {related.map((r) => (
               <Link key={r.slug} href={hrefForBlog(r.slug)} className="bp-related__card">
@@ -127,6 +116,8 @@ export default function BlogPost({ slug }: { slug: string }) {
           </div>
         </section>
       )}
+
+      <JsonLd data={blogPosting(post, { path, headline: title, description: plainText(post.deck), wordCount: wordCount(post) })} />
     </main>
   );
 }

@@ -3,9 +3,9 @@ import PageShell from "@/components/PageShell";
 import BetaPage from "@/components/BetaPage";
 
 export const metadata: Metadata = {
-  title: { absolute: "2nd Closer free public beta: bring your own LLM key, live in a day" },
+  title: { absolute: "Free public beta: bring your own LLM key — 2nd Closer" },
   description:
-    "2nd Closer is free during its public beta. Bring an API key from any LLM provider (Anthropic, OpenAI, Google or another), connect HubSpot or Pipedrive, and every rep has the after-call work handled by the next morning. No seat cap, no card.",
+    "2nd Closer is free during its public beta. Bring an API key from any LLM provider, connect HubSpot or Pipedrive, and the after-call work is handled by morning.",
   alternates: { canonical: "/beta" },
 };
 

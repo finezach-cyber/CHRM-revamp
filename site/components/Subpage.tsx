@@ -1,7 +1,13 @@
 // 2nd Closer — shared Subpage. Renders one feature/integration/platform page by slug.
+// Structure is deliberate for extraction: h1 → the page's own question-form h2 with a self-contained answer →
+// h2 sections → screenshot with figcaption → sources → related. The page's FAQ renders in the shell.
 import Link from "next/link";
 import type { PageData, ProseItem } from "@/lib/types";
-import { getPage, hrefForPage } from "@/lib/data";
+import { getPage, hrefForPage, plainText } from "@/lib/data";
+import { webPage } from "@/lib/jsonld";
+import Crumbs from "./Crumbs";
+import JsonLd from "./JsonLd";
+import Sources from "./Sources";
 
 // Slots that have a captured product screenshot (others keep the placeholder).
 const SHOTS = new Set([
@@ -13,32 +19,10 @@ const SHOTS = new Set([
   "integrations-hubspot", "integrations-apollo", "integrations-linkedin",
 ]);
 
-function Crumbs({ page }: { page: PageData }) {
-  const sectionLabel =
-    page.section === "integrations"
-      ? "Integrations"
-      : page.section === "platform" && page.slug !== "setup"
-      ? "Product"
-      : page.section === "platform"
-      ? "Setup"
-      : "Product";
-  const sectionHref =
-    page.section === "integrations"
-      ? "/integrations"
-      : page.section === "platform" && page.slug !== "setup"
-      ? "/product"
-      : page.section === "platform"
-      ? "/setup"
-      : "/product";
-  return (
-    <p className="sp-crumbs">
-      <Link href="/">2nd Closer</Link>
-      <span>/</span>
-      <Link href={sectionHref}>{sectionLabel}</Link>
-      <span>/</span>
-      <span style={{ color: "var(--ink)" }}>{page.category}</span>
-    </p>
-  );
+function crumbsFor(page: PageData) {
+  if (page.section === "integrations") return [{ name: "Integrations", href: "/integrations" }];
+  if (page.slug === "setup") return [];
+  return [{ name: "Product", href: "/product" }];
 }
 
 function Prose({ items }: { items: ProseItem[] }) {
@@ -49,7 +33,7 @@ function Prose({ items }: { items: ProseItem[] }) {
           return <p key={i} dangerouslySetInnerHTML={{ __html: item }} />;
         }
         if (item && "h" in item) {
-          return <h3 key={i} dangerouslySetInnerHTML={{ __html: item.h }} />;
+          return <h2 key={i} dangerouslySetInnerHTML={{ __html: item.h }} />;
         }
         if (item && "html" in item) {
           return <div key={i} className="sp-prose__html" dangerouslySetInnerHTML={{ __html: item.html }} />;
@@ -73,24 +57,32 @@ export default function Subpage({ slug }: { slug: string }) {
   const related = (page.related || []).map((s) => getPage(s)).filter(Boolean) as PageData[];
   const shotName = (page.section === "integrations" ? "integrations-" : "product-") + page.slug;
   const hasShot = SHOTS.has(shotName);
+  const path = hrefForPage(page.slug);
 
   return (
     <main className="sp-page" id="top" data-screen-label={page.category}>
-      <Crumbs page={page} />
+      <Crumbs items={[...crumbsFor(page), { name: page.category, href: path }]} />
 
       <header className="sp-hero">
         <h1 className="sp-hero__h" dangerouslySetInnerHTML={{ __html: page.h }} />
         <p className="sp-hero__sub">{page.sub}</p>
       </header>
 
-      <div className="sp-meta">
+      {page.answer && (
+        <section className="sp-answer" aria-labelledby="answer-h">
+          <h2 className="sp-answer__h" id="answer-h">{page.answer.q}</h2>
+          <p className="sp-answer__p" dangerouslySetInnerHTML={{ __html: page.answer.a }} />
+        </section>
+      )}
+
+      <dl className="sp-meta">
         {(page.meta || []).map(([k, v]) => (
           <div className="sp-meta__cell" key={k}>
-            <p className="sp-meta__k">{k}</p>
-            <p className="sp-meta__v" dangerouslySetInnerHTML={{ __html: v }} />
+            <dt className="sp-meta__k">{k}</dt>
+            <dd className="sp-meta__v" dangerouslySetInnerHTML={{ __html: v }} />
           </div>
         ))}
-      </div>
+      </dl>
 
       <section className="sp-body">
         <Prose items={page.prose || []} />
@@ -109,19 +101,21 @@ export default function Subpage({ slug }: { slug: string }) {
       {hasShot && (
         <figure className="sp-shot">
           <div className="sp-shot__head">
-            <span className="sp-shot__brand">2nd Closer</span>
+            <img src="/assets/2nd-closer-wordmark-day.svg" alt="2nd Closer" className="sp-shot__brand-img" />
             <span className="sp-shot__meta">{page.shotLabel}</span>
           </div>
           <div className="sp-shot__body">
             <img className="sp-shot__img" src={`/assets/screenshots/${shotName}.png`} alt={page.shotLabel} loading="lazy" />
           </div>
-          <div className="sp-shot__foot">{page.shotHint}</div>
+          <figcaption className="sp-shot__foot">{page.shotHint}</figcaption>
         </figure>
       )}
 
+      <Sources items={page.sources} />
+
       {related.length > 0 && (
-        <section className="sp-related">
-          <p className="sp-related__h">See also</p>
+        <section className="sp-related" aria-labelledby="related-h">
+          <h2 className="sp-related__h" id="related-h">See also</h2>
           <div className="sp-related__grid">
             {related.map((r) => (
               <Link key={r.slug} className="sp-related__card" href={hrefForPage(r.slug)}>
@@ -136,6 +130,16 @@ export default function Subpage({ slug }: { slug: string }) {
           </div>
         </section>
       )}
+
+      <JsonLd
+        data={webPage({
+          path,
+          name: plainText(page.seoTitle || page.category),
+          description: plainText(page.sub),
+          dateModified: page.updated,
+          image: hasShot ? { url: `/assets/screenshots/${shotName}.png`, caption: page.shotLabel } : undefined,
+        })}
+      />
     </main>
   );
 }

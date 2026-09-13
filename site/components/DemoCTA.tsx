@@ -10,9 +10,9 @@ export default function DemoCTA() {
       <div className="m-demo__grid">
         <div className="m-demo__copy">
           <div className="t-eyebrow">{BETA.name}</div>
-          <h2 className="m-demo__h">
+          <p className="m-demo__h">
             Join the free beta. <em>Bring any LLM key.</em>
-          </h2>
+          </p>
           <p className="m-demo__body">
             2nd Closer is free while it’s in public beta. You bring an API key from whichever LLM provider you
             already use; that usage is the only cost, on your bill, under your control. We don’t do

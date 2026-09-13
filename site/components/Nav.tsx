@@ -74,6 +74,9 @@ export default function Nav({ current }: { current?: string }) {
                   {p.short}
                 </Link>
               ))}
+              <div className="m-nav__menu-sep"></div>
+              <Link href="/calculator"><span>Calculator</span>What the after-call work costs you</Link>
+              <Link href="/faq"><span>FAQ</span>Every question, answered</Link>
             </div>
           </div>
         </span>
