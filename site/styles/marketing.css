@@ -2009,10 +2009,43 @@ h2.cd-verdict__eye{font-family:var(--font-sans);font-size:11px;letter-spacing:.1
 .m-alts__note.cd-sources{margin-top:18px}
 
 /* ── Architecture diagram ── */
-.m-arch{padding:clamp(56px,7vw,96px) var(--gutter);border-top:1px solid var(--rule)}
+/* --arch-tint is scoped here on purpose: the :root above flattens --tint to #FFFFFF, which would
+   leave the dashed execution-layer box white-on-white. */
+.m-arch{padding:clamp(56px,7vw,96px) var(--gutter);border-top:1px solid var(--rule);--arch-tint:#F2F1EC}
 .sp-page .m-arch{padding-left:0;padding-right:0;border-top:0;padding-top:clamp(32px,4vw,48px)}
 .m-arch__wrap{overflow-x:auto;margin-top:8px}
 .m-arch__svg{display:block;width:100%;min-width:760px;height:auto;max-width:1160px}
+/* Under 700px the diagram is swapped for the stacked layout, which needs no horizontal scroll. */
+.m-arch__wrap[data-phone]{overflow-x:visible}
+.m-arch__wrap[data-phone] .m-arch__svg{min-width:0;max-width:440px;margin:0 auto}
+
+/* Emphasis only: dimmed nodes stay in the DOM, in innerText and in the accessibility tree. */
+.m-arch__g{transition:opacity 400ms var(--ease)}
+.m-arch__g--dim{opacity:.3}
+
+.m-arch__ctl{display:flex;align-items:center;gap:20px;flex-wrap:wrap;margin-top:24px;max-width:1160px}
+.m-arch__nav{display:flex;gap:6px}
+.m-arch__btn{
+  width:36px;height:36px;display:grid;place-items:center;cursor:pointer;
+  border:1px solid var(--rule-strong);border-radius:2px;background:var(--paper-pure);
+  color:var(--ink);font:14px var(--font-mono);transition:border-color 180ms var(--ease)
+}
+.m-arch__btn:hover{border-color:var(--ink)}
+.m-arch__steps{display:flex;gap:0;flex-wrap:wrap;border-bottom:1px solid var(--rule);flex:1 1 280px;min-width:0}
+.m-arch__step{
+  appearance:none;background:none;cursor:pointer;
+  border:0;border-bottom:2px solid transparent;margin-bottom:-1px;padding:8px 14px 10px;
+  display:flex;align-items:baseline;gap:8px;font-size:14px;color:var(--ink-3);
+  transition:color 180ms var(--ease),border-color 180ms var(--ease)
+}
+.m-arch__step:hover{color:var(--ink-2)}
+.m-arch__step--on{color:var(--ink);border-bottom-color:var(--ink)}
+.m-arch__step-n{font:11px var(--font-mono);letter-spacing:.1em;color:var(--ink-3)}
+.m-arch__auto{font:11px var(--font-mono);letter-spacing:.14em;text-transform:uppercase;color:var(--ink-3);margin-left:auto}
+@media (max-width:700px){
+  .m-arch__ctl{gap:14px}
+  .m-arch__auto{margin-left:0}
+}
 /* ── Calculator ── */
 .calc{display:grid;grid-template-columns:minmax(0,340px) minmax(0,1fr);gap:clamp(28px,4vw,64px);margin-top:clamp(32px,4vw,48px)}
 .calc__form{display:grid;gap:22px;align-content:start;border-top:1px solid var(--ink);padding-top:22px}
